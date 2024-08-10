@@ -1009,6 +1009,8 @@ Order of volatility is the order in which volatile data should be recovered from
 6. Archival media and printed documents.
 #### System Memory Acquisition
 System memory is volatile data held in Random Access Memory (RAM) modules. Volatile means that the data is lost when power is removed.
+<br>A $\color{#a5d6ff} {system\ memory\ dump\ }$ is a file containing data captured from system memory.
+
 #### Disk Image Acquisition
 #### Preservation
 #### Reporting

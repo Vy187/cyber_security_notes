@@ -1362,22 +1362,58 @@ A sandbox is a system configured to be completely isolated from the production n
 #### Physical Attacks
 A $\color{#a5d6ff} {physical\ attack}$ is an attack directed against cabling infrastructure, hardware devices, or the environment of the site facilities hosting a network.
 <br>An $\color{#a5d6ff} {environmental\ attack}$ physical threat directed against power, cooling, or fire suppression systems.
+<br>$\color{#a5d6ff} {Radio\ Frequency\ ID}$ is a means of encoding information into passive tags, which can be energized and read by radio waves from a reader device.
+<br>* $\color{#a5d6ff} {Card\ cloning}$ refers to making a copy of a contactless access card.
+<br>* $\color{#a5d6ff} {Skimming}$ refers to making a duplicate of a contactless access card by copying its access token and programming a new card with the same data.
 
 #### Network Attacks
+A $\color{#a5d6ff} {network\ attack}$ is an attack directed against cabled and/or wireless network infrastructure, including reconnaissance, denial of service, credential harvesting, on-path, privilege escalation, and data exfiltration. Cyberattack lifecycle:
+<br>* $\color{#a5d6ff} {Reconnaissance}$ is the actions taken to gather information about an individual or organization's computer systems and software. This typically involves collecting information such as the types of systems and software used, user account information, data types, and network configuration.
+<br>* $\color{#a5d6ff} {Credential\ harvesting}$ refers to social engineering techniques for gathering valid credentials to use to gain unauthorized access.
+<br>* Denial of service (DoS) in a network context refers to attacks that cause hosts and services to become unavailable.
+<br>* Weaponization, delivery, and breach refer to techniques that allow a threat actor to get access without having to authenticate.
+<br>* Command and control (C2 or C&C), beaconing, and persistence refer to techniques and malicious code that allow a threat actor to operate a compromised host remotely, and maintain access to it over a period of time.
+<br>* Lateral movement, pivoting, and privilege escalation refer to techniques that allow the threat actor to move from host to host within a network or from one network segment to another, and to obtain wider and higher permissions for systems and services across the network.  $\color{#a5d6ff} {Lateral\ movement}$ is the process by which an attacker is able to move from one part of a computing environment to another. $\color{#a5d6ff} {Pivoting}$ is when an attacker uses a compromised host (the pivot) as a platform from which to spread an attack to other points in the network.
+<br>* Data exfiltration refers to obtaining an information asset and copying it to the attacker's remote machine.
 
 #### Distributed Denial of SErvice Attacks
+$\color{#a5d6ff} {Denial\ of\ Service\ (DoS)}$ is any type of physical, application, or network attack that affects the availability of a managed resource.
+<br>$\color{#a5d6ff} {Distributed\ Dos\ (DDos)}$ is an attack that involves the use of infected Internet-connected computers and devices to disrupt the normal flow of traffic of a server or service by overwhelming the target with traffic.
+<br>$\color{#a5d6ff} {SYN\ flood\ attack}$ is a DoS attack where the attacker sends numerous SYN requests to a target server, hoping to consume enough resources to prevent the transfer of legitimate traffic.
+<br>$\color{#a5d6ff} {Distributed\ Reflected\ DoS\ (DRDos)}$ is a malicious request to a legitimate server is created and sent as a link to the victim, so that a server-side flaw causes the malicious component to run on the target’s browser.
+<br>$\color{#a5d6ff} {Amplification\ attack}$ is a network-based attack where the attacker dramatically increases the bandwidth sent to a victim during a DDoS attack by implementing an amplification factor.
+<br>DDoS attacks can be diagnosed by traffic spikes that have no legitimate explanation, but they can usually only be mitigated by providing high availability services, such as load balancing and cluster services.
 
 #### On-Path Attacks
+An $\color{#a5d6ff} {on-path\ attack}$ is an attack where the threat actor makes an independent connection between two victims and is able to read and possibly modify traffic.
+<br>$\color{#a5d6ff} {Address\ Resolution\ Protocol\ (ARP)}$ is a broadcast mechanism by which the hardware MAC address of an interface is matched to an IP address on a local network segment.
+<br>$\color{#a5d6ff} {ARP\ poisoning}$ is a network-based attack where an attacker with access to the target local network segment redirects an IP address to the MAC address of a computer that is not the intended recipient. This can be used to perform a variety of attacks, including DoS, spoofing, and on-path (previously known as man-in-the-middle).
 
 #### Domain Name Systems Attacks
+The domain name system (DNS) resolves requests for named host and services to IP addresses.
+<br>$\color{#a5d6ff} {DNS\ poisoning}$ is an attack where a threat actor injects false resource records into a client or server cache to redirect a domain name to an IP address of the attacker's choosing.
 
 #### Wireless Attacks
+A rogue access point is one that has been installed on the network without authorization, whether with malicious intent or not.
+<br>An $\color{#a5d6ff} {evil\ twin}$ is a wireless access point that deceives users into believing that it is a legitimate network access point.
+<br>$\color{#a5d6ff} {Disassociation Attack}$ refers to spoofing frames to disconnect a wireless station to try to obtain authentication data to crack.
 
 #### Password Attacks
+<br>$\color{#a5d6ff} {Password\ attack}$ refers to any attack where the attacker tries to gain unauthorized access to and use of passwords.
+<br>An online password attack is where the threat actor interacts with the authentication service directly.
+<br>An offline attack means that the attacker has managed to obtain a database of password hashes.
+<br>A $\color{#a5d6ff} {brute\ force\ attack}$ is a type of password attack where an attacker uses an application to exhaustively try every possible alphanumeric combination to crack encrypted passwords.
+<br>A $\color{#a5d6ff} {dictionary\ attack}$ is a type of password attack that compares encrypted passwords against a predetermined list of possible password values.
+<br>A $\color{#a5d6ff} {hybrid\ password\ attack}$ is an attack that uses multiple attack methods, including dictionary, rainbow table, and brute force attacks when trying to crack a password.
+<br>$\color{#a5d6ff} {Passowrd\ Spraying}$ refers to a brute force attack in which multiple user accounts are tested with a dictionary of common passwords.
 
 #### Cryptographic Attacks
+$\color{#a5d6ff} {Credential\ replay}$ refers to an attack that uses a captured authentication token to start an unauthorized session without having to discover the plaintext password for an account.
 
 #### Malicious Code Indicators
+$\color{#a5d6ff} {Downgrade\ attack}$ refers to a cryptographic attack where the attacker exploits the need for backward compatibility to force a computer system to abandon the use of encrypted messages in favor of plaintext messages.
+<br>In cryptography, $\color{#a5d6ff} {collision}$ is the act of two different plaintext inputs producing the same exact ciphertext output.
+<br>$\color{#a5d6ff} {Birthday\ attack}$ refers to a type of password attack that exploits weaknesses in the mathematical algorithms used to encrypt passwords, in order to take advantage of the probability of different password inputs producing the same encrypted output.
 
 ### 13C: Application Attack Indicators
 #### Application Attacks

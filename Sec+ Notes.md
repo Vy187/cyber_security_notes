@@ -1197,7 +1197,8 @@ Order of volatility is the order in which volatile data should be recovered from
 
 #### System Memory Acquisition
 System memory is volatile data held in Random Access Memory (RAM) modules. Volatile means that the data is lost when power is removed.
-<br>A $\color{#a5d6ff}{system\ memory\ dump}$ is a file containing data captured from system memory.
+
+A $\color{#a5d6ff}{system\ memory\ dump}$ is a file containing data captured from system memory.
 
 #### Disk Image Acquisition
 Disk image acquisition refers to acquiring data from nonvolatile storage.Nonvolatile storage includes hard disk drives (HDDs), solid state drives (SSDs), firmware, other types of flash memory (USB thumb drives and memory cards), and optical media (CD, DVD, and Blu-ray)
@@ -1205,58 +1206,74 @@ Disk image acquisition refers to acquiring data from nonvolatile storage.Nonvola
     - Live acquisition—this means copying the data while the host is still running.
     - Static acquisition by shutting down the host—this runs the risk that the malware will detect the shutdown process and perform anti-forensics to try to remove traces of itself.
     - Static acquisition by pulling the plug—this means disconnecting the power at the wall socket (not the hardware power-off button).
-<br>The $\color{#a5d6ff}{dd\ command\ }$ is a linux command that makes a bit-by-bit copy of an input file, typically used for disk imaging.
+
+The $\color{#a5d6ff}{dd\ command\ }$ is a linux command that makes a bit-by-bit copy of an input file, typically used for disk imaging.
 
 #### Preservation
 In digital forensics, $\color{#a5d6ff}{timeline}$ is a tool that shows the sequence of file system events within a source image in a graphical format.
-<br>In digital forensics, $\color{#a5d6ff}{provenance\ }$ is being able to trace the source of evidence to a crime scene and show that it has not been tampered with.
-<br>A $\color{#a5d6ff}{write\ block\ }$ is a forensic tool to prevent the capture or analysis device or workstation from changing data on a target disk or media.
-<br>$\color{#a5d6ff}{Chain\ of\ custody\ }$ are records of handling evidence from collection to presentation in court to disposal.
+
+In digital forensics, $\color{#a5d6ff}{provenance\ }$ is being able to trace the source of evidence to a crime scene and show that it has not been tampered with.
+
+A $\color{#a5d6ff}{write\ block\ }$ is a forensic tool to prevent the capture or analysis device or workstation from changing data on a target disk or media.
+
+$\color{#a5d6ff}{Chain\ of\ custody\ }$ are records of handling evidence from collection to presentation in court to disposal.
 
 #### Reporting
 $\color{#a5d6ff}{Reporting}$ is a forensics process that summarizes significant contents of digital data using open, repeatable, and unbiased methods and tools.
-<br>$\color{#a5d6ff}{E-discovery}$ are procedures and tools to collect, preserve, and analyze digital evidence. Some of the functions of e-discovery suites are identify and de-duplicate files and metadata, search, tags, secuirty, and disclosure.
+
+$\color{#a5d6ff}{E-discovery}$ are procedures and tools to collect, preserve, and analyze digital evidence. Some of the functions of e-discovery suites are identify and de-duplicate files and metadata, search, tags, secuirty, and disclosure.
 
 ### 12C: Data Sources
 
 #### Data Sources, Dashboards, and Reports
 $\color{#a5d6ff}{Event\ Dashboard}$ is a console presenting selected information in an easily digestible format, such as a visualization.
-<br>A $\color{#a5d6ff}{visualization}$ is a widget showing records or metrics in a visual format, such as a graph or table.
+
+A $\color{#a5d6ff}{visualization}$ is a widget showing records or metrics in a visual format, such as a graph or table.
 
 #### Log Data
 $\color{#a5d6ff}{Log\ Data}$ is OS and applications software that can be configured to log events automatically. This provides valuable troubleshooting information. Security logs provide an audit trail of actions performed on the system as well as warning of suspicious activity. It is important that log configuration and files be made tamperproof.
-<br>$\color{#a5d6ff}{Metadata}$ is information stored or recorded as a property of an object, state of a system, or transaction.
-<br>$\color{#a5d6ff}{Event\ viewer}$ is a Windows console related to viewing and exporting events in the Windows logging file format.
-<br>$\color{#a5d6ff}{Syslog}$ is an application protocol and event-logging format enabling different appliances and software applications to transmit logs or event records to a central server. Syslog works over UDP port 514 by default. A syslog message comprises a PRI primary code, a header, and a message part.
+
+$\color{#a5d6ff}{Metadata}$ is information stored or recorded as a property of an object, state of a system, or transaction.
+
+$\color{#a5d6ff}{Event\ viewer}$ is a Windows console related to viewing and exporting events in the Windows logging file format.
+
+$\color{#a5d6ff}{Syslog}$ is an application protocol and event-logging format enabling different appliances and software applications to transmit logs or event records to a central server. Syslog works over UDP port 514 by default. A syslog message comprises a PRI primary code, a header, and a message part.
 
 #### Host Operating System Logs
 $\color{#a5d6ff}{Security\ logs}$ target for event data related to access control, such as user authentication and privilege use.
 
 #### Application and Endpoint Logs
 $\color{#a5d6ff}{Application\ logs}$ target for event data relating to a specific software app or package.
-<br>$\color{#a5d6ff}{Endpoint\ logs}$ target for security-related events generated by host-based malware and intrusion detection agents.
-<br>A vulnerability scanner can be configured to log each vulnerability detected to a SIEM. Vulnerabilities can include missing patches and noncompliance with a baseline security configuration.
+
+$\color{#a5d6ff}{Endpoint\ logs}$ target for security-related events generated by host-based malware and intrusion detection agents.
+
+A vulnerability scanner can be configured to log each vulnerability detected to a SIEM. Vulnerabilities can include missing patches and noncompliance with a baseline security configuration.
 
 #### Network Data Sources Packet Captures
 $\color{#a5d6ff}{Network\ logs}$ target for system and access events generated by a network appliance, such as a switch, wireless access point, or router.
-<br>$\color{#a5d6ff}{Firewall\ Logs}$ target for event data related to access rules that have been configured for logging.
-<br>An IPS/IDS log is an event when a traffic pattern is matched to a rule.
+
+$\color{#a5d6ff}{Firewall\ Logs}$ target for event data related to access rules that have been configured for logging.
+
+An IPS/IDS log is an event when a traffic pattern is matched to a rule.
 
 #### Packet Captures
 $\color{#a5d6ff}{Packet\ analysis}$ is an analysis of the headers and payload data of one or more frames in captured network traffic.
 
 #### Metadata
 $\color{#a5d6ff}{Metadata}$ is information stored or recorded as a property of an object, state of a system, or transaction.
-<br>$\color{#a5d6ff} {Internet\ header}$ is a record of the email servers involved in transferring an email message from a sender to a recipient.
+
+$\color{#a5d6ff} {Internet\ header}$ is a record of the email servers involved in transferring an email message from a sender to a recipient.
 
 ### 12D Alerting and Monitoring Tools
 #### Security Information and Event Management
 $\color{#a5d6ff}{System\ Information\ and\ Event\ Management\ (SIEM)}$ is a solution that provides real-time or near-real-time analysis of security alerts generated by network hardware and applications.
-<br>Collection is the means by which the SIEM ingests security event data from various sources. There are three main types of security data collection:
+
+Collection is the means by which the SIEM ingests security event data from various sources. There are three main types of security data collection:
 * Agent-based—uses an agent service on each host.
 * $\color{#a5d6ff} {Listener/collector}$ -is a network appliance that gathers or receives log and/or state data from other network systems so hosts can be configured to push log changes to the SIEM server. 
 * Sensor—as well as log data, the SIEM might collect packet captures and traffic flow data from sniffers. A sniffer can record network data using either the mirror port functionality of a switch or using some type of tap on the network media.
-<br>$\color{#a5d6ff} {Log\ aggregation}$ parses information from multiple log and security event data sources so that it can be presented in a consistent and searchable format.
+
+$\color{#a5d6ff} {Log\ aggregation}$ parses information from multiple log and security event data sources so that it can be presented in a consistent and searchable format.
 
 #### Alerting and Monitoring Activites
 $\color{#a5d6ff} {Correlation}$ is a function of log analysis that links log and state data to identify a pattern that should be logged or alerted as an event.
@@ -1273,15 +1290,21 @@ A false negative is where the system fails to generate an alert about malicious 
 
 #### Monitoring Infrastructure
 $\color{#a5d6ff} {Network\ monitor}$ is an auditing software that collects status and configuration information from network devices. Many products are based on the Simple Network Management Protocol (SNMP).
-<br>A flow collector is a means of recording metadata and statistics about network traffic rather than recording each frame. 
-<br>$\color{#a5d6ff} {Netflow}$ Cisco-developed means of reporting network flow information to a structured database. NetFlow allows better understanding of IP traffic flows as used by different network applications and hosts.
-<br>$\color{#a5d6ff} {IP\ Flow\ Information\ Export\ (IPFIX)}$ Standards-based version of the Netflow framework.
-<br>A flow label is defined by packets that share the same key characteristics and the seven bits of information are referred to as a 7-tuple: source address, destination address, protocol, source port, destination port, input interface, and IP type of service data.
+
+A flow collector is a means of recording metadata and statistics about network traffic rather than recording each frame. 
+
+$\color{#a5d6ff} {Netflow}$ Cisco-developed means of reporting network flow information to a structured database. NetFlow allows better understanding of IP traffic flows as used by different network applications and hosts.
+
+$\color{#a5d6ff} {IP\ Flow\ Information\ Export\ (IPFIX)}$ Standards-based version of the Netflow framework.
+
+A flow label is defined by packets that share the same key characteristics and the seven bits of information are referred to as a 7-tuple: source address, destination address, protocol, source port, destination port, input interface, and IP type of service data.
 
 #### Monitoring Systems and Applications
 $\color{#a5d6ff} {}$ Software that tracks the health of a computer's subsystems using metrics reported by system hardware or sensors. This provides an alerting service for faults such as high temperature, chassis intrusion, and so on.
-<br>A vulnerability scanner will report the total number of unmitigated vulnerabilities for each host.
-<br>$\color{#a5d6ff} {Antivirus\ scan (A-V)}$ is software capable of detecting and removing virus infections and (in most cases) other types of malware, such as worms, Trojans, rootkits, adware, spyware, password crackers, network mappers, DoS tools, and so on.
+
+A vulnerability scanner will report the total number of unmitigated vulnerabilities for each host.
+
+$\color{#a5d6ff} {Antivirus\ scan (A-V)}$ is software capable of detecting and removing virus infections and (in most cases) other types of malware, such as worms, Trojans, rootkits, adware, spyware, password crackers, network mappers, DoS tools, and so on.
 Data loss prevention (DLP) mediates the copying of tagged data to restrict it to authorized media and services.
 
 #### Benchmarks
@@ -1297,23 +1320,33 @@ Security Content Automation Protocol (SCAP) allows compatible scanners to determ
 ### 13A: Malware Attack Indicators
 #### Malware Classification
 $\color{#a5d6ff} {Malware}$ is software that serves a malicious purpose, typically installed without the user's consent (or knowledge). Some types of malware:
-<br>* Viruses and worms represent spread without any authorization from the user by being concealed within the executable code of another process.
-<br>* $\color{#a5d6ff} {Trojan}$ refers to malware concealed within an installer package for software that appears to be legitimate.
-<br>* $\color{#a5d6ff} {Potentially\ Unwanted\ Programs\ (PUPs)/Potentially\ Unwanted\ Applications\ (PUAs)}$ are software installed alongside a package selected by the user or perhaps bundled with a new computer system. It may have been installed without active consent or with consent from a purposefully confusing license agreement. This type of software is sometimes described as grayware or bloatware.
+
+* Viruses and worms represent spread without any authorization from the user by being concealed within the executable code of another process.
+
+* $\color{#a5d6ff} {Trojan}$ refers to malware concealed within an installer package for software that appears to be legitimate.
+
+* $\color{#a5d6ff} {Potentially\ Unwanted\ Programs\ (PUPs)/Potentially\ Unwanted\ Applications\ (PUAs)}$ are software installed alongside a package selected by the user or perhaps bundled with a new computer system. It may have been installed without active consent or with consent from a purposefully confusing license agreement. This type of software is sometimes described as grayware or bloatware.
 
 #### Computer Viruses
 A $\color{#a5d6ff} {virus}$ is malicious code inserted into an executable file image. The malicious code is executed when the file is run and can deliver a payload, such as attempting to infect other files.
-<br>* Non-resident/file infector—the virus is contained within a host executable file and runs with the host process.
-<br>* Memory resident—when the host file is executed, the virus creates a new process for itself in memory.
-<br>* Boot—the virus code is written to the disk boot sector or the partition table of a fixed disk or USB media and executes as a memory-resident process when the OS starts or the media is attached to the computer.
-<br>* Script and macro viruses—the malware uses the programming features available in local scripting engines for the OS and/or browser.
-<br>$\color{#a5d6ff} {Malicious\ process}$ is the process executed without proper authorization from the system owner for the purpose of damaging or compromising the system.
+
+* Non-resident/file infector—the virus is contained within a host executable file and runs with the host process.
+
+* Memory resident—when the host file is executed, the virus creates a new process for itself in memory.
+
+* Boot—the virus code is written to the disk boot sector or the partition table of a fixed disk or USB media and executes as a memory-resident process when the OS starts or the media is attached to the computer.
+
+* Script and macro viruses—the malware uses the programming features available in local scripting engines for the OS and/or browser.
+
+$\color{#a5d6ff} {Malicious\ process}$ is the process executed without proper authorization from the system owner for the purpose of damaging or compromising the system.
 
 #### Computer Worms and Fileless Malware
 A $\color{#a5d6ff} {worm}$ is a type of malware that replicates between processes in system memory and can spread over client/server network connections.
-<br>Fileless malware does not write its code to disk and uses lightweight shellcode to achieve a backdoor mechanism on the host. 
+
+Fileless malware does not write its code to disk and uses lightweight shellcode to achieve a backdoor mechanism on the host. 
 $\color{#a5d6ff} {Shellcode}$ is a lightweight block of malicious code that exploits a software vulnerability to gain initial access to a victim system. Fileless malware may use "live off the land" techniques rather than compiled executables to evade detection. This means that the malware code uses legitimate system scripting tools, notably PowerShell and Windows Management Instrumentation (WMI), to execute payload actions.
-<br>$\color{#a5d6ff} {Advance\ Persistent Treat\ (APT)}$ is an attacker's ability to obtain, maintain, and diversify access to network systems using exploits and malware.
+
+$\color{#a5d6ff} {Advance\ Persistent Treat\ (APT)}$ is an attacker's ability to obtain, maintain, and diversify access to network systems using exploits and malware.
 
 #### Spyware and Keyloggers
 Bloatware and malware can be used for different levels of monitoring:
@@ -1325,111 +1358,196 @@ Bloatware and malware can be used for different levels of monitoring:
 
 #### Backdoors and Remote Access Trojans
 A $\color{#a5d6ff} {backdoor}$ is a mechanism for gaining access to a computer that bypasses or subverts the normal method of authentication.
-<br>A $\color{#a5d6ff} {Remote\ Access\ Trojan\ (RAT)}$ is malware that creates a backdoor remote administration channel to allow a threat actor to access and control the infected host.
-<br>$\color{#a5d6ff} {Command\ and\ Control\ (C2)}$ refers to the infrastructure of hosts and services with which attackers direct, distribute, and control malware over botnets.
-<br>$\color{#a5d6ff} {Convert\ channel}$ is a type of attack that subverts network security systems and policies to transfer data without authorization or detection.
-<br>$\color{#a5d6ff} {Internet\ Relay\ Chat\ (IRC)}$ is a group communications protocol that enables users to chat, send private messages, and share files.
+
+A $\color{#a5d6ff} {Remote\ Access\ Trojan\ (RAT)}$ is malware that creates a backdoor remote administration channel to allow a threat actor to access and control the infected host.
+
+$\color{#a5d6ff} {Command\ and\ Control\ (C2)}$ refers to the infrastructure of hosts and services with which attackers direct, distribute, and control malware over botnets.
+
+$\color{#a5d6ff} {Convert\ channel}$ is a type of attack that subverts network security systems and policies to transfer data without authorization or detection.
+
+$\color{#a5d6ff} {Internet\ Relay\ Chat\ (IRC)}$ is a group communications protocol that enables users to chat, send private messages, and share files.
 
 #### Rootkits
 $\color{#a5d6ff} {Rootkits}$ is a class of malware that modifies system files, often at the kernel level, to conceal its presence.
 
 #### Ransomware, Crypto-Malware, and Logic Bombs
 $\color{#a5d6ff} {Ransomware}$ is malware that tries to extort money from the victim by blocking normal operation of a computer and/or encrypting the victim’s files and demanding payment.
-<br>The crypto class of ransomware attempts to encrypt data files on any fixed, removable, and network drives. If the attack is successful, the user will be unable to access the files without obtaining the private encryption key, which is held by the attacker and it is extremely difficult to mitigate, unless the user has backups of the encrypted files.
-<br>$\color{#a5d6ff} {Crypto-mining}$ is malware that hijacks computer resources to create cryptocurrency.
-<br>A $\color{#a5d6ff} {logic\ bomb}$ is a malicious program or script that is set to run under particular circumstances or in response to a defined event.
+
+The crypto class of ransomware attempts to encrypt data files on any fixed, removable, and network drives. If the attack is successful, the user will be unable to access the files without obtaining the private encryption key, which is held by the attacker and it is extremely difficult to mitigate, unless the user has backups of the encrypted files.
+
+$\color{#a5d6ff} {Crypto-mining}$ is malware that hijacks computer resources to create cryptocurrency.
+
+A $\color{#a5d6ff} {logic\ bomb}$ is a malicious program or script that is set to run under particular circumstances or in response to a defined event.
 
 #### TTPs and IoCs
 * Tactic—high level description of a threat behavior.
 * Technique—intermediate-level description of how a threat actor progresses a tactic.
 * Procedure—detailed description of how a technique is performed.
-<br>$\color{#a5d6ff} {Indicator\ of\ Compromise\ (IoC)}$ is a sign that an asset or network has been attacked or is currently under attack.
+
+$\color{#a5d6ff} {Indicator\ of\ Compromise\ (IoC)}$ is a sign that an asset or network has been attacked or is currently under attack.
 
 #### Maalicious Activity Indicators
 A sandbox is a system configured to be completely isolated from the production network so that the malware cannot "break out".
-<br>$\color{#a5d6ff} {Resource\ consumption}$ shows potential indicator of malicious activity where CPU, memory, storage, and/or network usage deviates from expected norms.
-<br>$\color{#a5d6ff} {Blocked\ content}$ is a potential indicator of malicious activity where audit logs show unauthorized attempts to read or copy a file or other data.
-<br>$\color{#a5d6ff} {Resource\ inaccessibility}$ is a potential indicator of malicious activity where a file or service resource that should be available is inaccessible.
-<br>Indicators of suspicious account behavior:
-<br>* $\color{#a5d6ff} {Account\ lockout}$ -policy that prevents access to an account under certain conditions.
-<br>* $\color{#a5d6ff} {Concurrent\ session\ usage}$ -a potential indicator of malicious activity where an account has started multiple sessions on one or more hosts.
-<br>* $\color{#a5d6ff} {Impossible\ travel}$ -a potential indicator of malicious activity where authentication attempts are made from different geographical locations within a short timeframe.
-<br>A threat actor will often try to cover their tracks by removing indicators from log files:
-<br>* $\color{#a5d6ff} {Missing\ logs}$ -a potential indicator of malicious activity where events or log files are deleted or tampered with.
-<br>* $\color{#a5d6ff} {Out-of-cycle\ logging}$ -a potential indicator of malicious activity where event dates or timestamps are not consistent.
+
+$\color{#a5d6ff} {Resource\ consumption}$ shows potential indicator of malicious activity where CPU, memory, storage, and/or network usage deviates from expected norms.
+
+$\color{#a5d6ff} {Blocked\ content}$ is a potential indicator of malicious activity where audit logs show unauthorized attempts to read or copy a file or other data.
+
+$\color{#a5d6ff} {Resource\ inaccessibility}$ is a potential indicator of malicious activity where a file or service resource that should be available is inaccessible.
+
+Indicators of suspicious account behavior:
+
+* $\color{#a5d6ff} {Account\ lockout}$ -policy that prevents access to an account under certain conditions.
+
+* $\color{#a5d6ff} {Concurrent\ session\ usage}$ -a potential indicator of malicious activity where an account has started multiple sessions on one or more hosts.
+
+* $\color{#a5d6ff} {Impossible\ travel}$ -a potential indicator of malicious activity where authentication attempts are made from different geographical locations within a short timeframe.
+
+A threat actor will often try to cover their tracks by removing indicators from log files:
+
+* $\color{#a5d6ff} {Missing\ logs}$ -a potential indicator of malicious activity where events or log files are deleted or tampered with.
+
+* $\color{#a5d6ff} {Out-of-cycle\ logging}$ -a potential indicator of malicious activity where event dates or timestamps are not consistent.
 
 ### 13B: Physical and Network Attack Indicators
 #### Physical Attacks
 A $\color{#a5d6ff} {physical\ attack}$ is an attack directed against cabling infrastructure, hardware devices, or the environment of the site facilities hosting a network.
-<br>An $\color{#a5d6ff} {environmental\ attack}$ physical threat directed against power, cooling, or fire suppression systems.
-<br>$\color{#a5d6ff} {Radio\ Frequency\ ID}$ is a means of encoding information into passive tags, which can be energized and read by radio waves from a reader device.
-<br>* $\color{#a5d6ff} {Card\ cloning}$ refers to making a copy of a contactless access card.
-<br>* $\color{#a5d6ff} {Skimming}$ refers to making a duplicate of a contactless access card by copying its access token and programming a new card with the same data.
+
+An $\color{#a5d6ff} {environmental\ attack}$ physical threat directed against power, cooling, or fire suppression systems.
+
+$\color{#a5d6ff} {Radio\ Frequency\ ID}$ is a means of encoding information into passive tags, which can be energized and read by radio waves from a reader device.
+
+* $\color{#a5d6ff} {Card\ cloning}$ refers to making a copy of a contactless access card.
+
+* $\color{#a5d6ff} {Skimming}$ refers to making a duplicate of a contactless access card by copying its access token and programming a new card with the same data.
 
 #### Network Attacks
 A $\color{#a5d6ff} {network\ attack}$ is an attack directed against cabled and/or wireless network infrastructure, including reconnaissance, denial of service, credential harvesting, on-path, privilege escalation, and data exfiltration. Cyberattack lifecycle:
-<br>* $\color{#a5d6ff} {Reconnaissance}$ is the actions taken to gather information about an individual or organization's computer systems and software. This typically involves collecting information such as the types of systems and software used, user account information, data types, and network configuration.
-<br>* $\color{#a5d6ff} {Credential\ harvesting}$ refers to social engineering techniques for gathering valid credentials to use to gain unauthorized access.
-<br>* Denial of service (DoS) in a network context refers to attacks that cause hosts and services to become unavailable.
-<br>* Weaponization, delivery, and breach refer to techniques that allow a threat actor to get access without having to authenticate.
-<br>* Command and control (C2 or C&C), beaconing, and persistence refer to techniques and malicious code that allow a threat actor to operate a compromised host remotely, and maintain access to it over a period of time.
-<br>* Lateral movement, pivoting, and privilege escalation refer to techniques that allow the threat actor to move from host to host within a network or from one network segment to another, and to obtain wider and higher permissions for systems and services across the network.  $\color{#a5d6ff} {Lateral\ movement}$ is the process by which an attacker is able to move from one part of a computing environment to another. $\color{#a5d6ff} {Pivoting}$ is when an attacker uses a compromised host (the pivot) as a platform from which to spread an attack to other points in the network.
-<br>* Data exfiltration refers to obtaining an information asset and copying it to the attacker's remote machine.
+
+* $\color{#a5d6ff} {Reconnaissance}$ is the actions taken to gather information about an individual or organization's computer systems and software. This typically involves collecting information such as the types of systems and software used, user account information, data types, and network configuration.
+
+* $\color{#a5d6ff} {Credential\ harvesting}$ refers to social engineering techniques for gathering valid credentials to use to gain unauthorized access.
+
+* Denial of service (DoS) in a network context refers to attacks that cause hosts and services to become unavailable.
+
+* Weaponization, delivery, and breach refer to techniques that allow a threat actor to get access without having to authenticate.
+
+* Command and control (C2 or C&C), beaconing, and persistence refer to techniques and malicious code that allow a threat actor to operate a compromised host remotely, and maintain access to it over a period of time.
+
+* Lateral movement, pivoting, and privilege escalation refer to techniques that allow the threat actor to move from host to host within a network or from one network segment to another, and to obtain wider and higher permissions for systems and services across the network.  $\color{#a5d6ff} {Lateral\ movement}$ is the process by which an attacker is able to move from one part of a computing environment to another. $\color{#a5d6ff} {Pivoting}$ is when an attacker uses a compromised host (the pivot) as a platform from which to spread an attack to other points in the network.
+
+* Data exfiltration refers to obtaining an information asset and copying it to the attacker's remote machine.
 
 #### Distributed Denial of SErvice Attacks
 $\color{#a5d6ff} {Denial\ of\ Service\ (DoS)}$ is any type of physical, application, or network attack that affects the availability of a managed resource.
-<br>$\color{#a5d6ff} {Distributed\ Dos\ (DDos)}$ is an attack that involves the use of infected Internet-connected computers and devices to disrupt the normal flow of traffic of a server or service by overwhelming the target with traffic.
-<br>$\color{#a5d6ff} {SYN\ flood\ attack}$ is a DoS attack where the attacker sends numerous SYN requests to a target server, hoping to consume enough resources to prevent the transfer of legitimate traffic.
-<br>$\color{#a5d6ff} {Distributed\ Reflected\ DoS\ (DRDos)}$ is a malicious request to a legitimate server is created and sent as a link to the victim, so that a server-side flaw causes the malicious component to run on the target’s browser.
-<br>$\color{#a5d6ff} {Amplification\ attack}$ is a network-based attack where the attacker dramatically increases the bandwidth sent to a victim during a DDoS attack by implementing an amplification factor.
-<br>DDoS attacks can be diagnosed by traffic spikes that have no legitimate explanation, but they can usually only be mitigated by providing high availability services, such as load balancing and cluster services.
+
+$\color{#a5d6ff} {Distributed\ Dos\ (DDos)}$ is an attack that involves the use of infected Internet-connected computers and devices to disrupt the normal flow of traffic of a server or service by overwhelming the target with traffic.
+
+$\color{#a5d6ff} {SYN\ flood\ attack}$ is a DoS attack where the attacker sends numerous SYN requests to a target server, hoping to consume enough resources to prevent the transfer of legitimate traffic.
+
+$\color{#a5d6ff} {Distributed\ Reflected\ DoS\ (DRDos)}$ is a malicious request to a legitimate server is created and sent as a link to the victim, so that a server-side flaw causes the malicious component to run on the target’s browser.
+
+$\color{#a5d6ff} {Amplification\ attack}$ is a network-based attack where the attacker dramatically increases the bandwidth sent to a victim during a DDoS attack by implementing an amplification factor.
+
+DDoS attacks can be diagnosed by traffic spikes that have no legitimate explanation, but they can usually only be mitigated by providing high availability services, such as load balancing and cluster services.
 
 #### On-Path Attacks
 An $\color{#a5d6ff} {on-path\ attack}$ is an attack where the threat actor makes an independent connection between two victims and is able to read and possibly modify traffic.
-<br>$\color{#a5d6ff} {Address\ Resolution\ Protocol\ (ARP)}$ is a broadcast mechanism by which the hardware MAC address of an interface is matched to an IP address on a local network segment.
-<br>$\color{#a5d6ff} {ARP\ poisoning}$ is a network-based attack where an attacker with access to the target local network segment redirects an IP address to the MAC address of a computer that is not the intended recipient. This can be used to perform a variety of attacks, including DoS, spoofing, and on-path (previously known as man-in-the-middle).
+
+$\color{#a5d6ff} {Address\ Resolution\ Protocol\ (ARP)}$ is a broadcast mechanism by which the hardware MAC address of an interface is matched to an IP address on a local network segment.
+
+$\color{#a5d6ff} {ARP\ poisoning}$ is a network-based attack where an attacker with access to the target local network segment redirects an IP address to the MAC address of a computer that is not the intended recipient. This can be used to perform a variety of attacks, including DoS, spoofing, and on-path (previously known as man-in-the-middle).
 
 #### Domain Name Systems Attacks
 The domain name system (DNS) resolves requests for named host and services to IP addresses.
-<br>$\color{#a5d6ff} {DNS\ poisoning}$ is an attack where a threat actor injects false resource records into a client or server cache to redirect a domain name to an IP address of the attacker's choosing.
+
+$\color{#a5d6ff} {DNS\ poisoning}$ is an attack where a threat actor injects false resource records into a client or server cache to redirect a domain name to an IP address of the attacker's choosing.
 
 #### Wireless Attacks
 A rogue access point is one that has been installed on the network without authorization, whether with malicious intent or not.
-<br>An $\color{#a5d6ff} {evil\ twin}$ is a wireless access point that deceives users into believing that it is a legitimate network access point.
-<br>$\color{#a5d6ff} {Disassociation Attack}$ refers to spoofing frames to disconnect a wireless station to try to obtain authentication data to crack.
+
+An $\color{#a5d6ff} {evil\ twin}$ is a wireless access point that deceives users into believing that it is a legitimate network access point.
+
+$\color{#a5d6ff} {Disassociation Attack}$ refers to spoofing frames to disconnect a wireless station to try to obtain authentication data to crack.
 
 #### Password Attacks
-<br>$\color{#a5d6ff} {Password\ attack}$ refers to any attack where the attacker tries to gain unauthorized access to and use of passwords.
-<br>An online password attack is where the threat actor interacts with the authentication service directly.
-<br>An offline attack means that the attacker has managed to obtain a database of password hashes.
-<br>A $\color{#a5d6ff} {brute\ force\ attack}$ is a type of password attack where an attacker uses an application to exhaustively try every possible alphanumeric combination to crack encrypted passwords.
-<br>A $\color{#a5d6ff} {dictionary\ attack}$ is a type of password attack that compares encrypted passwords against a predetermined list of possible password values.
-<br>A $\color{#a5d6ff} {hybrid\ password\ attack}$ is an attack that uses multiple attack methods, including dictionary, rainbow table, and brute force attacks when trying to crack a password.
-<br>$\color{#a5d6ff} {Passowrd\ Spraying}$ refers to a brute force attack in which multiple user accounts are tested with a dictionary of common passwords.
+
+$\color{#a5d6ff} {Password\ attack}$ refers to any attack where the attacker tries to gain unauthorized access to and use of passwords.
+
+An online password attack is where the threat actor interacts with the authentication service directly.
+
+An offline attack means that the attacker has managed to obtain a database of password hashes.
+
+A $\color{#a5d6ff} {brute\ force\ attack}$ is a type of password attack where an attacker uses an application to exhaustively try every possible alphanumeric combination to crack encrypted passwords.
+
+A $\color{#a5d6ff} {dictionary\ attack}$ is a type of password attack that compares encrypted passwords against a predetermined list of possible password values.
+
+A $\color{#a5d6ff} {hybrid\ password\ attack}$ is an attack that uses multiple attack methods, including dictionary, rainbow table, and brute force attacks when trying to crack a password.
+
+$\color{#a5d6ff} {Passowrd\ Spraying}$ refers to a brute force attack in which multiple user accounts are tested with a dictionary of common passwords.
 
 #### Cryptographic Attacks
 $\color{#a5d6ff} {Credential\ replay}$ refers to an attack that uses a captured authentication token to start an unauthorized session without having to discover the plaintext password for an account.
 
 #### Malicious Code Indicators
 $\color{#a5d6ff} {Downgrade\ attack}$ refers to a cryptographic attack where the attacker exploits the need for backward compatibility to force a computer system to abandon the use of encrypted messages in favor of plaintext messages.
-<br>In cryptography, $\color{#a5d6ff} {collision}$ is the act of two different plaintext inputs producing the same exact ciphertext output.
-<br>$\color{#a5d6ff} {Birthday\ attack}$ refers to a type of password attack that exploits weaknesses in the mathematical algorithms used to encrypt passwords, in order to take advantage of the probability of different password inputs producing the same encrypted output.
+
+In cryptography, $\color{#a5d6ff} {collision}$ is the act of two different plaintext inputs producing the same exact ciphertext output.
+
+$\color{#a5d6ff} {Birthday\ attack}$ refers to a type of password attack that exploits weaknesses in the mathematical algorithms used to encrypt passwords, in order to take advantage of the probability of different password inputs producing the same encrypted output.
 
 ### 13C: Application Attack Indicators
 #### Application Attacks
+$\color{#a5d6ff} {Application\ attack}$ refers to an attack directed against a coding, implementation, or platform vulnerability in OS or application software. There are broadly two main scenarios for application attacks:
+
+* Compromising the operating system or third-party apps on a network host by exploiting Trojans, malicious attachments, or browser vulnerabilities.
+
+* Compromising the security of a website or web application.
+
+$\color{#a5d6ff} {Arbitrary\ code\ execution}$ refers to a vulnerability that allows an attacker to run their own code or a module that exploits such a vulnerability.
+
+$\color{#a5d6ff} {Remote\ code\ execution}$ refers to a vulnerability that allows an attacker to transmit code from a remote host for execution on a target host or a module that exploits such a vulnerability.
+
+$\color{#a5d6ff} {Privilege\ escalation}$ is the practice of exploiting flaws in an operating system or other application to gain a greater level of access than was intended for the user or application. The two main types:
+
+* $\color{#a5d6ff} {Vertical\ privilege\ escalation}$ refers to when an attacker can perform functions that are normally assigned to users in higher roles, and often explicitly denied to the attacker.
+
+* $\color{#a5d6ff} {Horizontal\ privilege\ escalation}$ refers to when a user accesses or modifies specific resources that they are not entitled to.
+
+A buffer is an area of memory that an application reserves to store some value. To exploit a buffer overflow vulnerability, the attacker passes data that deliberately fills the buffer to its end and then overwrites data at its start.
 
 #### Replay Attacks
+$\color{#a5d6ff} {Replay\ attack}$ refers to an attack where the attacker intercepts some authentication data and reuses it to try to reestablish a session.
 
 #### Forgery Attacks
+$\color{#a5d6ff} {Forgery attack}$ refers to an attack that exploits weak authentication to perform a request via a hijacked session.
+
+$\color{#a5d6ff} {Cross-Site\ Request\ Forgery\ (CSRF)}$ is a malicious script hosted on the attacker's site that can exploit a session started on another site in the same browser.
+br>$\color{#a5d6ff} {Server-Side\ Request\ Forgery\ (CSRF)}$ is an attack where an attacker takes advantage of the trust established between the server and the resources it can access, including itself.
 
 #### Injection Attacks
+In a web application, $\color{#a5d6ff} {server-side}$ refers to the input data that is executed or validated as part of a script or process running on the server. A server-side attack causes the server to do some processing or run a script or query in a way that is not authorized by the application design.
+
+$\color{#a5d6ff} {Injection\ attack}$ refers to an attack that exploits weak request handling or input validation to run arbitrary code in a client browser or on a server.
+
+$\color{#a5d6ff} {Extensible\ Markup\ Language\ (XML)}$ is a system for structuring documents so that they are human and machine readable. Information within the document is placed within tags, which describe how information within the document is structured. XML is used by apps for authentication and authorizations, and for other types of data exchange and uploading.
+
+The Lightweight Directory Access Protocol (LDAP) is a query language and specifically used to read and write network directory databases. 
 
 #### Directory Traversal and Command Injection Attacks
+$\color{#a5d6ff} {Directory\ traversal}$ is an application attack that allows access to commands, files, and directories that may or may not be connected to the web document root directory.
+
+$\color{#a5d6ff} {Canonicalization\ attack}$ is an attack method where input characters are encoded in such a way as to evade vulnerable input validation measures. Canonicalization refers to the way the server converts between the different methods by which a resource may be represented and submitted to the simplest (or canonical) method used by the server to process the input.
+
+$\color{#a5d6ff} {Command\ injection}$ is where a threat actor is able to execute arbitrary shell commands on a host via a vulnerable web application.
 
 #### URL Analysis
+$\color{#a5d6ff} {Uniform\ Resource\ Locator\ (URL)}$ is an application-level addressing scheme for TCP/IP, allowing for human-readable resource addressing. For example: protocol://server/file, where "protocol" is the type of resource (HTTP, FTP), "server" is the name of the computer (www.microsoft.com), and "file" is the name of the resource you wish to access.
+
+$\color{#a5d6ff} {Percent\ encoding}$ is a mechanism for encoding characters as hexadecimal values delimited by the percent sign.
 
 #### Web Server Logs
-<br>$\color{#a5d6ff} {}$
+Web servers are typically configured to log HTTP traffic that encounters an error or traffic that matches some predefined rule set.
 
 ---
 
@@ -1437,29 +1555,150 @@ $\color{#a5d6ff} {Downgrade\ attack}$ refers to a cryptographic attack where the
 
 ### 14A: Policies, Standards, and Procedures
 #### Policies
+$\color{#a5d6ff} {Policy}$ refer to a strictly enforceable ruleset that determines how a task should be completed. Common Organizational Policies:
+
+* $\color{#a5d6ff} {Acceptable\ Use\ Policy\ (AUP)}$-policy that governs employees' use of company equipment and Internet services. ISPs may also apply AUPs to their customers.
+
+* $\color{#a5d6ff} {Information\ Security\ Policies}$-a document or series of documents that are backed by senior management and that detail requirements for protecting technology and information assets from threats and misuse.
+
+* Business Continuity & Continuity of Operations Plans (COOP)-$\color{#a5d6ff} {business\ continuity}$ refers to a collection of processes that enable an organization to maintain normal business operations in the face of some adverse event.
+
+* $\color{#a5d6ff} {Diaster\ Recovery}$-a documented and resourced plan showing actions and responsibilities to be used in response to critical incidents.
+
+* Incident Response-outlines the processes to be followed after a security breach, or cyberattack occurs.
+
+* $\color{#a5d6ff} {Software\ Developmnet\ Life\ Cycle\ (SDCL)}$-the processes of planning, analysis, design, implementation, and maintenance that often govern software and systems development.
+
+* Change Management—Change management policies outline how changes to IT systems and software are requested, reviewed, approved, and implemented, including all documentation requirements.
+
+$\color{#a5d6ff} {Guideline}$ refers to best practice recommendations and advice for configuration items where detailed, strictly enforceable policies and standards are impractical.
 
 #### Procedures
+$\color{#a5d6ff} {Procedure}$ refer to detailed instructions for completing a task in a way that complies with policies and standards.
+
+Personnel management policies are applied in three phases which are recruitment (hiring), operation (working), and termination or separation (firing or retiring).
+
+A background check determines that a person is who they say they are and are not concealing criminal activity, bankruptcy, or connections that would make them unsuitable or risky.
+
+$\color{#a5d6ff} {Onboarding}$ is the process of bringing in a new employee, contractor, or supplier. Some processes invovled with this are secure transmission of credentials, asset allocation, and training/policies.
+
+Playbooks guide personnel to ensure consistency in operations and improve quality and effectiveness.
+
+The implementation of changes should be carefully planned, with consideration for how the change will affect dependent components.
+
+Offboarding ensures that an employee leaves a company gracefully, including an exit interview for feedback. In terms of security, some process to be completed with this are account management, company assets, and personal assets.
 
 #### Standards
+$\color{#a5d6ff} {Standards}$ are expected outcome or state of a task that has been performed in accordance with policies and procedures. Standards can be determined internally, or measured against external frameworks.
+
+Common industry standards used by public and private organizations include the following:
+* ISO/IEC 27001 —An international standard that provides an information security management system (ISMS) framework to ensure adequate and proportionate security controls are in place.
+* ISO/IEC 27002 —This is a companion standard to ISO 27001 and provides detailed guidance on specific controls to include in an ISMS.
+* ISO/IEC 27017 —An extension to ISO 27001 and specific to cloud services.
+* ISO/IEC 27018 —Another addition to ISO 27001, and specific to protecting personally identifiable information (PII) in public clouds.
+* NIST (National Institute of Standards and Technology) Special Publication 800-63 —A US government standard for digital identity guidelines, including password and access control requirements.
+* PCI DSS (Payment Card Industry Data Security Standard) —A standard for organizations that handle credit cards from major card providers, including requirements for protecting cardholder data.
+* FIPS (Federal Information Processing Standards) —FIPS are standards and guidelines developed by NIST for federal computer systems in the United States that specify requirements for cryptography.
+
+Password standards describe the specific technical requirements required to design and implement systems, including how passwords are managed within those systems to ensure that different systems can interoperate and use consistent password-handling methods.
+* Hashing Algorithms —Defines requirements for the hash functions used to store passwords.
+* Password Salting —Defines the methods used to protect password hashes to protect them from rainbow table attacks.
+* Secure Password Transmission —Defines the methods for secure password transmission, including details regarding appropriate cipher suites.
+* Password Reset —Defines appropriate identity verification methods to protect password reset requests from exploitation.
+* Password Managers —Defines the requirements for password managers that organizations may choose to incorporate.
+
+Access control standards ensure that only authorized individuals can access the systems and data they need to do their jobs to protect sensitive information and help prevent accidental changes or damage. Internally developed access control standards typically include the following elements:
+* Access Control Models —Defines appropriate access models for different use cases. Examples include role-based access control (RBAC), discretionary access control (DAC), and mandatory access control (MAC), among others.
+* User Identity Verification —Defines acceptable methods to verify identities before granting access.
+* Privilege Management —Defines the methods for managing user privileges to ensure they have the minimum required access.
+* Authentication Protocols —Defines specific acceptable authentication protocols, such as Kerberos, OAuth, or SAML.
+* Session Management —Defines allowable session management practices, including requirements for session timeouts, secure generation and transmission of session cookies, and other similar requirements.
+* Audit Trails —Defines mandatory audit capabilities designed to assist with identifying and investigating security incidents.
+
+Physical security standards protect data centers, computer rooms, wiring closets, cabling, hardware, and infrastructure comprising the IT environment and the people who use and maintain them. Some examples include the following:
+* Building Security —Methods for securing facilities, including card access systems, CCTV surveillance, and security personnel.
+* Workstation Security —Standards for physically securing laptops or other portable devices.
+* Datacenter and Server Room Security —Defines requirements for card access, biometric scans, sign-in/sign-out logs, and escorted access for visitors.
+* Equipment Disposal —Defines requirements for securely disposing (or repurposing) equipment to ensure that sensitive data is irrecoverable.
+* Visitor Management —Defines the requirements for managing visitors, such as sign-in/sign-out procedures, visitor badges, and escorted access requirements.
+
+Encryption protects data from unauthorized access, and it is vital for securing data both at rest (stored data) and in transit (data being transmitted). Encryption standards identify the acceptable cipher suites and expected procedures needed to provide assurance that data remains protected.
+* Encryption Algorithms —Defines allowable encryption algorithms, such as AES (Advanced Encryption Standard) for symmetric or ECC for asymmetric encryption.
+* Key Length —Defines the minimum allowable key lengths for different types of encryption.
+* Key Management —Defines how keys are generated, distributed, stored, and changed.
 
 #### Legal Environment
+$\color{#a5d6ff} {Sarbanes-Oxley\ Act\ (SOX)}$ is a law enacted in 2002 that dictates requirements for the storage and retention of documents relating to an organization's financial and business operations.
+
+$\color{#a5d6ff} {General\ Data] Protection\ Regulation\ (GDPR)}$ Provisions and requirements protecting the personal data of European Union (EU) citizens. Transfers of personal data outside the EU Single Market are restricted unless protected by like-for-like regulations, such as the US's Privacy Shield requirements.
+
+Industry-specific cybersecurity laws and regulations govern how data should be handled and protected:
+- Healthcare
+    - Health Insurance Portability and Accountability Act (HIPAA) (United States)
+    - The General Data Protection Regulation (GDPR) (European Union)
+- Financial Services
+    - Gramm-Leach-Bliley Act (GLBA) (United States)
+    - Payment Card Industry Data Security Standard (PCI DSS ) (Contractual obligation)
+- Telecommunications
+    - Communications Assistance for Law Enforcement Act (CALEA ) (United States )
+- Energy
+    - North American Electric Reliability Corporation (NERC) (United States and Canada)
+    - Education & Children
+    - Family Educational Rights and Privacy Act (FERPA) (United States)
+    - Children's Internet Protection Act (CIPA) (United States)
+    - Children's Online Privacy Protection Act (COPPA) (United States )
+- Government
+    - Federal Information Security Modernization Act (FISMA) (United States )
+    - Criminal Justice Information Services (CJIS ) Security Policy (United States )
+    - The Government Security Classifications (GSC) (United Kingdom)
 
 #### Governance and Accountability
+$\color{#a5d6ff} {Governance}$ refers to creating and monitoring effective policies and procedures to manage assets, such as data, and ensure compliance with industry regulations and local, national, and global legislation.
+
+$\color{#a5d6ff} {Governance\ boards}$ refer to senior executives and external stakeholders with responsibility for setting strategy and ensuring compliance.
+
+$\color{#a5d6ff} {Governance\ committees}$ are leaders and subject matter experts with responsibility for defining policies, procedures, and standards within a particular domain or scope.
+
+Security governance relies heavily on specially designed and interdependent roles called owner, controller, processor, and custodian:
+$\color{#a5d6ff} {Owner}$—a senior (executive) role with ultimate responsibility for maintaining the confidentiality, integrity, and availability of an information asset.
+$\color{#a5d6ff} {Controller}$—in privacy regulations, the entity that determines why and how personal data is collected, stored, and used.
+$\color{#a5d6ff} {Processor}$—in privacy regulations, an entity trusted with a copy of personal data to perform storage and/or analysis on behalf of the data collector.
+$\color{#a5d6ff} {Custodian}$—an individual who is responsible for managing the system on which data assets are stored, including being responsible for enforcing access control, encryption, and backup/recovery measures.
 
 ### 14B: Change Management
 #### Change Management Programs
+Change management refers to a systematic approach that manages all changes made to a product or system, ensuring that methods and procedures are used to handle these changes efficiently and effectively.
+
+$\color{#a5d6ff} {Stakeholder}$ refers to a person who has a business interest in the outcome of a project or is actively involved in its work.
 
 #### Allowed and Blocked Changes
+Allow and block lists describe software restriction approaches designed to control computer software.
 
-#### REstarts, Dependencies, and Downtime
+#### Restarts, Dependencies, and Downtime
+Service and application restarts, as well as downtime, are critical considerations because they typically have a direct impact on business operations.
+
+$\color{#a5d6ff} {Dependencies}$ resources and other services that must be available and running for a service to start.
 
 #### Documentation and Version Control
+$\color{#a5d6ff} {Version\ control}$ refers to the practice of ensuring that the assets that make up a project are closely managed when it comes time to make changes.
 
 ### 14C: Automation and Orchestration
 #### Automation and SCritping
+In terms of governance, automation can help enforce security policies more consistently and efficiently, and it can aid in monitoring and reporting to provide valuable insights for leadership teams and risk managers. In change management, automation can reduce the risk of human error, reduce implementation time, and provide clear audit trails.
 
 #### Automation and Orchestration Implementation
+$\color{#a5d6ff} {Workforce\ multiplier}$ is a tool or automation that increases employee productivity, enabling them to perform more tasks to the same standard per unit of time.
 
+Operator fatigue refers to the mental exhaustion experienced by cybersecurity professionals due to their work's continuous, high-intensity nature.
+
+$\color{#a5d6ff} {Reaction\ time}$ refers to the elapsed time between an incident occurring and a response being implemented.
+
+Challenges when it comes to automation and orchestration:
+* Complexity—a poorly planned or executed automation strategy can add complexity, making systems more difficult to manage and maintain.
+* Cost—The initial cost of implementing automation and orchestration can be high, including costs associated with acquiring and developing appropriate tools, integrating them into existing systems, and training staff to use them effectively. Automation software maintenance and upgrades can also be costly.
+* Single Point of Failure—If a critical automated system or process fails, it could impact multiple areas of the organization, causing widespread problems.
+* Technical Debt—Organizations can accrue technical debt if automation and orchestration tools are implemented hastily, resulting in poorly documented code, "brittle" system integrations, or poor maintenance. Over time, this debt can lead to system instability, complexity, and increased costs, ironically similar to the problems associated mainly with legacy systems.
+* Ongoing Support—Automation and orchestration systems require ongoing support to stay effective and secure, including updates and patches, reviewing and improving automated processes, and continuous education. Without adequate support, the benefits of automation and orchestration are quickly eroded.
 
 ---
 
@@ -1467,6 +1706,7 @@ $\color{#a5d6ff} {Downgrade\ attack}$ refers to a cryptographic attack where the
 
 ### 15A: Risk Management Processes and Concepts
 #### Risk Identification and Assessment
+$\color{#a5d6ff} {}$
 
 #### Risk Management Strategies
 
@@ -1520,5 +1760,4 @@ $\color{#a5d6ff} {Downgrade\ attack}$ refers to a cryptographic attack where the
 #### Training Topics and Techniques
 
 #### Security Awareness Training Lifecycle
-
-<br>$\color{#a5d6ff} {}$
+$\color{#a5d6ff} {}$

@@ -1706,28 +1706,90 @@ Challenges when it comes to automation and orchestration:
 
 ### 15A: Risk Management Processes and Concepts
 #### Risk Identification and Assessment
-$\color{#a5d6ff} {}$
+Within overall risk assessment, $\color{#a5d6ff} {Risk\ identification}$ is the specific process of listing sources of risk due to threats and vulnerabilities.
+
+$\color{#a5d6ff} {Risk\ assessment}$ is the process of identifying risks, analyzing them, developing a response strategy for them, and mitigating their future impact.
+
+$\color{#a5d6ff} {Risk\ analysis}$ is the process for qualifying or quantifying the likelihood and impact of a factor.
+
+$\color{#a5d6ff} {Quantitative\ risk\ analysis}$ is a numerical method that is used to assess the probability and impact of risk and measure the impact.
+
+* $\color{#a5d6ff} {Single\ Loss\ Expectancy\ (SLE)}$ is the amount that would be lost in a single occurrence of a particular risk factor.
+
+* $\color{#a5d6ff} {Annualized\ Loss\ Expectancy\ (ALE)}$ is the total cost of a risk to an organization on an annual basis. This is determined by multiplying the SLE by the annual rate of occurrence (ARO). In risk calculation, $\color{#a5d6ff} {Annualized\ Rate\ of\ Occurence\ (ARO)}$ is an expression of the probability of a risk as the number of times per year a particular loss is expected to occur.
+
+$\color{#a5d6ff} {Qualitative\ risk\ analysis}$ is the process of determining the probability of occurrence and the impact of identified risks by using logical reasoning when numeric data is not readily available.
+
+$\color{#a5d6ff} {Inherent\ risk}$ is risk that an event will pose if no controls are put in place to mitigate it.
 
 #### Risk Management Strategies
+$\color{#a5d6ff} {Risk\ mitigation/remediation}$ is the response of reducing risk to fit within an organization's willingness to accept risk.
+
+In risk mitigation, $\color{#a5d6ff} {risk\ deterrence/reduction}$ is the response of deploying security controls to reduce the likelihood and/or impact of a threat scenario.
+
+In risk mitigation, $\color{#a5d6ff} {avoidance}$ is the practice of ceasing activity that presents risk.
+
+In risk mitigation, $\color{#a5d6ff} {transference/sharing}$ is the response of moving or sharing the responsibility of risk to another entity, such as by purchasing cybersecurity insurance.
+
+$\color{#a5d6ff} {Risk\ acceptance/tolerance}$ is the response of determining that a risk is within the organization's appetite and no countermeasures other than ongoing monitoring is needed.
+
+$\color{#a5d6ff} {Risk\ excemption}$ is a category of risk management that uses alternate mitigating controls to control an accepted risk factor.
+
+$\color{#a5d6ff} {Risk\ exemption}$ a category of risk management that accepts an unmitigated risk factor.
+
+$\color{#a5d6ff} {Residual\ risk}$ is risk that remains even after controls are put into place.
 
 #### Risk Management Procedures
+$\color{#a5d6ff} {Risk\ management}$ is the cyclical process of identifying, assessing, analyzing, and responding to risks. The five processes performed with this is identify mission essential functions, identify vulnerabilities, identify threats, analyze business impacts, and identify risk response.
+
+Calculating risk is complex but the main variables are:
+
+* In risk calculation, $\color{#a5d6ff} {likelihood}$ is the chance of a threat being realized, expressed as a percentage.
+
+* $\color{#a5d6ff} {Probability}$ is the mathematical measure of the possibility of a risk occurring.
+
+* $\color{#a5d6ff} {Impact}$ is the severity of the risk if realized by factors such as the scope, value of the asset, or the financial impacts of the event.
+
+$\color{#a5d6ff} {Enterprise\ risk\ management\ (ERM)}$ is the comprehensive process of evaluating, measuring, and mitigating the many risks that pervade an organization.
+
+$\color{#a5d6ff} {Risk\ register}$ refers to a document highlighting the results of risk assessments in an easily comprehensible format (such as a "traffic light" grid). Its purpose is for department managers and technicians to understand risks associated with the workflows that they manage.
+
+$\color{#a5d6ff} {Heat\ map\ risk\ matrix}$ refers to a graphical table indicating the likelihood and impact of risk factors identified for a workflow, project, or department for reference by stakeholders.
+
+Risk threshold defines the limits or levels of acceptable risk an organization is willing to tolerate.
+
+$\color{#a5d6ff} {Key\ Risk\ Indicator\ (KRI)}$ is the method by which emerging risks are identified and analyzed so that changes can be adopted to proactively avoid issues from occurring.
+
+$\color{#a5d6ff} {Risk\ owner}$ refers to an individual who is accountable for developing and implementing a risk response strategy for a risk documented in a risk register.
+
+$\color{#a5d6ff} {Risk\ appetite}$ is a strategic assessment of what level of residual risk is tolerable for an organization. The three levels of this are expansionary, conservative, and neutral.
+
+$\color{#a5d6ff} {Risk\ tolerance}$ determines the thresholds that separate different levels of risk.
+
+$\color{#a5d6ff} {Risk\ reporting}$ is a periodic summary of relevant information about a project’s current risks. It provides a summarized overview of known risks, realized risks, and their impact on the organization.
 
 #### Business Impact Analysis
+$\color{#a5d6ff} {}$
 
 ### 15B: Vendor Management Concepts
 #### Vendor Slection
+$\color{#a5d6ff} {}$
 
 #### Vendor Assessment Methods
+$\color{#a5d6ff} {}$
 
 #### Legal Agreements
+$\color{#a5d6ff} {}$
 
 ### 15C: Audits and Assessments
 #### Attestation and Assessments
+$\color{#a5d6ff} {}$
 
 #### Penetration Testing
+$\color{#a5d6ff} {}$
 
 ### Exercise Types
-
+$\color{#a5d6ff} {}$
 
 ---
 
@@ -1735,6 +1797,7 @@ $\color{#a5d6ff} {}$
 
 ### 16A: Data Classification and Compliance
 #### Data Types
+$\color{#a5d6ff} {}$
 
 #### Data Classifications
 

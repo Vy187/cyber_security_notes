@@ -1769,27 +1769,93 @@ $\color{#a5d6ff} {Risk\ tolerance}$ determines the thresholds that separate diff
 $\color{#a5d6ff} {Risk\ reporting}$ is a periodic summary of relevant information about a project’s current risks. It provides a summarized overview of known risks, realized risks, and their impact on the organization.
 
 #### Business Impact Analysis
-$\color{#a5d6ff} {}$
+Dependencies are identified by performing a business process analysis (BPA) for each function and the factors that the BPA should identify are inputs, hardware, outputs, process flow, and staff and other resources supporting the function.
+
+$\color{#a5d6ff} {Business\ Impact\ Analysis\ (BIA)}$ refers to systematic activity that identifies organizational risks and determines their effect on ongoing, mission critical operations.
+
+$\color{#a5d6ff} {Mission\ Essential\ Function\ (MEF)}$ refers to business or organizational activity that is too critical to be deferred for anything more than a few hours, if at all. Analysis of MEF is governed by four main metrics:
+
+* $\color{#a5d6ff} {Maximum\ Tolerable\ Downtime\ (MTD)}$ is the longest period that a process can be inoperable without causing irrevocable business failure.
+
+* $\color{#a5d6ff} {Recovery\ Time\ Objective\ (RTO)}$ is the maximum time allowed to restore a system after a failure event.
+
+* In diaster recovery, $\color{#a5d6ff} {Work\ Recovery\ Time\ (WRT)}$ is the time additional to the RTO of individual systems to perform reintegration and testing of a restored or upgraded system following an event.
+
+* $\color{#a5d6ff} {Recovery\ Point\ Objective\ (RPO)}$ is the longest period that an organization can tolerate lost data being unrecoverable.
+
+$\color{#a5d6ff} {Mean\ Time\ Between\ Failures\ (MTBF)}$ is the metric for a device or component that predicts the expected time between failures.
+
+$\color{#a5d6ff} {Mean\ Time\ To\ Repair\ (MTTR)}$ is the metric representing average time taken for a device or component to be repaired, replaced, or otherwise recover from a failure
 
 ### 15B: Vendor Management Concepts
 #### Vendor Slection
-$\color{#a5d6ff} {}$
+Vendor selection practices must systematically evaluate and assess potential vendors to minimize risks associated with outsourcing or procurement. The steps for this selection includes identifying risk criteria, conducting due diligence, and risk profile. $\color{#a5d6ff} {Due\ diligence}$ is a legal principal that a subject has used best practice or reasonable care when setting up, configuring, and maintaining a system.
+
+A third-party vendor refers to an external person or organization that provides goods, services, or technology solutions to another organization but operates independently.
+
+Vendor assessment is a critical component of Governance, Risk, and Compliance (GRC) frameworks and plays a pivotal role in maintaining the security of IT and business operations.
+
+$\color{#a5d6ff} {Conflict\ of\ interest}$ is when an individual or organization has investments or obligations that could compromise their ability to act objectively, impartially, or in the best interest of another party. Some examples of this are financial interests, personal relationships, competitive relationships, and insider information.
 
 #### Vendor Assessment Methods
-$\color{#a5d6ff} {}$
+The vendor assessment methods:
+
+* Penetration Testing—provides a comprehensive assessment of the vendor's security resilience, allowing businesses to make informed decisions about their suitability as a vendor.
+
+* Right-to-Audit Clause—a contractual provision that grants an organization the authority to conduct audits or assessments of vendor operational practices, information systems, and security controls.
+
+* Evidence of Internal Audits—provides an independent and objective evaluation of an organization's internal controls, risk management practices, and compliance with policies and regulations.
+
+* Independent Assessments—engages with independent experts to evaluate and verify vendor capabilities, security, and compliance practices
+
+* Supply Chain Analysis—the interconnected network of entities involved in producing, distributing, and delivering goods or services from raw material suppliers to manufacturers, distributors, retailers, and ultimately, the end customer.
+
+Vendor monitoring involves continuously overseeing and evaluating vendors to ensure ongoing adherence to security standards, compliance requirements, and contractual obligations.
 
 #### Legal Agreements
-$\color{#a5d6ff} {}$
+Legal agreements serve as the foundation for the vendor-client relationship, providing a framework for conducting business and addressing potential issues or disputes that may arise.
+
+The following agreements play distinct roles in setting up vendor relationships:
+
+* $\color{#a5d6ff} {Memorandum\ of\ Understanding\ (MOU)}$ is a preliminary or exploratory agreement to express an intent to work together that is not legally binding and does not involve the exchange of money.
+
+* $\color{#a5d6ff} {Nondisclosure\ Agreement\ (NDA)}$ is an agreement that stipulates that entities will not share confidential information, knowledge, or materials with unauthorized third parties.
+
+* $\color{#a5d6ff} {Memorandum\ of\ Agreement\ (MOA)}$ is a legal document forming the basis for two parties to cooperate without a formal contract (a cooperative agreement). MOAs are often used by public bodies.
+
+* $\color{#a5d6ff} {Business\ Partnership\ Agreement\ (BPA)}$ is an agreement by two companies to work together closely, such as the partner agreements that large IT companies set up with resellers and solution providers.
+
+* $\color{#a5d6ff} {Master\ Service\ Agreement\ (MSA)}$ is a contract that establishes precedence and guidelines for any business documents that are executed between two parties.
+
+These agreements that establish a framework for collaboration or service provisions are:
+
+* $\color{#a5d6ff} {Service\ Level\ Agreement\ (SLA)}$ is an agreement that sets the service requirements and expectations between a consumer and a provider. 
+
+* $\color{#a5d6ff} {Statement\ of\ Work\ (SOW)\ /Work\ Order\ (WO)}$ is a document that defines the expectations for a specific business arrangement.
+
+In vendor management, $\color{#a5d6ff} {Questionnaire}$ structured means of obtaining consistent information, enabling more effective risk analysis and comparison.
+
+$\color{#a5d6ff} {Rules\ of\ Engagement\ (RoE)}$ is a definition of how a pen test will be executed and what constraints will be in place. This provides the pen tester with guidelines to consult as they conduct their tests so that they don't have to constantly ask management for permission to do something. Elements included with this are roles and responsibilities, security requirements, compliance obligations, reporting and communication, change management, and contractual provisions.
 
 ### 15C: Audits and Assessments
 #### Attestation and Assessments
-$\color{#a5d6ff} {}$
+Attestation refers to verifying and validating the accuracy, reliability, and effectiveness of security controls, systems, and processes implemented within an organization. It is also a formal declaration or confirmation that an organization's security controls and practices comply with specific standards, regulations, or best practices and provides assurance to stakeholders, such as management, customers, business partners, and regulators, that an organization's security measures are adequate and effective in protecting sensitive information, mitigating risks, and maintaining data confidentiality, integrity, and availability.
 
 #### Penetration Testing
-$\color{#a5d6ff} {}$
+A penetration test—often shortened to pen test —uses authorized hacking techniques to discover exploitable weaknesses in the target's security systems. The test might be involve with these steps: verify a threat exists, bypass security controls, actively test security controls, and exploit velnerabilities.
+
+$\color{#a5d6ff} {Active\ reconnaissance}$ is a penetration testing techniques that interact with target systems directly. Common techniques with this are port scanning, service enumeration, OS fingerprinting, DNS enumberation, and web application crawling.
+
+$\color{#a5d6ff} {Passive\ reconnaissance}$ is a penetration testing techniques that doesn't interact with target systems directly. Common techniques with this are Open-Source Intelligence (OSINT) gathering, network traffic analysis, and social engineering.
 
 ### Exercise Types
-$\color{#a5d6ff} {}$
+$\color{#a5d6ff} {Offensive\ penetration\ testing\ /\ "Red\ Teaming"}$ is the "hostile" or attacking team in a penetration test or incident response exercise.
+
+$\color{#a5d6ff} {Defensive\ penetration\ testing\ /\ "Blue\ Teaming"}$ is the defensive team in a penetration test or incident response exercise.
+
+$\color{#a5d6ff} {Physical\ penetration\ testing\ /\ physical\ security\ testing}$ is the assessment techniques that extend to site and other physical security systems.
+
+$\color{#a5d6ff} {Integrated\ penetration\ testing}$ is a holistic approach that combines different types of penetration testing methodologies and techniques to evaluate an organization's security operations.
 
 ---
 

@@ -3,7 +3,8 @@
 ### 1A: Security Concepts
 #### Information Security
 Information security (infosec) protects data resources from unauthorized access, attack, theft, or damage.
-- The systems used to store, transmit, and process data must demonstrate the properties of security and that secure information has three properties called the CIA Triad:
+
+The systems used to store, transmit, and process data must demonstrate the properties of security and that secure information has three properties called the CIA Triad:
     Three principles of security control and management. It’s known as the information security triad and referred to in reverse order as the AIC triad.
 * Confidentiality means that information can only be read by people who have been authorized to access it.
 * Integrity means that the data is stored and transferred as intended, and any modification is unauthorized unless explicitly authorized through proper channels.
@@ -1766,7 +1767,7 @@ $\color{#a5d6ff} {Risk\ appetite}$ is a strategic assessment of what level of re
 
 $\color{#a5d6ff} {Risk\ tolerance}$ determines the thresholds that separate different levels of risk.
 
-$\color{#a5d6ff} {Risk\ reporting}$ is a periodic summary of relevant information about a project’s current risks. It provides a summarized overview of known risks, realized risks, and their impact on the organization.
+$\color{#a5d6ff} {Risk\ reporting}$ is a periodic summary of relevant information about a project’s current risks. It provides a summarized overview of known risks, realized risks, and their impact on the organization.m,
 
 #### Business Impact Analysis
 Dependencies are identified by performing a business process analysis (BPA) for each function and the factors that the BPA should identify are inputs, hardware, outputs, process flow, and staff and other resources supporting the function.
@@ -1863,30 +1864,83 @@ $\color{#a5d6ff} {Integrated\ penetration\ testing}$ is a holistic approach that
 
 ### 16A: Data Classification and Compliance
 #### Data Types
-$\color{#a5d6ff} {}$
+The concept of data types refers to categorizing or classifying data based on its inherent characteristics, structure, and intended use. Data types provide a way to organize and understand the different data forms within a system or dataset.
+
+$\color{#a5d6ff} {Regulated\ data}$ is information that has storage and handling compliance requirements defined by national and state legislation and/or industry regulations.
+
+$\color{#a5d6ff} {Trade\ secrets}$ is intellectual property that gives a company a competitive advantage but hasn't been registered with a copyright, trademark, or patent.
+
+$\color{#a5d6ff} {Legal\ data}$ are documents and records that relate to matters of law, such as contracts, property, court cases, and regulatory filings.
+
+$\color{#a5d6ff} {Financial\ data}$ is data held about bank and investment accounts, plus information such as payroll and tax returns.
+
+$\color{#a5d6ff} {Human-readable\ data}$ is information stored in a file type that human beings can access and understand using basic viewer software, such as documents, images, video, and audio.
+
+$\color{#a5d6ff} {Non-human-readable\ data}$ is information stored in a file that human beings cannot read without a specialized processor to decode the binary or complex structure.
 
 #### Data Classifications
+$\color{#a5d6ff} {Data\ classification}$ is the process of applying confidentiality and privacy labels to information. They are based on the degree of confidentiality required which are public (unclassified), confidential, secret, and top secret. They are also based on the kind of information asset which are proprietary, private/personal data, sensitive, and restricted.
+
+$\color{#a5d6ff} {Proprietary\ information\ /\ intellectual\ property\ (IP)}$ is information created by an organization, typically about the products or services that it makes or provides.
 
 #### Data Sovereignty and Geographical Considerations
+In data protection, $\color{#a5d6ff} {data\ soereignty}$ is the principle that countries and states may impose individual requirements on data collected or stored within their jurisdiction.
 
 #### Privacy Data
+Privacy data refers to personally identifiable or sensitive information associated with an individual's personal, financial, or social identity, including data that, if exposed or mishandled, could infringe upon an individual's privacy rights.
+
+$\color{#a5d6ff} {Data\ subject}$ is an individual that is identified by privacy data.
+
+The "right to be forgotten" is a fundamental principle outlined in the General Data Protection Regulation (GDPR) that grants data subjects the right to request the erasure or deletion of their personal data under certain circumstances.
+
+$\color{#a5d6ff} {Data\ inventory}$ refers to a list of classified data or information stored or processed by a system.
+
+$\color{#a5d6ff} {Data\ retention}$ is the process an organization uses to maintain the existence of and control over certain data in order to comply with business policies and/or applicable laws and regulations.
 
 #### Privacy Breaches and Data Breaches
+$\color{#a5d6ff} {Data\ breach}$ is when confidential or private data is read, copied, or changed without authorization. Data breach events may have notification and reporting requirements. THe consequences that a orgianzation may face with this are reputation damage, idenity theft, fines, and ip theft.
+
+In the context of support procedures, incident response, and breach-reporting, $\color{#a5d6ff} {escalation}$ is the process of involving expert and senior staff to assist in problem management.
+
+$\color{#a5d6ff} {Health\ Insurance\ Portability\ and Accountability\ Act\ (HIPPA)}$ is the US federal law that protects the storage, reading, modification, and transmission of personal healthcare data.
 
 #### Compliance
+Security compliance refers to organizations' adherence to applicable security standards, regulations, and best practices to protect sensitive information, mitigate risks, and ensure data confidentiality, integrity, and availability.
+
+Common ramifications for noncompliance include legal sanctions such as financial penalties, legal liabilities, reputational damage, and loss of customer trust. Sanctions refer to penalties, disciplinary actions, or measures imposed due to noncompliance with laws, regulations, or rules. The impacts of contractual noncompliance is breach of contract, termination of contracts, indemnification and liability, and noncompliance penalties.
 
 #### Monitoring and Reporting
+Compliance monitoring and reporting processes involve systematically assessing, evaluating, and reporting an organization's adherence to laws, regulations, contracts, and industry standards. Effective reporting and monitoring require establishing a compliance framework, conducting ongoing monitoring activities, and collecting relevant data for analysis
 
 #### Data Protection
+Classifying data as "at rest," "in motion," and "in use" is crucial for effective data protection and security measures. Data proctection methods include geographic restriction, encryption, hashing, masking, tokenization, obfuscation, segmentation, and permission restrictions.
 
 #### Data Loss Prevention
+Remediation is the action the DLP software takes when it detects a policy violation which could be alert only, block, quarantine, or tombstone.
 
 ### 16B: Personnel Policies
 #### Conduct Policies
+$\color{#a5d6ff} {Acceptable\ Use\ Policy\ (AUP)}$ is a policy that governs employees' use of company equipment and Internet services. ISPs may also apply AUPs to their customers.
+
+$\color{#a5d6ff} {Code\ of\ conduct\ /\ rules\ of\ behavior}$ sets out expected professional standards.
+
+Personally portable devices pose a considerable threat to data security, as they make file copy so easy.
+
+$\color{#a5d6ff} {Clean\ desk\ policy}$ is an organizational policy that mandates employee work areas be free from potentially sensitive information; sensitive documents must not be left out where unauthorized personnel might see them.
 
 #### User and Role-Based Training
+Another essential component of a secure system is effective user training. Untrained users represent a serious vulnerability because they are susceptible to social engineering and malware attacks and may be careless when handling sensitive or confidential data.
 
 #### Training Topics and Techniques
+$\color{#a5d6ff} {Computer-Based\ Training\ (CBT)}$ is training and education programs delivered using computer devices and e-learning instructional models and design. This could done by simulations or branching scenarios.
+
+Critical elements for security awareness training topics inclued policy/handbooks, siturational awareness, insider threat, password management, remobiable media and cables, social engineering, operational security, and hybrid/remote work environments.
+
+Phishing campaigns used as employee training mechanisms involve simulated attacks to raise awareness and educate employees about the risks and consequences of falling victim to such attacks.
+
+$\color{#a5d6ff} {Anomalous\ behavior\ recognition}$ refers to systems that automatically detect users, hosts, and services that deviate from what is expected, or systems and training that encourage reporting of this by employees.
+
+Risky behaviors are actions or practices that threaten data security, systems, or networks.
 
 #### Security Awareness Training Lifecycle
-$\color{#a5d6ff} {}$
+Security awareness training practices follow a lifecycle approach consisting assessment, planing and design, development, delivery and implementation, evaluation and feedback, ongoing reinnforcement, and monitoring and adaptation.

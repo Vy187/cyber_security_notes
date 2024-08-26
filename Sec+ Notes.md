@@ -1944,3 +1944,5 @@ Risky behaviors are actions or practices that threaten data security, systems, o
 
 #### Security Awareness Training Lifecycle
 Security awareness training practices follow a lifecycle approach consisting assessment, planing and design, development, delivery and implementation, evaluation and feedback, ongoing reinnforcement, and monitoring and adaptation.
+
+$\color{#a5d6ff} {}$

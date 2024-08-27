@@ -4,18 +4,21 @@
 #### Information Security
 Information security (infosec) protects data resources from unauthorized access, attack, theft, or damage.
 
-The systems used to store, transmit, and process data must demonstrate the properties of security and that secure information has three properties called the CIA Triad:
-    Three principles of security control and management. It’s known as the information security triad and referred to in reverse order as the AIC triad.
-* Confidentiality means that information can only be read by people who have been authorized to access it.
-* Integrity means that the data is stored and transferred as intended, and any modification is unauthorized unless explicitly authorized through proper channels.
-* Availability means that information is readily accessible to those authorized to view or modify it.
-Non-repudiation means that the entity that sent a transmission or modified/created data remains associated with that data and cannot deny sending/creating/modifying that data.
+$\color{#a5d6ff} {CIA\ Triad}$ refers to the three principles of security control and management or information security triad. Also referred to in reverse order as the AIC triad. The systems used to store, transmit, and process data must demonstrate the these three principles:
+
+* $\color{#a5d6ff} {Confidentiality}$-information can only be read by people who have been authorized to access it.
+* $\color{#a5d6ff} {Integrity}$-data is stored and transferred as intended, and any modification is unauthorized unless explicitly authorized through proper channels.
+* $\color{#a5d6ff} {Availability}$-information is readily accessible to those authorized to view or modify it.
+
+$\color{#a5d6ff} {Non-repudiation}$ is the entity that sent a transmission or modified/created data remains associated with that data and cannot deny sending/creating/modifying that data.
 
 #### Cybersecurity Framework
-Cybersecurity frameworks (CSF) are s*tandards, best practices, and guidelines for effective security risk management. Some frameworks are general, while others are specific to industry or technology types.*
+$\color{#a5d6ff} {Cybersecurity\ frameworks\ (CSF)}$ are standards, best practices, and guidelines for effective security risk management. Some frameworks are general, while others are specific to industry or technology types.
+
 Cybersecurity refers specifically to provisioning secure processing hardware and software.
-- The National Institute of Standards and Technology (NIST)‘s information security and cybersecurity tasks can be classified into five functions:
-    Develops computer security standards US federal agencies use and publishes cybersecurity best practice guides and research.
+
+The $\color{#a5d6ff} {National\ Institute\ of\ Standards\ and\ Technology\ (NIST)}$ develops computer security standards US federal agencies use and publishes cybersecurity best practice guides and research. The NIST‘s information security and cybersecurity tasks can be classified into five functions:
+
 * Identify—develop security policies and capabilities, evaluate risks, threats, and vulnerabilities, and recommend security controls to mitigate them.
 * Protect—procure/develop, install, operate, and decommission IT hardware and software assets with security as an embedded requirement of every stage of this operation's lifecycle.
 * Detect—perform ongoing, proactive monitoring to ensure that controls are effective and capable of protecting against new threats.
@@ -23,15 +26,15 @@ Cybersecurity refers specifically to provisioning secure processing hardware and
 * Recover—implement cybersecurity resilience to restore systems and data if other controls can’t prevent attacks.
 
 #### Gap Analysis
-An organization from building its security program in a vacuum, or from building the program on a foundation that fails to account for important security concepts.
+$\color{#a5d6ff} {Gap\ analysis}$ measures the difference between the current and desired states to help assess the scope of work included in a project. The analysis is likely to involve third-party consultants but some or all work involved with a gap analysis may be performed internally.
+
 A framework allows an organization to make an objective statement of its current cybersecurity capabilities, identify a target level of capability, and prioritize investments to achieve that target.
-Gap analysis measures the difference between the current and desired states to help assess the scope of work included in a project.
-*A gap analysis is likely to involve third-party consultants but some or all work involved with a gap analysis may be performed internally.*
 
 #### Access Control
 An access control system ensures that an information system meets the goals of the CIA triad. 
-- Modern access control is typically implemented as an identity and access management (IAM) system and comprises four main processes:
-    A security process that provides identification, authentication, and authorization mechanisms for users, computers, and other entities to work with organizational assets like networks, operating systems, and applications.
+
+$\color{#a5d6ff} {Identity\ and\ Access\ Management\ (IAM)}$ is a security process that provides identification, authentication, and authorization mechanisms for users, computers, and other entities to work with organizational assets like networks, operating systems, and applications. It comprises four main processes:
+
 * Identification—the process by which a user account (and its credentials) is issued to the correct person and can be referred to as enrollment.
 * Authentication—a method of validating a particular entity's or individual's unique credentials.
 * Authorization—the process of determining what rights and privileges a particular entity has.
@@ -39,8 +42,8 @@ An access control system ensures that an information system meets the goals of t
 
 ### 1B: Security Controls
 #### SECURITY CONTROL CATEGORIES
-- A security control is designed to give a system or data asset the properties of confidentiality, integrity, availability, and non-repudiation. Controls can be divided into four broad categories based on the way the control is implemented:
-    A technology or procedure to mitigate vulnerabilities and risks and confidentiality, integrity, and availability (CIA) of information.
+$\color{#a5d6ff} {Security\ Control}$ is a technology or procedure put in place to mitigate vulnerabilities and risk and to ensure the confidentiality, integrity, and availability (CIA) of information. It is designed to give a system or data asset the properties of confidentiality, integrity, availability, and non-repudiation. Controls can be divided into four broad categories based on the way the control is implemented:
+
 * Managerial— the control gives oversight of the information system.
 * Operational—the control is implemented primarily by people.
 * Technical—the control is implemented as a system (hardware, software, or firmware). 
@@ -48,25 +51,31 @@ An access control system ensures that an information system meets the goals of t
 
 #### SECURITY CONTROL FUNCTIONAL TYPES
 A security control can be defined according to the goal or function it performs:
+
 * Preventive—a type of security control that acts before an incident to eliminate or reduce the likelihood that an attack can succeed.
 * Detective—a type of security control that acts during an incident to identify or record that it is attempted or successful.
 * Corrective—a type of security control that acts after an incident to eliminate or minimize its impact.
 * Directive—a type of control that enforces a rule of behavior through a policy or contract.
 * Deterrent—a type of security control that discourages intrusion attempts.
 * Compensating—a security measure that takes on risk mitigation when a primary control fails or cannot completely meet expectations.
-- Access control lists (ACL) configured on firewalls and file system objects are preventive-type technical controls
-    The collection of access control entries (ACEs) determines which subjects (user accounts, host IP addresses, and so on) are allowed or denied access to the object and the privileges given (read-only, read/write, and so on).
+
+$\color{#a5d6ff} {Access\ Control\ List\ (ACL)}$ is the collection of access control entries (ACEs) determines which subjects (user accounts, host IP addresses, and so on) are allowed or denied access to the object and the privileges given (read-only, read/write, and so on).
 
 #### INFORMATION SECURITY ROLES AND RESPONSIBILITIES
-A Chief Information Officer (CIO) is responsible for management of information technology assets and procedures
-A Chief Technology Officer (CTO) effectively uses new and emerging computing platforms and innovations.
-A Chief Security Officer (CSO) or Chief Information Security Officer (CISO) is responsible for information assurance and systems security.
-An Information Systems Security Officer (ISSO) has technical responsibilities for implementing security policies, frameworks, and controls.
+A $\color{#a5d6ff} {Chief\ Information\ Officer\ (CIO)}$ is a company officer with the primary responsibility for management of information technology assets and procedures.
+
+A $\color{#a5d6ff} {Chief\ Technology\ Officer\ (CTO)}$ is a company officer with the primary role of making effective use of new and emerging computing platforms and innovations.
+
+A $\color{#a5d6ff} {Chief\ Security\ Officer\ (CSO) /\ Chief\ Information\ Security\ Officer\ (CISO)}$ is the job title of the person with overall responsibility for information assurance and systems security.
+
+An $\color{#a5d6ff} {Information\ Systems\ Security\ Officer\ (ISSO)}$ is an organizational role with technical responsibilities for implementation of security policies, frameworks, and controls.
 
 #### INFORMATION SECURITY BUSINESS UNITS
-A Security Operations Center (SOC) is a location where security professionals monitor and protect critical information assets across other business functions
-Development and Operations (DevOps) is a combination of software development, security operations, and systems operations, and refers to the practice of integrating each discipline with the others.
-Computer Incident Response Team (CIRT) /Computer Security Incident Response Team (CSIRT)/Computer Emergency Response Team (CERT) is a single point of contact for the notification of security incidents.
+A $\color{#a5d6ff} {Security\ Operations\ Center\ (SOC)}$ is the location where security professionals monitor and protect critical information assets across other business functions.
+
+$\color{#a5d6ff} {Development\ and\ Operations\ (DevOps)}$ is a combination of software development, security operations, and systems operations, and refers to the practice of integrating each discipline with the others.
+
+$\color{#a5d6ff} {Computer\ Incident\ Response\ Team\ (CIRT) /\ Computer\ Security\ Incident\ Response\ Team\ (CSIRT) /\ Computer\ Emergency\ Response\ Team\ (CERT)}$ is a team with responsibility for incident response. The CSIRT must have expertise across a number of business domains (IT, HR, legal, and marketing, for instance).
 
 --- 
 
@@ -74,58 +83,73 @@ Computer Incident Response Team (CIRT) /Computer Security Incident Response Tea
 
 ### 2A: Threat Actors
 #### Vulnerability, Threat Actors, and Risk
-Vulnerability is a weakness that could be triggered accidentally or exploited intentionally to cause a security breach.
-Threat is the potential for an entity to exploit a vulnerability and breach security. A threat can have an intentional motivation or be unintentional. The person or thing that poses the threat is called a threat actor/agent*.*
-Risk is the level of hazard posed by vulnerabilities and threats. When a vulnerability is identified, the risk is calculated as the likelihood of it being exploited by a threat actor and the impact that a successful exploit would have.
+$\color{#a5d6ff} {Vulnerability}$ is a weakness that could be triggered accidentally or exploited intentionally to cause a security breach.
+
+$\color{#a5d6ff} {Threat}$ is the potential for an entity to exploit a vulnerability and breach security. A threat can have an intentional motivation or be unintentional.
+
+$\color{#a5d6ff} {Risk}$ is the level of hazard posed by vulnerabilities and threats. When a vulnerability is identified, the risk is calculated as the likelihood of it being exploited by a threat actor and the impact that a successful exploit would have.
 
 #### Attributes of Threat Actors
-Internal/External Threat Actor refers to the degree of access a threat actor possesses before initiating an attack. An external threat actor has no standing privileges, while an internal actor has been granted some access permissions. An external actor may perpetrate an attack remotely or on-premises.
-Level of sophistication/capability refers to a formal classification of the resources and expertise available to a threat actor.  At the highest level, a threat actor might use non-cyber tools such as political or military assets.
-Resources/Funding refers to the ability of threat actors to draw upon funding to acquire tools and personnel and develop novel attack types.
+$\color{#a5d6ff} {Internal/External\ Threat\ Actor}$ refers to the degree of access a threat actor possesses before initiating an attack. An external threat actor has no standing privileges, while an internal actor has been granted some access permissions. An external actor may perpetrate an attack remotely or on-premises.
+
+$\color{#a5d6ff} {Threat\ actor}$ is a person or entity responsible for an event that has been identified as a security incident or as a risk.
+
+$\color{#a5d6ff} {Level\ of\ sophistication/capability}$ is a formal classification of the resources and expertise available to a threat actor. At the highest level, a threat actor might use non-cyber tools such as political or military assets.
+
+$\color{#a5d6ff} {Resources/Funding}$ is the ability of threat actors to draw upon funding to acquire tools and personnel and develop novel attack types.
 
 #### Motivations Of Threat Actors
 The general strategies that a threat actor could use to achieve an objective:
-* Service disruption—a type of attack that compromises the availability of an asset or business process.
-* Data exfiltration—the process by which an attacker takes data stored inside a private network and moves it to an external network.
-* Disinformation—an attack type that falsifies an information resource normally trusted by others.
+* $\color{#a5d6ff} {Service\ disruption}$—a type of attack that compromises the availability of an asset or business process.
+* $\color{#a5d6ff} {Data\ exfiltration}$—the process by which an attacker takes data stored inside a private network and moves it to an external network.
+* $\color{#a5d6ff} {Disinformation}$—an attack type that falsifies an information resource normally trusted by others.
+
 Motivation is the threat actor's reason for perpetrating the attack. The three main types of motivation for threat actors:
 * Financial Motivations
-- Blackmail is demanding payment to prevent the release of information.
-- Extortion is demanding payment to prevent or halt an attack.
-- Fraud is falsifying records.
+    - $\color{#a5d6ff} {Blackmail}$ is demanding payment to prevent the release of information.
+    - $\color{#a5d6ff} {Extortion}$ is demanding payment to prevent or halt an attack.
+    - $\color{#a5d6ff} {Fraud}$ is falsifying records.
 * Chaotic Motivations
 * Political Motivations
 
 #### Hackers and Hacktivists
-Hacker refers to someone who breaks into computer systems or spreads viruses, ethical hackers prefer to think of themselves as experts on and explorers of computer security systems.
-- Black Hat is an unauthorized hacker operating with malicious intent.
-- White Hat is an authorized hacker engaged in penetration testing or other security consultancy.
-An unskilled attacker is someone who uses hacker tools without necessarily understanding how they work or having the ability to craft new attacks.
-A hacktivist is a threat actor motivated by a social issue or political cause.
+$\color{#a5d6ff} {Hacker}$ refers to someone who breaks into computer systems or spreads viruses, ethical hackers prefer to think of themselves as experts on and explorers of computer security systems.
+
+Black Hat is an unauthorized hacker operating with malicious intent.
+
+White Hat is an authorized hacker engaged in penetration testing or other security consultancy.
+
+An $\color{#a5d6ff} {unskilled\ attacker}$ is someone who uses hacker tools without necessarily understanding how they work or having the ability to craft new attacks.
+
+A $\color{#a5d6ff} {hacktivist}$ is a threat actor motivated by a social issue or political cause.
 
 #### Nation-State Actors
-A nation-state actor is a threat actor supported by the resources of its host country's military and security services.
-Advanced Persistent Threat (APT) refers to an attacker's ability to obtain, maintain, and diversify access to network systems using exploits and malware.
+A $\color{#a5d6ff} {nation-state\ actor}$ is a threat actor supported by the resources of its host country's military and security services.
+
+$\color{#a5d6ff} {Advanced\ Persistent\ Threat\ (APT)}$ refers to an attacker's ability to obtain, maintain, and diversify access to network systems using exploits and malware.
 
 #### Organized Crime and Competitors
-Organized crime is a threat actor that uses hacking and computer fraud for commercial gain.
+$\color{#a5d6ff} {Organized\ crime}$ is a threat actor that uses hacking and computer fraud for commercial gain.
 
 #### Internal Threat Actors
-Internal threat is a type of threat actor assigned privileges on the system that cause an intentional or unintentional incident.
-*A* whistleblower *is someone with an ethical motivation for releasing confidential information.*
-An unintentional or inadvertent insider threat is a threat actor that causes a vulnerability or exposes an attack vector without malicious intent.
-Shadow IT is computer hardware, software, or services used on a private network without authorization from the system owner.
-### 2B: Attack Surfaces
+$\color{#a5d6ff} {Internal\ threat}$ is a type of threat actor assigned privileges on the system that cause an intentional or unintentional incident.
 
+A whistleblower is someone with an ethical motivation for releasing confidential information.
+
+An $\color{#a5d6ff} {unintentional/inadvertent\ insider\ threat}$ is a threat actor that causes a vulnerability or exposes an attack vector without malicious intent.
+
+$\color{#a5d6ff} {Shadow\ IT}$ is computer hardware, software, or services used on a private network without authorization from the system owner.
+
+### 2B: Attack Surfaces
 #### Attack Surface and Threat Vectors
 The attack surface is all the points at which a malicious threat actor could try to exploit a vulnerability. Any location or method where a threat actor can interact with a network port, app, computer, or user is part of a potential attack surface.
-A threat vector is a specific path by which a threat actor gains unauthorized access to a system.
+
+A $\color{#a5d6ff} {threat\ vector}$ is a specific path by which a threat actor gains unauthorized access to a system.
 
 #### Vulnerable Software Vectors
-Vulnerable software contains a flaw in its code or design that can be exploited to circumvent access control or to crash the process.
-- Unsupported systems and applications are reasons that vulnerable software will be exposed as a threat vector.
-    Product life cycle phase where mainstream vendor support is no longer available.
-A strategy for dealing with unsupported apps that cannot be replaced is to isolate them from other systems.
+$\color{#a5d6ff} {Vulnerable\ software}$ is a weakness in the software that could be triggered accidentally or exploited intentionally to cause a security breach.
+
+$\color{#a5d6ff} {Unsupported\ systems}$ refers to the product life cycle phase where mainstream vendor support is no longer available. Unsupported systems and applications are reasons that vulnerable software will be exposed as a threat vector. A strategy for dealing with unsupported apps that cannot be replaced is to isolate them from other systems.
 
 #### Network Vectors
 An exploit technique for any software vulnerability can be classed as remote or local.

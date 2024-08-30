@@ -1035,8 +1035,14 @@ A sensor is a component in an alarm system that identifies unauthorized entry vi
 # 8. Vulnerability Management
 
 ### 8A: Device and OS Vulnerabilities
+#### Operating System Vulnerabilities
+Operating systems (OS) are one of the most critical components of any infrastructure, so vulnerabilities in an OS can lead to significant problems when successfully exploited.
+
+#### Vulnerability Types
+The vulnerability types are legacy and end-of-life (EOL) system, firmware amd virtualization.
+
 #### Zero-Day Vulnerabilities
-Zero-day vulnerabilities refer to a vulnerability in software unpatched by the developer or an attack that exploits such a vulnerability.
+$\color{#a5d6ff} {Zero-day}$ vulnerabilities refer to a vulnerability in software unpatched by the developer or an attack that exploits such a vulnerability.
 
 #### Misconfiguration Vulnerabilities
 Misconfiguration of systems, networks, or applications is a common cause of security vulnerabilities. These can lead to unauthorized access, data leaks, or even full-system compromises.
@@ -1045,22 +1051,27 @@ Misconfiguration of systems, networks, or applications is a common cause of secu
 Cryptographic vulnerabilities refer to weaknesses in cryptographic systems, protocols, or algorithms that can be exploited to compromise data. Common secure key storage practices include hardware security modules (HSMs) or key management systems (KMS), implementing proper access controls and authentication mechanisms, and regularly monitoring and auditing key usage.
 
 #### Sideloading, Rooting, and Jailbreaking
-- Rooting and jailbreaking are methods used to gain elevated privileges and access to system files on mobile devices so that users bypass certain restrictions imposed by the device manufacturer or operating system.
-    Rooting is gaining superuser-level access over an Android-based mobile device.
-    Jailbreaking removes the protective seal and any OS-specific restrictions to give users greater control over the device.
-Sideloading refers to installing an app on a mobile device without using an app store.
+Rooting and jailbreaking are methods used to gain elevated privileges and access to system files on mobile devices so that users bypass certain restrictions imposed by the device manufacturer or operating system. $\color{#a5d6ff} {Rooting}$ is gaining superuser-level access over an Android-based mobile device. $\color{#a5d6ff} {Jailbreaking}$ removes the protective seal and any OS-specific restrictions to give users greater control over the device.
+
+$\color{#a5d6ff} {Sideloading}$ refers to installing an app on a mobile device without using an app store.
 
 ### 8B: Application and Cloud Vulnerabilities
 #### Application Vulnerabilities
-An application race condition is a software vulnerability when the resulting outcome from execution processes is directly dependent on the order and timing of certain events, and those events fail to execute in the order and timing intended by the developer.
-Time-Of-Check-to-Time-Of-Use (TOCTOU) refers to the potential vulnerability that occurs when there is a change between when an app checks a resource and when the app uses the resource.
-A memory injection is a vulnerability a threat actor can exploit to run malicious code with the same privilege level as the vulnerable process.
-A buffer overflow is an attack in which data goes past the boundary of the destination buffer and begins to corrupt adjacent memory. This can allow the attacker to crash the system or execute arbitrary code.
-A type-safe programming language is a program that enforces strict type-checking during compilation and ensures variables and data are used correctly. It prevents memory-related vulnerabilities and injection attacks.
-A malicious update is a software repository or supply chain vulnerability that a threat actor can exploit to add malicious code to a package.
+An application $\color{#a5d6ff} {race\ condition}$ is a software vulnerability when the resulting outcome from execution processes is directly dependent on the order and timing of certain events, and those events fail to execute in the order and timing intended by the developer.
+
+$\color{#a5d6ff} {Time-Of-Check-to-Time-Of-Use (TOCTOU)}$ refers to the potential vulnerability that occurs when there is a change between when an app checks a resource and when the app uses the resource.
+
+A $\color{#a5d6ff} {memory\ injection}$ is a vulnerability a threat actor can exploit to run malicious code with the same privilege level as the vulnerable process.
+
+A $\color{#a5d6ff} {buffer\ overflow}$ is an attack in which data goes past the boundary of the destination buffer and begins to corrupt adjacent memory. This can allow the attacker to crash the system or execute arbitrary code.
+
+A $\color{#a5d6ff} {type-safe\ programming\ language}$ is a program that enforces strict type-checking during compilation and ensures variables and data are used correctly. It prevents memory-related vulnerabilities and injection attacks.
+
+A $\color{#a5d6ff} {malicious\ update}$ is a software repository or supply chain vulnerability that a threat actor can exploit to add malicious code to a package.
 
 #### Evaluation Scope
 Evaluation target or scope refers to the product, system, or service being analyzed for potential security vulnerabilities.
+
 | Scope Practice | Description |
 | --- | --- |
 | Security Testing | Conducts vulnerability assessments and penetration testing to identify potential weaknesses, vulnerabilities, or misconfigurations. |
@@ -1070,18 +1081,24 @@ Evaluation target or scope refers to the product, system, or service being analy
 | Cryptographic Analysis | Assesses cryptographic mechanisms, including encryption algorithms, key management, and secure key storage, to ensure the proper implementation and use of cryptographic schemes according to industry standards and guidelines. |
 | Compliance Verification | Verifies compliance with standards specified by relevant regulations, frameworks, or security certifications. |
 | Security Architecture Review | Evaluates security architecture and design to identify potential weaknesses or gaps in security controls, such as insufficient segregation of duties, lack of audit trails, or inadequate access controls. |
+
 A penetration tester’s scope is the specific system, application, network, or environment they are authorized to evaluate for exploitability.
+
 An attacker’s scope describes their intended target. The attacker aims to identify and exploit vulnerabilities within the target to achieve their objectives, which could range from unauthorized access and data theft to service disruption or even system takeover.
 
 #### Web Application Attacks
 Web application attacks specifically target applications accessible over the Internet, exploiting vulnerabilities in these applications to gain unauthorized access, steal sensitive data, disrupt services, or perform other malicious activities.
-Cross-Site Scripting (XSS) refers to a malicious script hosted on the attacker's site or coded in a link injected onto a trusted site designed to compromise clients browsing the trusted site, circumventing the browser's security model of trusted zones.
-A Document Object Model (DOM) attack is when attackers send malicious scripts to a web app's client-side implementation of JavaScript to execute their attack solely on the client.
-An SQL injection attack is an attack that injects a database query into the input data directed at a server by accessing the client side of the application.
+
+$\color{#a5d6ff} {Cross-Site\ Scripting\ (XSS)}$ refers to a malicious script hosted on the attacker's site or coded in a link injected onto a trusted site designed to compromise clients browsing the trusted site, circumventing the browser's security model of trusted zones.
+
+$\color{#a5d6ff} {Document\ Object\ Model\ (DOM)}$ attack is when attackers send malicious scripts to a web app's client-side implementation of JavaScript to execute their attack solely on the client.
+
+An $\color{#a5d6ff} {SQL\ injection}$ attack is an attack that injects a database query into the input data directed at a server by accessing the client side of the application.
 
 #### Cloud-based Application Attacks
 Cloud-based application attacks target applications hosted on cloud platforms and exploit potential vulnerabilities within these applications or the cloud infrastructure they run on to carry out malicious activities.
-A Cloud Access Security Broker (CASB) is an enterprise management software designed to mediate access to cloud services by users across all types of devices.
+
+$\color{#a5d6ff} {Cloud\ Access\ Security\ Broker\ (CASB)}$ is an enterprise management software designed to mediate access to cloud services by users across all types of devices.
 
 #### Supply Chain
 Software supply chain vulnerabilities refer to the potential risks and weaknesses introduced into software products during their development, distribution, and maintenance lifecycle. The supply chain describes many stages, from initial coding to end-user deployment, and includes various service providers, hardware providers, and software providers.
@@ -1089,56 +1106,79 @@ Software supply chain vulnerabilities refer to the potential risks and weaknesse
 ### 8C: Vulnerability Identification Methods
 #### Vulnerability Scanning
 Vulnerability management is a cornerstone of modern cybersecurity practices aimed at identifying, classifying, remediating, and mitigating vulnerabilities within a system or network.
-A vulnerability scanner refers to a hardware or software configured with a list of known weaknesses and exploits that can scan for their presence in a host OS or particular application. 
-A non-credentialed scan is a scan that uses fewer permissions and many times can only find missing patches or updates.
-A credentialed scan is a scan that uses credentials, such as usernames and passwords, to take a deep dive during the vulnerability scan, which will produce more information while auditing the network.
-An application vulnerability scanning is a vulnerability testing tool designed to identify issues with application code and platform configuration, including web servers and web applications.
-Static analysis is the process of reviewing uncompiled source code either manually or using automated tools.
-Dynamic analysis refers to software testing that examines code behavior during runtime. It helps identify potential security issues, potential performance issues, and other problems.
-Package monitoring refers to techniques and tools designed to mitigate risks from application vulnerabilities in third-party code, such as libraries and dependencies.
-A Software Bill of Materials (SBOM) is a list of detailed information about the software components and dependencies used in an application or system.
-Software Composition Analysis (SCA) refers to tools to identify third-party and open-source code during software development and deployment.
+
+A $\color{#a5d6ff} {vulnerability\ scanner}$ refers to a hardware or software configured with a list of known weaknesses and exploits that can scan for their presence in a host OS or particular application. 
+
+A $\color{#a5d6ff} {non-credentialed\ scan}$ is a scan that uses fewer permissions and many times can only find missing patches or updates.
+
+A $\color{#a5d6ff} {credentialed\ scan}$ is a scan that uses credentials, such as usernames and passwords, to take a deep dive during the vulnerability scan, which will produce more information while auditing the network.
+
+An $\color{#a5d6ff} {application\ vulnerability\ scanning}$ is a vulnerability testing tool designed to identify issues with application code and platform configuration, including web servers and web applications.
+
+$\color{#a5d6ff} {Static\ analysis}$ is the process of reviewing uncompiled source code either manually or using automated tools.
+
+$\color{#a5d6ff} {Dynamic\ analysis}$ refers to software testing that examines code behavior during runtime. It helps identify potential security issues, potential performance issues, and other problems.
+
+$\color{#a5d6ff} {Package\ monitoring}$ refers to techniques and tools designed to mitigate risks from application vulnerabilities in third-party code, such as libraries and dependencies.
+
+$\color{#a5d6ff} {Software\ Bill\ of\ Materials\ (SBOM)}$ is a list of detailed information about the software components and dependencies used in an application or system.
+
+$\color{#a5d6ff} {Software\ Composition\ Analysis\ (SCA)}$ refers to tools to identify third-party and open-source code during software development and deployment.
 
 #### Threat Feeds
-Threat Feeds are signatures and pattern-matching rules supplied to analysis platforms as an automated feed. The outputs from the primary research undertaken by threat data feed providers and academics can take three main forms: behavioral threat research, reputational threat intelligence, and threat data.
-Cyber Threat Intelligence (CTI) is investigating, collecting, analyzing, and disseminating information about emerging threats and threat sources.
-Artificial Intelligence (AI) is the science of creating machines to develop problem-solving and analysis strategies without significant human direction or intervention.
-A closed/proprietary basis is software code or security research that remains in the developer’s ownership and may only be used under permitted license conditions.
-Information-sharing organizations are collaborative groups exchanging data about emerging cybersecurity threats and vulnerabilities.
-Information Sharing and Analysis Center (ISAC) is a not-for-profit group set up to share sector-specific threat intelligence and security best practices among its members.
-Open-Source Intelligence (OSINT) is publicly available information plus the tools used to aggregate and search it.
+$\color{#a5d6ff} {Threat\ Feeds}$ are signatures and pattern-matching rules supplied to analysis platforms as an automated feed. The outputs from the primary research undertaken by threat data feed providers and academics can take three main forms: behavioral threat research, reputational threat intelligence, and threat data.
+
+$\color{#a5d6ff} {Cyber\ Threat\ Intelligence\ (CTI)}$ is investigating, collecting, analyzing, and disseminating information about emerging threats and threat sources.
+
+$\color{#a5d6ff} {Artificial\ Intelligence\ (AI)}$ is the science of creating machines to develop problem-solving and analysis strategies without significant human direction or intervention.
+
+A $\color{#a5d6ff} {closed\ /\ proprietary}$ basis is software code or security research that remains in the developer’s ownership and may only be used under permitted license conditions.
+
+$\color{#a5d6ff} {Information-sharing\ organizations}$ are collaborative groups exchanging data about emerging cybersecurity threats and vulnerabilities.
+
+$\color{#a5d6ff} {Information\ Sharing\ and\ Analysis\ Center\ (ISAC)}$ is a not-for-profit group set up to share sector-specific threat intelligence and security best practices among its members.
+
+$\color{#a5d6ff} {Open-Source\ Intelligence\ (OSINT)}$ is publicly available information plus the tools used to aggregate and search it.
 
 #### Deep and Dark Web
-Tactics, Techniques, and Procedures (TTPs) are analyses of historical cyberattacks and adversary actions.
-The dark web contains resources on the Internet that are distributed between anonymized nodes and protected from general access by multiple layers of encryption and routing. It is only accessible over a dark net. It is generally associated with illicit activities and illegal content but has legitimate purposes like privacy and anonymity, access to censored information, and research and information sharing.
+$\color{#a5d6ff} {Tactics,\ Techniques,\ and\ Procedures\ (TTPs)}$ are analyses of historical cyberattacks and adversary actions.
+
+The $\color{#a5d6ff} {dark\ web}$ contains resources on the Internet that are distributed between anonymized nodes and protected from general access by multiple layers of encryption and routing. It is only accessible over a dark net. It is generally associated with illicit activities and illegal content but has legitimate purposes like privacy and anonymity, access to censored information, and research and information sharing.
+
 The dark net is a network established as an overlay to Internet infrastructure by software, such as The Onion Router (TOR), Freenet, or I2P, that acts to anonymize usage and prevent a third party from knowing about the existence of the network or analyzing any activity taking place over the network.
 
 #### Other Vulnerability Assessment Methods
-Penetration testing or pen testing is a test that uses active tools and security utilities to evaluate security by simulating an attack on a system. It will verify that a threat exists, then actively test and bypass security controls, and exploit vulnerabilities in the system. The three types are unknown environment testing (black box), known environment testing (white box), and partially known environment testing (gray box).
-A bug bounty is a reward scheme operated by software and web services vendors for reporting vulnerabilities.
-A system/process audit is an audit process with a wide scope, including a supply chain assessment, configuration, support, monitoring, and cybersecurity factors.
-Payment Card Industry Data Security Standard (PCI DSS) is the information security standard for organizations that process credit or bank card payments.
+$\color{#a5d6ff} {Penetration\ /\ pen\ testing}$ is a test that uses active tools and security utilities to evaluate security by simulating an attack on a system. It will verify that a threat exists, then actively test and bypass security controls, and exploit vulnerabilities in the system. The three types are unknown environment testing (black box), known environment testing (white box), and partially known environment testing (gray box).
+
+A $\color{#a5d6ff} {bug\ bounty}$ is a reward scheme operated by software and web services vendors for reporting vulnerabilities.
+
+A $\color{#a5d6ff} {system\ /\ process}$ audit is an audit process with a wide scope, including a supply chain assessment, configuration, support, monitoring, and cybersecurity factors.
+
+$\color{#a5d6ff} {Payment\ Card\ Industry\ Data\ Security\ Standard\ (PCI\ DSS)}$ is the information security standard for organizations that process credit or bank card payments.
 
 ### 8D: Vulnerability Analysis and Remediation
 #### Common Vulnerabilities and Exposures
-A vulnerability feed is a synchronizable list of data and scripts used to check for vulnerabilities and can be referred to as plug-ins or network vulnerability tests (NVTs).
-Security Content Automation Protocol (SCAP) is a NIST framework that outlines various accepted practices for automating vulnerability scanning.
-Common Vulnerabilities and Exposures (CVE) is a scheme for identifying vulnerabilities developed by MITRE and adopted by NIST.
-Common Vulnerability Scoring System (CVSS) is a risk management approach to quantifying vulnerability data and then considering the degree of risk to different types of systems or information.
+A $\color{#a5d6ff} {vulnerability\ feed}$ is a synchronizable list of data and scripts used to check for vulnerabilities and can be referred to as plug-ins or network vulnerability tests (NVTs).
+
+$\color{#a5d6ff} {Security\ Content\ Automation\ Protocol\ (SCAP)}$ is a NIST framework that outlines various accepted practices for automating vulnerability scanning.
+
+$\color{#a5d6ff} {Common\ Vulnerabilities\ and\ Exposures\ (CVE)}$ is a scheme for identifying vulnerabilities developed by MITRE and adopted by NIST.
+
+$\color{#a5d6ff} {Common\ Vulnerability\ Scoring\ System\ (CVSS)}$ is a risk management approach to quantifying vulnerability data and then considering the degree of risk to different types of systems or information.
 
 #### False Positives, False Negatives, and Log Review
-In security scanning, a false positive is a case that is reported when it should not be.
-In security scanning, a false negative is a case that is not reported when it should be.
+In security scanning, a $\color{#a5d6ff} {false\ positive}$ is a case that is reported when it should not be.
+
+In security scanning, a $\color{#a5d6ff} {false\ negative}$ is a case that is not reported when it should be.
 
 #### Vulnerability Analysis
-- Vulnerability analysis supports several key aspects of an organization's cybersecurity strategy, including prioritization, vulnerability classification, exposure factor, organizational impact, environmental variables, and risk tolerance contexts.
-    In risk calculation, the exposure factor is the percentage of an asset's value that would be lost during a security incident or disaster scenario.
-    In vulnerability assessment, environmental variables factors, or metrics due to local network or host configuration that increase or decrease the base likelihood and impact risk level.
-    Risk tolerance is a strategic assessment of residual risk level that is tolerable for an organization.
+Vulnerability analysis supports several key aspects of an organization's cybersecurity strategy, including prioritization, vulnerability classification, exposure factor, organizational impact, environmental variables, and risk tolerance contexts. In risk calculation, the $\color{#a5d6ff} {exposure\ factor}$ is the percentage of an asset's value that would be lost during a security incident or disaster scenario. In vulnerability assessment, $\color{#a5d6ff} {environmental\ variables\ factors}$ or metrics due to local network or host configuration that increase or decrease the base likelihood and impact risk level. $\color{#a5d6ff} {Risk\ tolerance}$ is a strategic assessment of residual risk level that is tolerable for an organization.
 
 #### Vulnerability Response and Remediation
 Vulnerability response and remediation practices encompass various strategies and tactics, including patching, insurance, segmentation, compensating controls, exceptions, and exemptions, each playing a distinct role in managing and mitigating cybersecurity risks.
+
 Validation for a vulnerability ensures that the remediation actions have been implemented correctly and function as intended. Methods to perform this are re-scanning, auditing, and verification.
+
 A comprehensive vulnerability report highlights the existing vulnerabilities and ranks them based on their severity and potential impact on the organization's assets, enabling the management to prioritize remediation efforts effectively.
 
 ---

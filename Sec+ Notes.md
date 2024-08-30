@@ -153,19 +153,18 @@ $\color{#a5d6ff} {Unsupported\ systems}$ refers to the product life cycle phase 
 
 #### Network Vectors
 An exploit technique for any software vulnerability can be classed as remote or local.
-- An unsecured network lacks the attributes of confidentiality, integrity, and availability. Threat vectors associated with unsecured networks:
-    A configuration that exposes a large attack surface, such as through unnecessary open service ports, weak or no authentication, use of default credentials, or lack of secure communications/encryption.
-* Direct Access
-* Wired Network
-* Remote and Wireless Network
+
+An $\color{#a5d6ff} {unsecured\ network}$ lacks the attributes of confidentiality, integrity, and availability. Threat vectors associated with unsecured networks:
+* Direct Access—the threat actor uses physical access to the site to perpetrate an attack.
+* Wired Network—a threat actor with access to the site attaches an unauthorized device to a physical network port, and the device is permitted to communicate with other hosts.
+* Remote and Wireless Network-the attacker either obtains credentials for a remote access or wireless connection to the network or cracks the security protocols used for authentication.
 * Cloud Access
-* Bluetooth Network
-* Default Credentials
-* Open Service Port
+* Bluetooth Network-the threat actor exploits a vulnerability or misconfiguration to transmit a malicious file to a user's device over the Bluetooth personal area wireless networking protocol.
+* Default Credentials—the attacker gains control of a network device or app because it has been left configured with a default password.
+* Open Service Port—the threat actor is able to establish an unauthenticated connection to a logical TCP or UDP network port.
 
 #### Lure-Baed Vectors
-- A lure is something superficially attractive or interesting that causes its target to want it. Commonly used as lures:
-    An attack type that will entice a victim into using or opening a removable device, document, image, or program that conceals malware.
+A $\color{#a5d6ff} {lure}$ is an attack type that will entice a victim into using or opening a removable device, document, image, or program that conceals malware. Commonly used as lures:
 * Removable Device
 * Executable File
 * Document Files
@@ -177,36 +176,44 @@ In a file-based lure, the threat actor needs a mechanism to deliver the file and
 * Short Message Service (SMS)
 * Instant Messaging (IM)
 * Web and Social Media
+
 Zero-click means receiving an attachment or viewing an image on a webpage triggering the exploit.
 
 #### Supply Chain Attack Surface
-A supply chain is the end-to-end process of designing, manufacturing, and distributing goods and services for a customer. The types of procurement management relationships:
+A $\color{#a5d6ff} {supply\ chain}$ is the end-to-end process of designing, manufacturing, and distributing goods and services for a customer. The types of procurement management relationships:
 * Supplier
 * Vendor
 * Business Partner
 
 ### 2C: Social Engineering
 #### Human Vectors
-Social engineering is an activity where the goal is to use deception and trickery to convince unsuspecting users to provide sensitive data or to violate security guidelines.
+$\color{#a5d6ff} {Social\ engineering}$ is an activity where the goal is to use deception and trickery to convince unsuspecting users to provide sensitive data or to violate security guidelines.
 
 #### Impersonation and Pretexting
-Impersonation is a social engineering attack where an attacker pretends to be someone they are not. There are two approaches to this attack:
+$\color{#a5d6ff} {Impersonation}$ is a social engineering attack where an attacker pretends to be someone they are not. There are two approaches to this attack:
 * Persuasive/consensus/liking
 * Coercion/threat/urgency
 
+$\color{#a5d6ff} {Pretexting}$ is a social engineering tactic where a team will communicate, whether directly or indirectly, a lie or half-truth in order to get someone to believe a falsehood.
+
 #### Phishing and Pharming
-Phishing is an email-based social engineering attack, in which the attacker sends an email from a supposedly reputable source to elicit private information from the victim.
-Vishing is a human-based attack where the attacker extracts information while speaking over the phone or leveraging IP-based voice messaging services (VoIP).
-SMiShing is a form of phishing that uses SMS text messages to trick a victim into revealing information.
-Pharming is an impersonation attack in which a request for a website is redirected to a similar-looking, but fake, website.
+$\color{#a5d6ff} {Phishing}$ is an email-based social engineering attack, in which the attacker sends an email from a supposedly reputable source to elicit private information from the victim.
+
+$\color{#a5d6ff} {Vishing}$ is a human-based attack where the attacker extracts information while speaking over the phone or leveraging IP-based voice messaging services (VoIP).
+
+$\color{#a5d6ff} {SMiShing}$ is a form of phishing that uses SMS text messages to trick a victim into revealing information.
+
+$\color{#a5d6ff} {Pharming}$ is an impersonation attack in which a request for a website is redirected to a similar-looking, but fake, website.
 
 #### Typosquatting
-Typosquatting is an attack in which an attacker registers a domain name with a common misspelling of an existing domain so that a user who misspells a URL they enter into a browser is taken to the attacker's website. These are also referred to as cousin, lookalike, or doppelganger domains.
+$\color{#a5d6ff} {Typosquatting}$ is an attack in which an attacker registers a domain name with a common misspelling of an existing domain so that a user who misspells a URL they enter into a browser is taken to the attacker's website. These are also referred to as cousin, lookalike, or doppelganger domains.
 
 #### Business Email Compromise
-Business email compromise refers to an impersonation attack in which the attacker gains control of an employee's account and uses it to convince other employees to perform fraudulent actions.
+$\color{#a5d6ff} {Business\ email\ compromise}$ refers to an impersonation attack in which the attacker gains control of an employee's account and uses it to convince other employees to perform fraudulent actions.
+
 Brand impersonation means the threat actor commits resources to accurately duplicate a company's logos and formatting to make a phishing message or pharming website, a visually compelling fake.
-A watering hole attack is when an attacker targets specific groups or organizations, discovers which websites they frequent, and injects malicious code into those sites.
+
+A $\color{#a5d6ff} {watering\ hole\ attack}$ is when an attacker targets specific groups or organizations, discovers which websites they frequent, and injects malicious code into those sites.
 
 ---
 
@@ -214,65 +221,81 @@ A watering hole attack is when an attacker targets specific groups or organizat
 
 ### 3A: Cryptographic Algorithms
 #### Cryptographic Concepts
-Cryptography is the science and practice of altering data to make it unintelligible to unauthorized parties. The  terminology is used to discuss cryptography:
-* Plaintext (*cleartext*)—unencrypted data meant to be encrypted before it is transmitted, or the result of decryption of encrypted data.
-* Ciphertext—data that has been enciphered and cannot be read without the cipher key.
-* Algorithm—operations that transform plaintext into a ciphertext with cryptographic properties, also called a cipher. There are symmetric, asymmetric, and hash cipher types.
-* Cryptanalysis—the science, art, and practice of breaking codes and ciphers.
+$\color{#a5d6ff} {Cryptography}$ is the science and practice of altering data to make it unintelligible to unauthorized parties. The  terminology is used to discuss cryptography:
+* $\color{#a5d6ff} {Plaintext/cleartext}$—unencrypted data meant to be encrypted before it is transmitted, or the result of decryption of encrypted data.
+* $\color{#a5d6ff} {Ciphertext}$—data that has been enciphered and cannot be read without the cipher key.
+* $\color{#a5d6ff} {Algorithm}$—operations that transform plaintext into a ciphertext with cryptographic properties, also called a cipher. There are symmetric, asymmetric, and hash cipher types.
+* $\color{#a5d6ff} {Cryptanalysis}$—the science, art, and practice of breaking codes and ciphers.
 
 #### Symmetric Encryption
-Encryption scrambles the characters used in a message so that the message can be seen but difficult to read or modify unless it is deciphered. It provides a secure means of transmitting data and authenticating users. It is used to store data securely. It uses different types of cipher and one or more keys. The size of the key is one factor in determining the strength of the encryption product. Using a key with the encryption cipher ensures that decryption can only be performed by an authorized person.
-Symmetric encryption is a two-way encryption scheme in which encryption and decryption are performed with the same key. This is also known as shared-key encryption.
+$\color{#a5d6ff} {Encryption}$ scrambles the characters used in a message so that the message can be seen but difficult to read or modify unless it is deciphered. It provides a secure means of transmitting data and authenticating users. It is used to store data securely. It uses different types of cipher and one or more keys. The size of the key is one factor in determining the strength of the encryption product. Using a key with the encryption cipher ensures that decryption can only be performed by an authorized person.
+
+In cryptography, a $\color{#a5d6ff} {key}$ is a specific piece of information that is used in conjunction with an algorithm to perform encryption and decryption.
+
+$\color{#a5d6ff} {Symmetric encryption}$ is a two-way encryption scheme in which encryption and decryption are performed with the same key. This is also known as shared-key encryption.
 
 #### Key Length
-The key length refers to the size of a cryptographic key in bits. Longer keys generally offer better security, but key lengths for different ciphers are not directly comparable.
+$\color{#a5d6ff} {Key\ length}$ is the size of a cryptographic key in bits. Longer keys generally offer better security, but key lengths for different ciphers are not directly comparable.
 
 #### Asymmetric Encryption
-Asymmetric encryption uses a cipher that uses public and private keys. The keys are mathematically linked, using either Rivel, Shamir, Adleman (RSA) or elliptic curve cryptography (ECC) algorithms, but the private key is not derivable from the public one. An asymmetric key cannot reverse the operation, so the public key cannot decrypt what it has encrypted.
-The public key is freely distributed and performs the reverse encryption or decryption operation of the linked private key in the pair. 
-The private key is known only to the holder and is linked to, but not derivable from, a public key distributed to those with whom the holder wants to communicate securely. A private key encrypts data that can be decrypted by the linked public key or vice versa.
+$\color{#a5d6ff} {Asymmetric\ encryption}$ is a cipher that uses public and private keys. The keys are mathematically linked, using either Rivel, Shamir, Adleman (RSA) or elliptic curve cryptography (ECC) algorithms, but the private key is not derivable from the public one. An asymmetric key cannot reverse the operation, so the public key cannot decrypt what it has encrypted.
+
+During asymmetric encryption, the $\color{#a5d6ff} {public key}$ is freely distributed and performs the reverse encryption or decryption operation of the linked private key in the pair. 
+
+In asymmetric encryption, the $\color{#a5d6ff} {private\ key}$ is known only to the holder and is linked to, but not derivable from, a public key distributed to those with whom the holder wants to communicate securely. A private key encrypts data that can be decrypted by the linked public key or vice versa.
 
 #### Hashing
-Hashing is a function that converts an arbitrary-length string input to a fixed-length string output. A cryptographic hash function does this in a way that reduces the chance of collisions, where two different inputs produce the same output. The implementations of hash algorithms:
-* Secure Hash Algorithm (SHA) is a cryptographic hashing algorithm created to address possible weaknesses in MDA. The current version is SHA-2.
-* Message Digest Algorithm #5 (MD5) is a cryptographic hash function producing a 128-bit output.
+$\color{#a5d6ff} {Hashing}$ is a function that converts an arbitrary-length string input to a fixed-length string output. A cryptographic hash function does this in a way that reduces the chance of collisions, where two different inputs produce the same output. The implementations of hash algorithms:
+* $\color{#a5d6ff} {Secure\ Hash\ Algorithm\ (SHA)}$ is a cryptographic hashing algorithm created to address possible weaknesses in MDA. The current version is SHA-2.
+* $\color{#a5d6ff} {Message\ Digest\ Algorithm\ \#5\ (MD5)}$ is a cryptographic hash function producing a 128-bit output. It is not considered to be quite as safe for use as SHA256, but it might be required for compatibility between security products.
 
 #### Digital Signatures
-Cryptographic primitive refers to a single hash function, symmetric cipher, or asymmetric cipher.
-A digital signature is a message digest encrypted using the sender's private key appended to a message to authenticate the sender and prove message integrity.
+$\color{#a5d6ff} {Cryptographic\ primitive}$ is a single hash function, symmetric cipher, or asymmetric cipher.
+
+A $\color{#a5d6ff} {digital\ signature}$ is a message digest encrypted using the sender's private key appended to a message to authenticate the sender and prove message integrity.
 
 ### 3B: Public Key Infrastructure
 #### Certificate Authorities
-Public key infrastructure (PKI) refers to a framework of certificate authorities, digital certificates, software, services, and other cryptographic components deployed to validate subject identities. Under PKI, anyone issuing a public key should publish it in a digital certificate. 
-A Certificate authority (CA) is a server that guarantees subject identities by issuing signed digital certificate wrappers for their public keys.
-In PKI, a third-party CA is a public CA that issues certificates for multiple domains and is widely trusted as a root trust by operating systems and browsers.
+$\color{#a5d6ff} {Public\ key\ infrastructure\ (PKI)}$ is a framework of certificate authorities, digital certificates, software, services, and other cryptographic components deployed to validate subject identities. Under PKI, anyone issuing a public key should publish it in a digital certificate. 
+
+A $\color{#a5d6ff} {Certificate\ Authority\ (CA)}$ is a server that guarantees subject identities by issuing signed digital certificate wrappers for their public keys.
+
+In PKI, a $\color{#a5d6ff} {third-party\ CA}$ is a public CA that issues certificates for multiple domains and is widely trusted as a root trust by operating systems and browsers.
 
 #### Digital Certificates
-A digital certificate identification and authentication information presented in the X.509 format and issued by a certificate authority (CA) as a guarantee that a key pair (as identified by the public key embedded in the certificate) is valid for a particular subject (user or host).
+$\color{#a5d6ff} {Digital\ certificate}$ refers to identification and authentication information presented in the X.509 format and issued by a certificate authority (CA) as a guarantee that a key pair (as identified by the public key embedded in the certificate) is valid for a particular subject (user or host).
 
 #### Root of Trust
-The Root of Trust model defines how users and different CAs can trust one another
-In PKI, a root certificate is a CA that issues certificates to intermediate CAs in a hierarchical structure.
-A certificate chaining or a chain of trust is a method of validating a certificate by tracing each CA that signs the certificate, up through the hierarchy to the root CA.
-A self-signed certificate is a digital certificate signed by the entity that issued it, rather than by a CA.
+The Root of Trust model defines how users and different CAs can trust one another.
+
+In PKI, a $\color{#a5d6ff} {root\ certificate}$ is a CA that issues certificates to intermediate CAs in a hierarchical structure.
+
+A $\color{#a5d6ff} {certificate\ chaining / chain\ of\ trust}$ is a method of validating a certificate by tracing each CA that signs the certificate, up through the hierarchy to the root CA.
+
+A $\color{#a5d6ff} {self-signed\ certificate}$ is a digital certificate signed by the entity that issued it, rather than by a CA.
 
 #### Certificate Signing Requests
-A certificate signing request (CSR) is a Base64 ASCII file that a subject sends to a CA to get a certificate.
+A $\color{#a5d6ff} {Certificate\ Signing\ Request\ (CSR)}$ is a Base64 ASCII file that a subject sends to a CA to get a certificate.
 
 #### Subject Name Attributes
-A subject alternative name (SAN) is a field in a digital certificate allowing a host to be identified by multiple hostnames/subdomains.
-In PKI, a wildcard domain is a digital certificate that matches multiple parent domain subdomains.
+$\color{#a5d6ff} {Common\ Name\ (CN)}$ is an X500 attribute expressing a host or username, also used as the subject identifier for a digital certificate.
+
+$\color{#a5d6ff} {Subject\ Alternative\ Name\ (SAN)}$ is a field in a digital certificate allowing a host to be identified by multiple hostnames/subdomains.
+
+In PKI, a $\color{#a5d6ff} {wildcard domain}$ is a digital certificate that matches multiple parent domain subdomains.
+
 A certificate also contains fields for Organization (O), Organizational Unit (OU), Locality (L), State (ST), and Country (C).
 
 #### Certificate Revocation
-A certificate revocation list (CRL) is a list of certificates revoked before expiration and 
-has the following attributes:
+$\color{#a5d6ff} {Certificate Revocation\ List\ (CRL)}$ is a list of certificates revoked before expiration and has the following attributes:
 * Publish Period
 * Distribution Point(s)
 * Validity Period
 * Signature
+
 The certificate may be revoked but still accepted by clients because an up-to-date CRL has yet to be published. The browser (or other application) may not be configured to perform CRL checking.
-An Online Certificate Status Protocol (OCSP) server allows clients to request the status of a digital certificate, to check whether it is revoked.
+
+An $\color{#a5d6ff} {Online\ Certificate\ Status\ Protocol\ (OCSP)}$ server allows clients to request the status of a digital certificate, to check whether it is revoked.
 
 #### Key Management
 Key management refers to operational considerations for the various stages in a key's lifecycle. A key's lifecycle:
@@ -280,69 +303,91 @@ Key management refers to operational considerations for the various stages in a
 * Storage
 * Revocation
 * Expiration and Renewal
-In PKI, a key management system contains procedures and tools that centralize the generation and storage of cryptographic keys.
+
+In PKI, a $\color{#a5d6ff} {key\ management\ system}$ contains procedures and tools that centralize the generation and storage of cryptographic keys.
 
 #### Cryptoprocessors and Secure Enclaves
-Entropy is a measure of disorder. Cryptographic systems should exhibit high entropy for better resistance to brute-force attacks.
-Pseudo RNG (PRNG) is the process by which an algorithm produces numbers that approximate randomness without being truly random.
-True RNG (TRNG) generates random values by sampling physical phenomena with a high entropy.
+$\color{#a5d6ff} {Entropy}$ is a measure of disorder. Cryptographic systems should exhibit high entropy for better resistance to brute-force attacks.
+
+$\color{#a5d6ff} {Pseudo\ RNG\ (PRNG)}$ is the process by which an algorithm produces numbers that approximate randomness without being truly random.
+
+$\color{#a5d6ff} {True\ RNG\ (TRNG)}$ generates random values by sampling physical phenomena with a high entropy.
+
 The two main ways of implementing cryptoprocessor hardware are TPMs and HSMs.
-A Trusted Platform Module (TPM) is a specification for secure hardware-based storage of encryption keys, hashed passwords, and other user- and platform-identification information. The three principal ways of implementing a TPM:
+
+A $\color{#a5d6ff} {Trusted\ Platform\ Module\ (TPM)}$ is a specification for secure hardware-based storage of encryption keys, hashed passwords, and other user- and platform-identification information. A virtual TPM can be implemented in a hypervisor to provide a service to virtual machines (VMs). The three principal ways of implementing a TPM:
 * Discrete
 * Integrated
 * Firmware
-A virtual TPM can be implemented in a hypervisor to provide a service to virtual machines (VMs).
-A Hardware security module (HSM) is an appliance for generating and storing cryptographic keys. This solution may be less susceptible to tampering and insider threats than software-based storage.
-An Application Programming Interface (API) allows methods exposed by a script or program other scripts or programs to use.
-A secure enclave is a CPU extensions that protect data stored in system memory so that an untrusted process cannot read it.
+
+
+A $\color{#a5d6ff} {Hardware\ Security\ Module\ (HSM)}$ is an appliance for generating and storing cryptographic keys. This solution may be less susceptible to tampering and insider threats than software-based storage.
+
+An $\color{#a5d6ff} {Application\ Programming\ Interface\ (API)}$ allows methods exposed by a script or program other scripts or programs to use.
+
+A $\color{#a5d6ff} {secure\ enclave}$ is a CPU extensions that protect data stored in system memory so that an untrusted process cannot read it.
 
 #### Key Escrow
-In key management, escrow refers to the backup key storage with a third party.
+In key management, $\color{#a5d6ff} {escrow}$ refers to the backup key storage with a third party.
+
 An account with permission to access a key held in escrow is referred to as a key recovery agent (KRA).
 
 ### 3C: Cryptographic Solutions
 #### Encryption Supporting Confidentiality
 Data can be described as being in one of three states:
-* Data at rest—information that is primarily stored on specific media.
-* Data in transit (data in motion)—information transmitted between two hosts.
-* Data in use (data in processing)—information in volatile memory of a host.
+* $\color{#a5d6ff} {Data\ at\ rest}$—information that is primarily stored on specific media.
+* $\color{#a5d6ff} {Data\ in\ transit /\ data\ in\ motion}$—information transmitted between two hosts.
+* $\color{#a5d6ff} {Data\ in\ use /\ data\ in\ processing}$—information in volatile memory of a host.
 
 #### Disk and File Encryption
-Encryption levels refer to the target for data-at-rest encryption, ranging from more granular (file or row/record) to less granular (volume/partition/disk or database).
+$\color{#a5d6ff} {Encryption\ levels}$ is the target for data-at-rest encryption, ranging from more granular (file or row/record) to less granular (volume/partition/disk or database).
+
 Full-disk encryption (FDE) refers to a product that encrypts the whole contents of a storage device, including metadata areas not normally accessible using ordinary OS file explorer tools.
+
 A self-encrypting drive (SED) could be a hard disk drive (HDD), solid-state drive (SSD), or USB flash drive.
+
 A volume is any storage resource with a single file system.
+
 A file encryption product is software that applies encryption to individual files (or perhaps to folders/directories).
+
 Metadata can include a list of files, the file owner, and created/last modified dates. Free or unallocated space can contain data remnants, where a file has been marked as deleted, but the data has not been erased from the storage medium.
 
 #### Database Encryption
 The table data is ultimately stored as files on a volume, but access is designed to be mediated through a database management system (DBMS) running a database language.
+
 Transparent Data Encryption (TDE) encrypts records while stored on disk, protecting against theft of the underlying media.
+
 Record-level encryption refers to cell/column encryption applied to one or more fields within a table.
 
 #### Transport Encryption and Key Exchange
-Transport/communication encryption is an encryption scheme for data-in-motion, such as WPA, IPsec, or TLS.
-Hash-based Message Authentication Code (HMAC) is a method used to verify the integrity and authenticity of a message by combining a cryptographic hash of the message with a secret key.
+$\color{#a5d6ff} {Transport/communication\ encryption}$ is an encryption scheme for data-in-motion, such as WPA, IPsec, or TLS.
+
+$\color{#a5d6ff} {Key\ exchange}$ is any method by which cryptographic keys are transferred among users, thus enabling the use of a cryptographic algorithm.
+
+$\color{#a5d6ff} {Hash-based\ Message\ Authentication\ Code\ (HMAC)}$ is a method used to verify the integrity and authenticity of a message by combining a cryptographic hash of the message with a secret key.
+
 The symmetric cipher might be designed to perform Authenticated Encryption (AE)
 
 #### Perfect Forward Secrecy
-- Perfect Forward Secrecy (PFS) is a characteristic of transport encryption that ensures if a key is compromised, the compromise will only affect a single session and not facilitate recovery of plaintext data from other sessions. PFS uses Diffie-Hellman (D-H) key agreement to create ephemeral session keys without using the server's private key.
-    In cryptography, a key is used within the context of a single session only.
-PFS is now more usually implemented as Elliptic Curve DHE (ECDHE).
+In cryptography, $\color{#a5d6ff} {Perfect\ Forward\ Secrecy\ (PFS)}$ is a characteristic of transport encryption that ensures if a key is compromised, the compromise will only affect a single session and not facilitate recovery of plaintext data from other sessions. PFS uses Diffie-Hellman (D-H) key agreement to create ephemeral session keys without using the server's private key. $\color{#a5d6ff} {Diffie-Hellman\ (D-H)}$ is a cryptographic technique that provides secure key exchange. $\color{#a5d6ff} {Ephemeral}$ is a key is used within the context of a single session only.
 
+PFS is now more usually implemented as Elliptic Curve DHE (ECDHE).
+     
 #### Salting and Key Stretching
-Salting is a security countermeasure that mitigates the impact of precomputed hash table attacks by adding a random value to ("salting") each plaintext input.
-Key Stretching is a technique that strengthens potentially weak input for cryptographic key generation, such as passwords or passphrases created by people, against brute force attacks.
+$\color{#a5d6ff} {Salting}$ is a security countermeasure that mitigates the impact of precomputed hash table attacks by adding a random value to ("salting") each plaintext input.
+
+$\color{#a5d6ff} {Key Stretching}$ is a technique that strengthens potentially weak input for cryptographic key generation, such as passwords or passphrases created by people, against brute force attacks.
 
 #### Blockchain
-Blockchain is a concept in which an expanding list of transactional records listed in a public ledger is secured using cryptography.
-An open public ledger is a distributed public record of transactions that underpins the integrity of blockchains
+$\color{#a5d6ff} {Blockchain}$ is a concept in which an expanding list of transactional records listed in a public ledger is secured using cryptography.
+
+An $\color{#a5d6ff} {open\ public\ ledger}$ is a distributed public record of transactions that underpins the integrity of blockchains
 
 #### Obfuscation
-Obfuscation is a technique that essentially "hides" or "camouflages" code or other information so unauthorized users it is harder to read. The three main techniques:
-* Steganography is a technique for obscuring the presence of a message, often by embedding information within a file or other entity.
-* Data masking is an ade-identification method where generic or placeholder labels are substituted for real data while preserving the structure or format of the original data.
-* Tokenization is a de-identification method where a unique token is substituted for real data.
+$\color{#a5d6ff} {Obfuscation}$ is a technique that essentially "hides" or "camouflages" code or other information so unauthorized users it is harder to read. The three main techniques:
+* $\color{#a5d6ff} {Steganography}$ is a technique for obscuring the presence of a message, often by embedding information within a file or other entity.
+* $\color{#a5d6ff} {Data masking}$ is an ade-identification method where generic or placeholder labels are substituted for real data while preserving the structure or format of the original data.
+* $\color{#a5d6ff} {Tokenization}$ is a de-identification method where a unique token is substituted for real data.
 
 ---
 
@@ -351,33 +396,34 @@ Obfuscation is a technique that essentially "hides" or "camouflages" code or oth
 ### 4A: Authentication
 #### Authentication Design
 Authentication is performed when a supplicant or claimant presents credentials to an authentication server.
-In authentication design, the different technologies factors for implementing authentication, such as knowledge, ownership/token, and biometric/inherence. These are characterized as something you know/have/are.
-A Personal Identification Number (PIN) is a number used in conjunction with authentication devices such as smart cards; as the PIN should be known only to the user, loss of the smart card should not represent a security risk.
+
+In authentication design, the different technologies $\color{#a5d6ff} {factors}$ for implementing authentication, such as knowledge, ownership/token, and biometric/inherence. These are characterized as something you know/have/are.
+
+A $\color{#a5d6ff} {Personal\ Identification\ Number\ (PIN)}$ is a number used in conjunction with authentication devices such as smart cards; as the PIN should be known only to the user, loss of the smart card should not represent a security risk.
 
 #### Password Concepts
-- Password best practices refer to rules to govern the secure selection and maintenance of knowledge factor authentication secrets, such as length, complexity, age, and reuse. To supplement best practice awareness, system-enforced account policies can help to enforce credential management principles by stipulating requirements for user-selected passwords:
-    A set of rules governing user security information which can be set globally.
+- Password best practices refer to rules to govern the secure selection and maintenance of knowledge factor authentication secrets, such as length, complexity, age, and reuse. $\color{#a5d6ff} {Account\ policies}$ is a set of rules governing user security information which can be set globally and to supplement best practice awareness, system-enforced it to enforce credential management principles by stipulating requirements for user-selected passwords:
 * Password Length
 * Password Complexity
 * Password Age
 * Password Reuse and History
 
 #### Password Managers
-A password manager is software that suggests and stores site and app passwords to reduce risks from poor user choices and behavior. Most browsers have a built-in password manager.
+A $\color{#a5d6ff} {password\ manager}$ is software that suggests and stores site and app passwords to reduce risks from poor user choices and behavior. Most browsers have a built-in password manager.
 
 #### Multifactor Authentication
-A multifactor authentication (MFA) is an authentication scheme that requires the user to present at least two different factors as credentials; These factors are “something you know”, “something you have”, “something you are”, “something you do”, and “somewhere you are”.
+$\color{#a5d6ff} {MultiFactor\ Authentication\ (MFA)}$ is an authentication scheme that requires the user to present at least two different factors as credentials; These factors are “something you know”, “something you have”, “something you are”, “something you do”, and “somewhere you are”.
 
 #### Biometric Authentication
-Biometric authentication is an authentication mechanism that allows users to perform a biometric scan to operate an entry or access system. Physical characteristics stored as a digital data template can be used to authenticate a user.
+$\color{#a5d6ff} {Biometric\ authentication}$ is an authentication mechanism that allows users to perform a biometric scan to operate an entry or access system. Physical characteristics stored as a digital data template can be used to authenticate a user.
+
 The efficacy rate of biometric pattern acquisition and matching and suitability as an authentication mechanism can be evaluated using the following metrics and factors:
-* False Rejection Rate (FRR)—a biometric assessment metric measuring the number of valid subjects with denied access. This is a Type I error or false non-match rate (FNMR). FRR is measured as a percentage.
-* False Acceptance Rate (FAR)—a biometric assessment metric that measures the number of unauthorized users who are mistakenly allowed access. This is a Type II error or false non-match rate (FNMR). FAR is measured as a percentage.
-* Crossover Error Rate (CER)—a biometric evaluation factor expressing the point at which FAR and FRR meet, with a low value indicating better performance.
+* $\color{#a5d6ff} {False\ Rejection\ Rate\ (FRR)}$—a biometric assessment metric measuring the number of valid subjects with denied access. This is a Type I error or false non-match rate (FNMR). FRR is measured as a percentage.
+* $\color{#a5d6ff} {False\ Acceptance\ Rate\ (FAR)}$—a biometric assessment metric that measures the number of unauthorized users who are mistakenly allowed access. This is a Type II error or false non-match rate (FNMR). FAR is measured as a percentage.
+* $\color{#a5d6ff} {Crossover\ Error\ Rate\ (CER)}$—a biometric evaluation factor expressing the point at which FAR and FRR meet, with a low value indicating better performance.
 * Throughput (speed)—the time required to create a template for each user and the time required to authenticate.
 * Failure to Enroll Rate (FER)—incidents in which a template cannot be created and matched for a user during enrollment.
 * Cost/Implementation
-* Users can find it intrusive and threatening to privacy.
 * Users can find it intrusive and threatening to privacy.
 * The technology can be discriminatory or inaccessible to those with disabilities.
 
@@ -386,52 +432,60 @@ There are three main types of token generation:
 * Certificate-Based Authentication
 * One-Time Password (OTP)
 * Fast Identity Online (FIDO) Universal 2nd Factor (U2F)
-A cryptoprocessor on a dedicated hardware device generates a hard authentication token. As the token is never transmitted directly, this implements an ownership factor within a multifactor authentication scheme. Device-based authenticators can be used to implement hard tokens:
-* Smart cards—a security device similar to a credit card that can store authentication information.
-* One-time password (OTP)—a password generated for use in one specific session and becomes invalid after the session ends.
-* Security key—portable HSM with a computer interface, such as USB or NFC, used for multifactor authentication.
+
+A $\color{#a5d6ff} {hard\ authentication\ token}$ is an authentication token generated by a cryptoprocessor on a dedicated hardware device. As the token is never transmitted directly, this implements an ownership factor within a multifactor authentication scheme. Device-based authenticators can be used to implement hard tokens:
+* $\color{#a5d6ff} {Smart\ cards}$—a security device similar to a credit card that can store authentication information.
+* $\color{#a5d6ff} {One-time\ password\ (OTP)}$—a password generated for use in one specific session and becomes invalid after the session ends.
+* $\color{#a5d6ff} {Security\ key}$—portable HSM with a computer interface, such as USB or NFC, used for multifactor authentication.
 
 #### Soft Authentication Tokens
-A soft authentication token is an OTP sent to a registered number or email account or generated by an authenticator app to verify two-step account access. Soft tokens sent via SMS or email are not an ownership factor.
+A $\color{#a5d6ff} {soft\ authentication\ token}$ is an OTP sent to a registered number or email account or generated by an authenticator app to verify two-step account access. Soft tokens sent via SMS or email are not an ownership factor.
 
 #### Passwordless Authentication
-Passwordless is a multifactor authentication scheme that uses ownership and biometric factors, and no knowledge factors.
-Attestation is the capability of an authenticator or other cryptographic module to prove that it is a root of trust and can provide reliable reporting to prove that a device or computer is a trustworthy platform.
+$\color{#a5d6ff} {Passwordless}$ is a multifactor authentication scheme that uses ownership and biometric factors, and no knowledge factors.
+
+$\color{#a5d6ff} {Attestation}$ is the capability of an authenticator or other cryptographic module to prove that it is a root of trust and can provide reliable reporting to prove that a device or computer is a trustworthy platform.
 
 ### 4B: Authorization
 #### Discretionary and Mandatory Access Control
-Permissions refer to security settings that control access to objects including file system items and network resources.
+$\color{#a5d6ff} {Permissions}$ refer to security settings that control access to objects including file system items and network resources.
+
 An access control model describes the principles that govern how users receive rights.
-Discretionary Access Control (DAC) is an access control model where each resource is protected by an access control list (ACL) managed by the resource's owner (or owners).
-Mandatory Access Control (MAC) is an access control model where an inflexible, system-defined rule protects the resources. Resources (objects) and users (subjects) are allocated a clearance level (or label).
+
+$\color{#a5d6ff} {Discretionary\ Access\ Control\ (DAC)}$ is an access control model where each resource is protected by an access control list (ACL) managed by the resource's owner (or owners).
+
+$\color{#a5d6ff} {Mandatory\ Access\ Control\ (MAC)}$ is an access control model where an inflexible, system-defined rule protects the resources. Resources (objects) and users (subjects) are allocated a clearance level (or label).
 
 #### Role and Attribute Based Access Control
-Role-Based Access Control (RBAC) is an access control model where resources are protected by ACLs that are managed by administrators and that provide user permissions based on job functions.
-A group account is a collection of useful user accounts when establishing file permissions and user rights because many individuals will need the same level of access, a group is then established containing all the relevant users.
-Attribute-Based Access Control (ABAC) is an access control technique that evaluates a set of attributes that a subject possesses to determine if access should be granted.
+$\color{#a5d6ff} {Role-Based\ Access\ Control\ (RBAC)}$ is an access control model where resources are protected by ACLs that are managed by administrators and that provide user permissions based on job functions.
+
+A $\color{#a5d6ff} {group\ account}$ is a collection of useful user accounts when establishing file permissions and user rights because many individuals will need the same level of access, a group is then established containing all the relevant users.
+
+$\color{#a5d6ff} {Attribute-Based\ Access\ Control\ (ABAC)}$ is an access control technique that evaluates a set of attributes that a subject possesses to determine if access should be granted.
 
 #### Rule-Based Access Control
-Rule-based access control is a nondiscretionary access control technique based on operational rules or restrictions to enforce a least privileges permissions policy.
+$\color{#a5d6ff} {Rule-based\ access\ control}$ is a nondiscretionary access control technique based on operational rules or restrictions to enforce a least privileges permissions policy.
 
 #### Least Privilege Permission Assignments
-Least Privilege is a basic principle of security stating that something should be allocated the minimum necessary rights, privileges, or information to perform its role.
+$\color{#a5d6ff} {Least\ Privilege}$ is a basic principle of security stating that something should be allocated the minimum necessary rights, privileges, or information to perform its role.
 
 #### User Account Provisioning
-Provisioning is deploying an account, host, or application to a target production environment. This involves proving the identity or integrity of the resource and issuing it with credentials and access permissions. Provisioning a user account involves:
+$\color{#a5d6ff} {Provisioning}$ is deploying an account, host, or application to a target production environment. This involves proving the identity or integrity of the resource and issuing it with credentials and access permissions. Provisioning a user account involves:
 * Identity Proofing
 * Issuing Credentials
 * Issuing Hardware and Software Assets
 * Teaching Policy Awareness
 * Creating Permissions Assignment
-Deprovisioning is the process of removing an account, host, or application from the production environment. This requires revoking any privileged access that had been assigned to the object.
+
+$\color{#a5d6ff} {Deprovisioning}$ is the process of removing an account, host, or application from the production environment. This requires revoking any privileged access that had been assigned to the object.
 
 #### Account Attributes and Access Policies
-Security Identifier (SID) refers to the value assigned to an account by Windows and used by the operating system to identify that account.
-On a Windows domain, Group Policy Objects (GPOs) deploy per-user and per-computer settings such as password policy, account restrictions, firewall status, etc.
+$\color{#a5d6ff} {Security\ Identifier\ (SID)}$ refers to the value assigned to an account by Windows and used by the operating system to identify that account.
+
+On a Windows domain, $\color{#a5d6ff} {Group\ Policy\ Objects\ (GPOs)}$ deploy per-user and per-computer settings such as password policy, account restrictions, firewall status, etc.
 
 #### Account Restrictions
-- The geographical location of a user or device can be calculated using a geolocation mechanism:
-    The identification or estimation of the physical location of an object, such as a radar source, mobile phone, or Internet-connected computing device.
+$\color{#a5d6ff} {Geolocation}$ the identification or estimation of the physical location of an object, such as a radar source, mobile phone, or Internet-connected computing device. The geographical location of a user or device can be calculated using a geolocation mechanism:
 * IP address
 * Location Services
 There are four main types of time-based policies:
@@ -441,11 +495,14 @@ There are four main types of time-based policies:
 * Temporary permissions policy
 
 #### Privileged Access Management
-Privileged Access Management (PAM) refers to policies, procedures, and support software for managing accounts and credentials with administrative permissions.
+$\color{#a5d6ff} {Privileged\ Access\ Management\ (PAM)}$ refers to policies, procedures, and support software for managing accounts and credentials with administrative permissions.
+
 Just-in-time (JIT) permissions means that an account's elevated privileges are not assigned at log-in. Zero Standing Privileges (ZSP) permissions must be explicitly requested and are only granted for a limited period. The  three main models for ZSP:
 * Temporary Elevation
-* Password Vaulting/Brokering—M of N control refers to the control that requires multiple people for authentication.
+* Password Vaulting/Brokering
 * Ephemeral Credentials
+
+$\color{#a5d6ff} {M\ of\ N\ control}$ refers to the control that requires multiple people for authentication.
 
 ### 4C: Identity Management
 #### Local, Network, and Remote Authentication
@@ -453,32 +510,47 @@ An authentication provider is the software architecture and code that underpins 
 * Windows local sign-in
 * Windows network sign-in
 * Remote sign-in
-A pluggable authentication module (PAM) is a framework for implementing authentication providers in Linux.
+
+$\color{#a5d6ff} {NT\ LAN\ Manager\ (NTLM)\ authentication}$ is a challenge-response authentication protocol created by Microsoft for use in its products.
+
+A $\color{#a5d6ff} {pluggable\ authentication\ module\ (PAM)}$ is a framework for implementing authentication providers in Linux.
 
 #### Directory Services
-A directory service is a network service that stores identity information about all the objects in a particular network, including users, groups, servers, client computers, and printers.
-Lightweight Directory Access Protocol (LDAP) is a protocol used to access network directory databases that store information about authorized users and the users’ privileges and organizational information.
-A distinguished name (DN) is a collection of attributes defining a unique identifier for any given resource within an X.500-like directory. Common attributes used: Common Name (CN), Organizational Unit (OU), Organization (O), Country (C), and Domain Component (DC).
+A $\color{#a5d6ff} {directory\ service}$ is a network service that stores identity information about all the objects in a particular network, including users, groups, servers, client computers, and printers.
+
+$\color{#a5d6ff} {Lightweight\ Directory\ Access\ Protocol\ (LDAP)}$ is a protocol used to access network directory databases that store information about authorized users and the users’ privileges and organizational information.
+
+A $\color{#a5d6ff} {distinguished\ name\ (DN)}$ is a collection of attributes defining a unique identifier for any given resource within an X.500-like directory. Common attributes used: Common Name (CN), Organizational Unit (OU), Organization (O), Country (C), and Domain Component (DC).
 
 #### Single Sign-on Authentication
-A Single Sign-On (SSO) is an authentication technology that authenticates users once and receives authorizations for multiple services.
+Single Sign-On (SSO) is an authentication technology that authenticates users once and receives authorizations for multiple services.
+
 Kerberos is a single sign-on authentication and authorization service based on a time-sensitive, ticket-granting system.
-A Key Distribution Center (KDC) is a component of Kerberos that authenticates users and issues tickets (tokens).
-In Kerberos, a Ticket Granting Ticket (TGT) issues a token to an authenticated account to allow access to authorized application servers. (TGT)—contains information about the client (name and IP address) plus a time stamp and validity period. This is encrypted using the KDC's secret key.
-TGS session key—communicates between the client and the Ticket Granting Service (TGS). This is encrypted using a hash of the user's password.
+
+Key Distribution Center (KDC) is a component of Kerberos that authenticates users and issues tickets (tokens).
+
+In Kerberos, Ticket Granting Ticket (TGT) issues a token to an authenticated account to allow access to authorized application servers. 
+
+TGT contains information about the client (name and IP address) plus a time stamp and validity period. This is encrypted using the KDC's secret key.
+
+TGS session key communicates between the client and the Ticket Granting Service (TGS). This is encrypted using a hash of the user's password.
 
 #### Federation
-A federation is a process that provides a shared login capability across multiple systems and enterprises. It connects the identity management services to systems.
-In a federated network, the Identity Provider (IdP) is the service that holds the user account and performs authentication.
+A $\color{#a5d6ff} {federation}$ is a process that provides a shared login capability across multiple systems and enterprises. It connects the identity management services to systems.
+
+In a federated network, $\color{#a5d6ff} {Identity\ Provider\ (IdP)}$ is the service that holds the user account and performs authentication.
 
 #### Security Assertion Markup language
-A Security Assertion Markup Language (SAML) is an XML-based data format to exchange authentication information between a client and a service.
-A Simple Object Access Protocol (SOAP) is an XML-based web services protocol to exchange messages.
+A $\color{#a5d6ff} {Security\ Assertion\ Markup\ Language\ (SAML)}$ is an XML-based data format to exchange authentication information between a client and a service.
+
+A $\color{#a5d6ff} {Simple\ Object\ Access\ Protocol\ (SOAP)}$ is an XML-based web services protocol to exchange messages.
 
 #### Open Authorization
-Representational State Transfer (REST) is a standardized, stateless architectural style for web applications for communication and integration.
-Open Authorization is a standard for federated identity management, allowing resource servers or consumer sites to work with user accounts created and managed on a separate identity provider.
-Javascript Object Notation (JSON) is a file format that uses attribute-value pairs to define configurations in a structure that is easy for humans and machines to read and consume.
+$\color{#a5d6ff} {Representational\ State\ Transfer\ (REST)}$ is a standardized, stateless architectural style for web applications for communication and integration.
+
+$\color{#a5d6ff} {Open\ Authorization\ (OAuth)}$ is a standard for federated identity management, allowing resource servers or consumer sites to work with user accounts created and managed on a separate identity provider.
+
+$\color{#a5d6ff} {Javascript\ Object\ Notation\ (JSON)}$ is a file format that uses attribute-value pairs to define configurations in a structure that is easy for humans and machines to read and consume.
 
 ---
 
@@ -492,27 +564,34 @@ Network architecture means the selection and placement of media, devices, protoc
 * Data assets are the information created, stored, and transferred as business activity.
 A workflow is a series of tasks that a business needs to perform.
 
+#### Network Infrastructure
+A network is comprised of nodes and links. There are two types of nodes. A host node is one that initiates data transfers. Hosts are usually either servers or clients. An intermediary node forwards traffic around the network. Each network node must be identifiable via a unique address.
+
 #### Switching Infrastructure Considerations
-An on-premises network is a private network facility owned and operated by an organization for use by its employees only.
+An $\color{#a5d6ff} {on-premises\ network}$ is a private network facility owned and operated by an organization for use by its employees only.
 
 #### Routing Infrastructure Considerations
-Logical Segmentation refers to network topology enforced by switch, router, and firewall configuration where hosts on one network segment are prevented from or restricted in communicating with hosts on other segments.
-Internet Protocol (IP) refers to the Network (Internet) layer protocol in the TCP/IP suite providing packet addressing and routing for all higher-level protocols in the network.
-A Virtual LAN (VLAN) is a logical network segment comprising a broadcast domain established using a feature of managed switches to assign each port a VLAN ID. Even though hosts on two VLANs may be physically connected to the same switch, local traffic is isolated to each VLAN, so they must use a router to communicate.
+$\color{#a5d6ff} {Logical\ Segmentation}$ refers to network topology enforced by switch, router, and firewall configuration where hosts on one network segment are prevented from or restricted in communicating with hosts on other segments.
+
+$\color{#a5d6ff} {Internet\ Protocol\ (IP)}$ refers to the Network (Internet) layer protocol in the TCP/IP suite providing packet addressing and routing for all higher-level protocols in the network.
+
+A $\color{#a5d6ff} {Virtual\ LAN (VLAN)}$ is a logical network segment comprising a broadcast domain established using a feature of managed switches to assign each port a VLAN ID. Even though hosts on two VLANs may be physically connected to the same switch, local traffic is isolated to each VLAN, so they must use a router to communicate.
 
 #### Security Zones
 To map out the internal security topology, analyze the systems and data assets that support workflows and identify ones that have similar access control requirements:
 * Database and file systems host company data and personal data should prioritize confidentiality and integrity.
 * Client devices need to prioritize integrity and availability.
 * Public-facing application servers (web, email, remote access, and so on) should also prioritize integrity and availability.
-* Application servers that support the network infrastructure (authentication, directory, and monitoring/logging, for example) must exhibit high confidentiality, integrity, and availability.
-A security zone is an area of the network (connected network) where the security configuration is the same for all hosts. In physical security, an area is separated by barriers that control entry and exit points. A zone must have a known entry and exit point.
+* Application servers that support the network infrastructure must exhibit high confidentiality, integrity, and availability.
+
+A $\color{#a5d6ff} {security\ zone}$ is an area of the network (connected network) where the security configuration is the same for all hosts. In physical security, an area is separated by barriers that control entry and exit points. A zone must have a known entry and exit point.
 
 #### Attack Surface
-Attack surface refers to the points at which a network or application receives external connections or inputs/outputs that are potential vectors to be exploited by a threat actor. The layer model to analyze the potential attack surface:
+$\color{#a5d6ff} {Attack\ surface}$ is the points at which a network or application receives external connections or inputs/outputs that are potential vectors to be exploited by a threat actor. The layer model to analyze the potential attack surface:
 * Layer 1/2—allows unauthorized hosts to connect to wall ports or wireless networks and communicate with hosts within the same broadcast domain.
 * Layer 3—allows unauthorized hosts to obtain a valid network address, possibly by spoofing, and communicate with hosts in other zones
 * Layer 4/7—allows unauthorized hosts to establish connections to TCP or UDP ports and communicate with application layer protocols and services.
+
 Weaknesses in the network architecture make it more susceptible to undetected intrusions or catastrophic service failures:
 * Single points of failure
 * Complex dependencies
@@ -521,18 +600,21 @@ Weaknesses in the network architecture make it more susceptible to undetected in
 * Overdependence on perimeter security
 
 #### Port Security
-Port security prevents a device attached to a switch port from communicating on the network unless it matches a given MAC address or other protection profile.
-MAC filtering applies an access control list to a switch or access point so clients with approved MAC addresses can connect.
-IEEE 802.1X is a standard for encapsulating EAP communications over a LAN (EAPoL) or WLAN (EAPoW) to implement port-based authentication. 802.1X uses authentication, authorization, and accounting (AAA) architecture:
+$\color{#a5d6ff} {Port\ security}$ prevents a device attached to a switch port from communicating on the network unless it matches a given MAC address or other protection profile.
+
+$\color{#a5d6ff} {MAC\ filtering}$ applies an access control list to a switch or access point so clients with approved MAC addresses can connect.
+
+$\color{#a5d6ff} {IEEE\ 802.1X}$ is a standard for encapsulating EAP communications over a LAN (EAPoL) or WLAN (EAPoW) to implement port-based authentication. 802.1X uses authentication, authorization, and accounting (AAA) architecture:
 * Supplicant—in EAP architecture, the device requesting access to the network.
 * Authenticator—a PNAC switch or router that activates EAPoL and passes a supplicant's authentication data to an authenticating server, such as a RADIUS server.
 * Authentication Server—the server that holds or can contact a directory of network objects and validate authentication requests, issue authorizations, and perform accounting of security events.
+
 Two protocols are implemented in the 802.1X standard:
 * Extensible Authentication Protocol (EAP)—a framework for negotiating authentication methods that enable systems to use hardware-based identifiers, such as fingerprint scanners or smart card readers, authentication and to establish secure tunnels through which to submit credentials.
 * Remote Authentication Dial-In User Service (RADIUS)—AAA protocol used to manage remote and wireless authentication infrastructures.
 
 #### Physical Isolation
-Air-gapped refers to network isolation that physically separates a host from other hosts or a network from all other networks.
+$\color{#a5d6ff} {Air-gapped}$ refers to network isolation that physically separates a host from other hosts or a network from all other networks.
 
 #### Architecture Considerations
 When evaluating the use of a particular architecture and selecting effective controls, consider several factors:
@@ -547,115 +629,137 @@ When evaluating the use of a particular architecture and selecting effective con
 
 ### 5B: Network Security Appliances
 #### Device Placement
-Selection of effective controls refers to choosing the type and placement of security controls to ensure the goals of the CIA triad and compliance with any framework requirements.
-Defense in depth is a security strategy that positions the layers of diverse security control categories and functions as to relying on perimeter controls.
-Device placement refers to considerations for positioning security controls to protect network zones and individual hosts to implement a defense-in-depth strategy and to meet overall security goals. There are three options:
+$\color{#a5d6ff} {Selection\ of\ effective\ controls}$ refers to choosing the type and placement of security controls to ensure the goals of the CIA triad and compliance with any framework requirements.
+
+$\color{#a5d6ff} {Defense\ in\ depth}$ is a security strategy that positions the layers of diverse security control categories and functions as to relying on perimeter controls.
+
+$\color{#a5d6ff} {Device\ placement}$ refers to considerations for positioning security controls to protect network zones and individual hosts to implement a defense-in-depth strategy and to meet overall security goals. There are three options:
 * Preventive controls
 * Detective controls
 * Corrective controls
 
 #### Device Attributes
-A passive security control is an enumeration, vulnerability, or incident detection scan that analyzes only intercepted network traffic rather than sending probes to a target. More generally, passive reconnaissance techniques do not require direct interaction with the target.
-Active security control refers to detective and preventive security controls that use an agent or network configuration to monitor hosts. This allows for more accurate credentialed scanning, but consumes some host resources and is detectable by threat actors.
-Inline refers to the placement and configuration of a network security control so that it becomes part of the cable path.
-A sensor is a monitor that records (or "sniffs") data from frames as they pass over network media, using methods such as a mirror port or TAP device. A sensor can be configured to receive traffic in two different ways:
-* Test access point (TAP)—a hardware device inserted into a cable run to copy frames for analysis.
-* SPAN (switched port analyzer)/mirror port—copying ingress and or egress communications from one or more switch ports to another port. This is used to monitor communications passing over the switch.
+A $\color{#a5d6ff} {passive\ security\ control}$ is an enumeration, vulnerability, or incident detection scan that analyzes only intercepted network traffic rather than sending probes to a target. More generally, passive reconnaissance techniques do not require direct interaction with the target.
+
+$\color{#a5d6ff} {Active\ security\ control}$ refers to detective and preventive security controls that use an agent or network configuration to monitor hosts. This allows for more accurate credentialed scanning, but consumes some host resources and is detectable by threat actors.
+
+$\color{#a5d6ff} {Inline}$ refers to the placement and configuration of a network security control so that it becomes part of the cable path.
+
+A $\color{#a5d6ff} {sensor}$ is a monitor that records (or "sniffs") data from frames as they pass over network media, using methods such as a mirror port or TAP device. A sensor can be configured to receive traffic in two different ways:
+* $\color{#a5d6ff} {Test\ Access\ Point\ (TAP)}$—a hardware device inserted into a cable run to copy frames for analysis.
+* $\color{#a5d6ff} {SPAN\ (switched\ port\ analyzer) /\ mirror\ port}$—copying ingress and or egress communications from one or more switch ports to another port. This is used to monitor communications passing over the switch.
+
 When a  security device fails, a device can be designed or configured to:
-* Fail-open is a security control configuration that ensures continued access to the resource in the event of failure.
-* Fail-closed is a security control configuration that blocks access to a resource in the event of failure.
+* $\color{#a5d6ff} {Fail-open}$ is a security control configuration that ensures continued access to the resource in the event of failure.
+* $\color{#a5d6ff} {Fail-closed}$ is a security control configuration that blocks access to a resource in the event of failure.
 
 #### Firewalls
-A packet filtering firewall is a Layer 3 firewall technology that compares packet headers against ACLs to determine which network traffic to accept. The rules are based on the information found in those headers:
+A $\color{#a5d6ff} {packet\ filtering\ firewall}$ is a Layer 3 firewall technology that compares packet headers against ACLs to determine which network traffic to accept. The rules are based on the information found in those headers:
 * IP filtering—accepts or denies traffic based on bits source or IP address destination or does both.
 * Protocol ID/type—an IP packet carrying an identified protocol.
 * Port filtering/security—accepts or denies a packet based on the source and destination TCP/UDP port numbers.
-An appliance firewall is a standalone hardware device that performs only the function of a firewall, which is embedded into the appliance's firmware and deployed in three ways:
+
+An $\color{#a5d6ff} {appliance\ firewall}$ is a standalone hardware device that performs only the function of a firewall, which is embedded into the appliance's firmware and deployed in three ways:
 * Routed (layer 3)—the firewall performs forwarding between subnets.
 * Bridged (layer 2)—the firewall inspects traffic between two nodes.
 * Inline (layer 1)—the firewall acts as a cable segment.
-A router firewall or firewall router appliance is a hardware device with the primary function of a router but has firewall functionality embedded into the router firmware.
+
+A $\color{#a5d6ff} {router\ firewall\ /\ firewall\ router\ appliance}$ is a hardware device with the primary function of a router but has firewall functionality embedded into the router firmware.
 
 #### Layer 4 and Layer 7 Firewalls
-A stateful inspection is a technique used in firewalls to analyze packets down to the application layer rather than filtering packets only by header information, enabling the firewall to enforce tighter and more security.
-A state table has information about sessions between hosts gathered by a stateful firewall.
-A layer 4 firewall is a stateful inspection firewall that can monitor TCP sessions and UDP traffic.
-A layer 7 firewall is a stateful inspection firewall that can filter traffic based on specific application protocol headers and data, such as web or email data.
+A $\color{#a5d6ff} {stateful\ inspection}$ is a technique used in firewalls to analyze packets down to the application layer rather than filtering packets only by header information, enabling the firewall to enforce tighter and more security.
+
+A $\color{#a5d6ff} {state\ table}$ has information about sessions between hosts gathered by a stateful firewall.
+
+A $\color{#a5d6ff} {layer\ 4\ firewall}$ is a stateful inspection firewall that can monitor TCP sessions and UDP traffic.
+
+A $\color{#a5d6ff} {layer\ 7\ firewall}$ is a stateful inspection firewall that can filter traffic based on specific application protocol headers and data, such as web or email data.
 
 #### Proxy Servers
-- A proxy server is a server that mediates the communications between a client and another server. It can filter and modify communications and provide caching services to improve performance. Proxy servers can be classed as non-transparent or transparent (or forced or intercepting).
-    A non-transparent proxy server that redirects requests and responses for clients configured with the proxy address and port. 
-    A transparent proxy server that redirects requests and responses without the client being explicitly configured to use it.
-A reverse proxy server protects servers from direct contact with client requests.
-A caching engine is a feature of many proxy servers that enables the servers to retain a copy of frequently requested web pages. Proxy Auto-Configuration (PAC) script to configure proxy settings without user intervention. The Web Proxy Auto-Discovery (WPAD) protocol enables browsers to locate a PAC file.
+A $\color{#a5d6ff} {proxy\ server}$ is a server that mediates the communications between a client and another server. It can filter and modify communications and provide caching services to improve performance. Proxy servers can be classed as non-transparent or transparent:
+* A $\color{#a5d6ff} {non-transparent\ proxy}$ server that redirects requests and responses for clients configured with the proxy address and port. 
+* A $\color{#a5d6ff} {transparent/forced/intercepting\ proxy}$ server that redirects requests and responses without the client being explicitly configured to use it.
+
+A $\color{#a5d6ff} {reverse\ proxy}$ server protects servers from direct contact with client requests.
+
+A $\color{#a5d6ff} {caching\ engine}$ is a feature of many proxy servers that enables the servers to retain a copy of frequently requested web pages. Proxy Auto-Configuration (PAC) script to configure proxy settings without user intervention. The Web Proxy Auto-Discovery (WPAD) protocol enables browsers to locate a PAC file.
 
 #### Intrusion Detections Systems
-An Intrusion Detection System (IDS) is a security appliance or software that analyzes data to identify traffic that violates policies or rules from a packet sniffer.
-An Intrusion Prevention System (IPS) is a security appliance or software with detection capabilities and functions that can actively block attacks. An IPS scans traffic to match detection signatures and can be configured to stop an attack automatically:
+An $\color{#a5d6ff} {Intrusion\ Detection\ System\ (IDS)}$ is a security appliance or software that analyzes data to identify traffic that violates policies or rules from a packet sniffer.
+
+An $\color{#a5d6ff} {Intrusion\ Prevention\ System\ (IPS)}$ is a security appliance or software with detection capabilities and functions that can actively block attacks. An IPS scans traffic to match detection signatures and can be configured to stop an attack automatically:
 * Shunning—block the source of the noncompliant traffic, either temporarily or permanently.
 * Reset the connection but do not block the source address.
 * Redirect traffic to a honeypot or honeynet for additional threat analysis.
 
 #### Next-Generation Firewalls and Unified Threat Management
-A next-generation firewall is an advanced firewall technology with the following features:
+$\color{#a5d6ff} {Next-Generation\ Firewall\ (NGFW)}$ is an advanced firewall technology with the following features:
 * Layer 7 application-aware filtering, including inspection of Transport Layer Security (TLS) encrypted traffic.
 * Integration with network directories, facilitating per-user or per-role content and time-based filtering policies, providing better protection against an insider threat.
 * Intrusion prevention system (IPS) functionality.
 * Integration with cloud networking.
-Unified Threat Management (UTM) is an all-in-one security appliance and agent that combines the functions of a firewall, malware scanner, intrusion detection, vulnerability scanner, data-loss prevention, content filtering, and so on.
+
+$\color{#a5d6ff} {Unified\ Threat\ Management\ (UTM)}$ is an all-in-one security appliance and agent that combines the functions of a firewall, malware scanner, intrusion detection, vulnerability scanner, data-loss prevention, content filtering, and so on.
 
 #### Load Balancers
-A load balancer is a switch, router, or software that distributes client requests between different resources, such as communications links or similarly configured servers. This provides fault tolerance and improves throughput. There are two main types of load balancers:
+A $\color{#a5d6ff} {load\ balancer}$ is a switch, router, or software that distributes client requests between different resources, such as communications links or similarly configured servers. This provides fault tolerance and improves throughput. There are two main types of load balancers:
 * Layer 4 load balancer—basic load balancers make forwarding decisions on IP address and TCP/UDP port values, working at the transport layer of the OSI model.
-* Layer 7 load balancer (content switch)—make forwarding decisions based on application-level data
+* Layer 7 load balancer (content switch)—make forwarding decisions based on application-level data.
+
 The scheduling algorithm is the code and metrics determining which node is selected for processing each incoming request.
-Session affinity is a scheduling approach that load balancers use to route traffic to devices that have already established connections with the client.
-In load balancing, persistence is the configuration option that enables a client to maintain a connection with a load-balanced server over the session duration and is referred to as sticky sessions.
+
+$\color{#a5d6ff} {Session\ affinity}$ is a scheduling approach that load balancers use to route traffic to devices that have already established connections with the client.
+
+In load balancing, $\color{#a5d6ff} {persistence}$ is the configuration option that enables a client to maintain a connection with a load-balanced server over the session duration and is referred to as sticky sessions.
 
 #### Web Application Firewalls
-A Web Application Firewall (WAF) is a firewall designed to protect software running on web servers and their back-end databases from code injection and DoS attacks.
+A $\color{#a5d6ff} {Web\ Application\ Firewall\ (WAF)}$ is a firewall designed to protect software running on web servers and their back-end databases from code injection and DoS attacks.
 
 ### 5C: Secure Communications
 #### Remote Access Architecture
-Remote access refers to the infrastructure, protocols, and software that allow a host to join a local network from a physically remote location or a session on a host to be established over a network.
-A Virtual Private Network (VPN) is a secure tunnel between two endpoints connected via an unsecured transport network (typically the Internet).
-A host-to-host tunnel secures traffic between two computers where the private network is not trusted.
-Cisco and Microsoft developed the Point-to-Point Tunneling Protocol (PPTP) to support VPNs over PPP and TCP/IP. PPTP is highly vulnerable to password-cracking attacks and is considered obsolete.
+$\color{#a5d6ff} {Remote\ access}$ refers to the infrastructure, protocols, and software that allow a host to join a local network from a physically remote location or a session on a host to be established over a network.
+
+A $\color{#a5d6ff} {Virtual\ Private\ Network\ (VPN)}$ is a secure tunnel between two endpoints connected via an unsecured transport network (typically the Internet).
+
+$\color{#a5d6ff} {Tunnel}$ is the practice of encapsulating data from one protocol for safe transfer over another network such as the Internet.
 
 #### Transport Layer Security Tunneling
-Transport Layer Security (TLS) VPN is a virtual private networking solution that uses digital certificates to identify, host, and establish secure tunnels for network traffic.
+$\color{#a5d6ff} {Transport\ Layer\ Security\ (TLS)\ VPN}$ is a virtual private networking solution that uses digital certificates to identify, host, and establish secure tunnels for network traffic.
 A TLS VPN can use either TCP or UDP. UDP might be chosen for marginally superior performance, especially when tunneling latency-sensitive traffic such as voice or video. 
 
 #### Internet Protocol Security Tunneling
-Internet Protocol Security (IPsec) is a network protocol suite used to secure data through authentication and encryption as the data travels across the network or the Internet. The two core protocols in IPsec:
-* Authentication Header (AH)—performs a cryptographic hash on the whole packet, including the IP header, plus a shared secret key (known only to the communicating hosts), and adds this value in its header as an Integrity Check Value (ICV).
-* Encapsulating Security Payload (ESP)—used to encrypt the packet rather than simply calculating an ICV.
+$\color{#a5d6ff} {Internet\ Protocol\ Security\ (IPsec)}$ is a network protocol suite used to secure data through authentication and encryption as the data travels across the network or the Internet. The two core protocols in IPsec:
+* $\color{#a5d6ff} {Authentication\ Header\ (AH)}$—performs a cryptographic hash on the whole packet, including the IP header, plus a shared secret key (known only to the communicating hosts), and adds this value in its header as an Integrity Check Value (ICV).
+* $\color{#a5d6ff} {Encapsulating\ Security\ Payload\ (ESP)}$—used to encrypt the packet rather than simply calculating an ICV.
+
 IPsec can be used in two modes:
 * Transport mode—used to secure communications between hosts on a private network.
 * Tunnel mode—used for communications between VPN sites across an unsecured network.
 
 #### Internet Key Exchange
-The Internet Key Exchange (IKE) is a framework for creating a security association (SA) used with IPSec. An SA establishes that two hosts trust one another (authenticate) and agree on secure protocols and cipher suites to exchange data. IKE negotiations have two phases:
+The $\color{#a5d6ff} {Internet\ Key\ Exchange\ (IKE)}$ is a framework for creating a security association (SA) used with IPSec. An SA establishes that two hosts trust one another (authenticate) and agree on secure protocols and cipher suites to exchange data. IKE negotiations have two phases:
 1. Phase I establishes the identity of the two peers and performs key agreement using the Diffie-Hellman algorithm to create a secure channel. Two methods of authenticating peers are commonly used:
     - Digital certificates
     - Pre-shared key (group authentication)
 2. Phase II uses the secure channel created in Phase I to establish which ciphers and key sizes will be used with AH and or ESP in the IP sec session.
 
 #### Remote Desktop
-Remote Desktop Protocol (RDP) is an application protocol for operating remote connections to a host using a graphical interface. The protocol sends screen data from the remote host to the client and transfers mouse and keyboard input to the remote host. It uses TCP port 3389.
-Virtual Network Computing (VNC) is a remote access tool and protocol. VNC is the basis of macOS screen sharing.
-HTML5 VPN uses features of HTML5 to implement remote desktop/VPN connections via browser software (clientless).
+$\color{#a5d6ff} {Remote\ Desktop\ Protocol\ (RDP)}$ is an application protocol for operating remote connections to a host using a graphical interface. The protocol sends screen data from the remote host to the client and transfers mouse and keyboard input to the remote host. It uses TCP port 3389.
+
+$\color{#a5d6ff} {Virtual\ Network\ Computing\ (VNC)}$ is a remote access tool and protocol. VNC is the basis of macOS screen sharing.
+
+$\color{#a5d6ff} {HTML5\ VPN}$ uses features of HTML5 to implement remote desktop/VPN connections via browser software (clientless).
 
 #### Secure Shell
-Secure Shell (SSH) is an application protocol supporting secure tunneling, remote terminal emulation, and file copy. SSH runs over TCP port 22.
-SSH methods for the client to authenticate to the server while using the /etc/ssh/sshd_config file:
+$\color{#a5d6ff} {Secure\ Shell\ (SSH)}$ is an application protocol supporting secure tunneling, remote terminal emulation, and file copy. SSH runs over TCP port 22. SSH methods for the client to authenticate to the server while using the /etc/ssh/sshd_config file:
 * Username/password
 * Public key authentication
 * Kerberos
 
 #### Out-of-band management and Jump Servers
-Out-of-band (OOB) accesses the administrative interface of a network appliance using a separate network from the usual data network.
-A single administration server or jump server is a hardened server that provides access to other hosts.
+$\color{#a5d6ff} {Out-Of-Band\ (OOB)}$ accesses the administrative interface of a network appliance using a separate network from the usual data network.
+
+A $\color{#a5d6ff} {single\ administration\ server\ /\ jump\ server}$ is a hardened server that provides access to other hosts.
 
 ---
 
@@ -663,85 +767,108 @@ A single administration server or jump server is a hardened server that provides
 
 ### 6A: Cloud Infrastructure
 #### Cloud Deployment Models
-A cloud deployment model classifies the ownership and management of a cloud as public, private, community, or hybrid and can be broadly categorized as:
-- * Public (multi-tenant)—is a service offered over the Internet by Cloud Service Providers (CSPs) to cloud consumers. With this model, businesses can offer subscriptions or pay-as-you-go financing while providing lower-tier services free of charge. As a shared resource, there are risks regarding performance and security. Multi-cloud architectures are where an organization uses services from multiple CSPs.
-    The public (multi-tenant) model is a cloud deployment for shared use by multiple independent tenants.
-    Cloud Service Provider (CSP) refers to an organization providing infrastructure, application, and or storage services via an "as a service" subscription-based, cloud-centric offering.
-    Multi-cloud is a cloud deployment model where the cloud consumer uses multiple public cloud services.
-- * Hosted Private—hosted by a third party and completely private to and owned by the organization. This is more secure and can guarantee better performance but be more expensive. With private cloud computing, organizations exercise greater control over the privacy and security of their services.
-    The private model is a cloud deployment used by a single entity.
-    Cloud computing is a computing architecture where on-demand resources provisioned with high availability, scalability, and elasticity are billed to customers based on metered utilization.
-- * Community—is where several organizations share the costs of a hosted private or fully private cloud.
-    The Community model is a cloud deployment for shared use by cooperating tenants.
+A $\color{#a5d6ff} {cloud\ deployment\ model}$ classifies the ownership and management of a cloud as public, private, community, or hybrid and can be broadly categorized as:
+* $\color{#a5d6ff} {Public\ /\ multi-tenant}$—a cloud deployment for shared use by multiple independent tenants and a service offered over the Internet by Cloud Service Providers (CSPs) to cloud consumers. $\color{#a5d6ff} {Cloud\ Service\ Provider\ (CSP)}$ is an organization providing infrastructure, application, and or storage services via an "as a service" subscription-based, cloud-centric offering. With this model, businesses can offer subscriptions or pay-as-you-go financing while providing lower-tier services free of charge. As a shared resource, there are risks regarding performance and security. Multi-cloud architectures are where an organization uses services from multiple CSPs. $\color{#a5d6ff} {Multi-cloud}$ is a cloud deployment model where the cloud consumer uses multiple public cloud services.
+* Hosted $\color{#a5d6ff} {Private}$—a cloud deployment used by a single entity and hosted by a third party and completely private to and owned by the organization. This is more secure and can guarantee better performance but be more expensive. With private cloud computing, organizations exercise greater control over the privacy and security of their services. $\color{#a5d6ff} {Cloud\ computing}$ is a computing architecture where on-demand resources provisioned with high availability, scalability, and elasticity are billed to customers based on metered utilization.
+* $\color{#a5d6ff} {Community}$—a cloud deployment for shared use by cooperating tenantsis and where several organizations share the costs of a hosted private or fully private cloud.
+
 Different cloud architecture models have varying security implications:
 * Single-tenant architecture—a dedicated infrastructure to a single customer, ensuring that only that customer can access the infrastructure. T\It offers the highest level of security as the customer has complete control over the infrastructure. However, it can be more expensive than multi-tenant architecture, and the customer is responsible for managing and securing the infrastructure.
 * Multi-tenant architecture—multiple customers share the same infrastructure, with each customer's data and applications separated logically from other customers. This is cost-effective but can increase the risk of unauthorized access or data leakage if not properly secured.
 * Hybrid architecture—uses public and private cloud infrastructure. This model provides greater flexibility and control over sensitive data and applications by allowing customers to store sensitive data on private cloud infrastructure while using public cloud infrastructure for less sensitive workloads. However, it also requires careful management to ensure proper integration and security between the public and private clouds.
-* Serverless architecture—the cloud provider manages the infrastructure and automatically scales resources up or down based on demand. This model can be more secure than traditional architectures because the cloud provider manages and secures the infrastructure. However, customers must still take steps to access their applications and data securely
+* Serverless architecture—the cloud provider manages the infrastructure and automatically scales resources up or down based on demand. This model can be more secure than traditional architectures because the cloud provider manages and secures the infrastructure. However, customers must still take steps to access their applications and data.
+
+$\color{#a5d6ff} {Hybrid\ cloud}$ is a cloud deployment that uses both private and public elements.
 
 #### Cloud Service Models
-Anything as a Service (Xaas) is the concept that most types of IT requirements can be deployed as a cloud service model and the three implementations of it:
-* Software as a Service (SaaS) is a cloud service model that supplies fully developed application services to users.
-* Platform as a Service (PaaS) is a cloud service model that provisions application and database services as a platform for the development of apps.
-* Infrastructure as a Service (IaaS) is a cloud service model that provisions virtual machines and network infrastructure.
+$\color{#a5d6ff} {Cloud\ Service\ Model}$ is the classification of cloud services and the limit of the cloud service provider's responsibility as software, platform, infrastructure, and so on.
+
+$\color{#a5d6ff} {Anything\ as\ a\ Service\ (XaaS)}$ is the concept that most types of IT requirements can be deployed as a cloud service model and the three implementations of it:
+* $\color{#a5d6ff} {Software\ as\ a\ Service\ (SaaS)}$ is a cloud service model that supplies fully developed application services to users.
+* $\color{#a5d6ff} {Platform\ as\ a\ Service\ (PaaS)}$ is a cloud service model that provisions application and database services as a platform for the development of apps.
+* $\color{#a5d6ff} {Infrastructure\ as\ a\ Service\ (IaaS)}$ is a cloud service model that provisions virtual machines and network infrastructure.
+
 Third-party vendors are external entities that provide organizations with goods, services, or technology solutions.
 
 #### Responsibility Matrix
-A responsibility matrix identifies responsibility for security as applications, data, and workloads are transitioned into a cloud platform and are shared between the customer and the cloud service provider (CSP). It sets out these duties in a clear, tabular format too.
+A $\color{#a5d6ff} {responsibility\ matrix}$ identifies responsibility for security as applications, data, and workloads are transitioned into a cloud platform and are shared between the customer and the cloud service provider (CSP). It sets out these duties in a clear, tabular format too.
+
+![alt text](https://s3.amazonaws.com/wmx-api-production/courses/54332/images/6389-1692974866520.png)
 
 #### Centralized and Decentralized Computing
-A centralized computing architecture is a model where all data processing and storage is performed in a single location.
-A decentralized computing architecture is a model in which data processing and storage are distributed across multiple locations or devices. Some examples of decentralized architecture are the blockchain, Peer-to-Peer (P2P), Content Delivery Network (CDN), Internet of Things (IoT), distributed databases, and The Onion Router (TOR).
+A $\color{#a5d6ff} {centralized\ computing\ architecture}$ is a model where all data processing and storage is performed in a single location.
+
+A $\color{#a5d6ff} {decentralized\ computing\ architecture}$ is a model in which data processing and storage are distributed across multiple locations or devices. Some examples of decentralized architecture are the blockchain, Peer-to-Peer (P2P), Content Delivery Network (CDN), Internet of Things (IoT), distributed databases, and The Onion Router (TOR).
 
 #### Resilient Architecture Concepts
-Virtualization is a computing environment where multiple independent operating systems can be installed on a single hardware platform and run simultaneously.
-High Availability (HA) refers to the metric that defines how closely systems approach the goal of providing data availability 100% of the time while maintaining a high level of system performance.
-Replication automatically copies data between two processing systems simultaneously on both systems (synchronous) or from a primary to a secondary location (asynchronous). CSPs offer several tiers of replication representing different high-availability service levels:
+$\color{#a5d6ff} {Virtualization}$ is a computing environment where multiple independent operating systems can be installed on a single hardware platform and run simultaneously.
+
+$\color{#a5d6ff} {High\ Availability\ (HA)}$ is the metric that defines how closely systems approach the goal of providing data availability 100% of the time while maintaining a high level of system performance.
+
+$\color{#a5d6ff} {Replication}$ automatically copies data between two processing systems simultaneously on both systems (synchronous) or from a primary to a secondary location (asynchronous). CSPs offer several tiers of replication representing different high-availability service levels:
 * Local replication—replicates your data within a single data center in the region where you created your storage account.
 * Regional replication (zone-redundant storage)—replicates your data across multiple data centers within one or two regions.
 * Geo-redundant storage (GRS)—replicates your data to a secondary region distant from the primary region.
 
 #### Application Virtualization and Container Virtualization
-Application virtualization is a software delivery model where the code runs on a server and is streamed to a client.
-Containerization is an operating system virtualization deployment containing everything required to run a service, application, or microservice.
+$\color{#a5d6ff} {Application\ virtualization}$ is a software delivery model where the code runs on a server and is streamed to a client.
+
+$\color{#a5d6ff} {Containerization}$ is an operating system virtualization deployment containing everything required to run a service, application, or microservice.
 
 #### Cloud Architecture
-Serverless computing refers to the features and capabilities of a server without needing to perform server administration tasks. It offloads infrastructure management to the cloud service provider.
-Virtual Private Cloud (VPC) is a private network segment made available to a single cloud consumer on a public cloud.
-A microservice is an independent, single-function module with well-defined lightweight interfaces and operations. It allows for rapid, frequent, and reliable delivery of complex applications.
+$\color{#a5d6ff} {Serverless\ computing}$ refers to the features and capabilities of a server without needing to perform server administration tasks. It offloads infrastructure management to the cloud service provider.
+
+$\color{#a5d6ff} {Virtual\ Private\ Cloud\ (VPC)}$ is a private network segment made available to a single cloud consumer on a public cloud.
+
+A $\color{#a5d6ff} {microservice}$ is an independent, single-function module with well-defined lightweight interfaces and operations. It allows for rapid, frequent, and reliable delivery of complex applications.
 
 #### Cloud Automation Technologies
-Infrastructure as Code (IaC) refers to the provisioning architecture in which the deployment of resources is performed by scripted automation and orchestration.
+$\color{#a5d6ff} {Infrastructure\ as\ Code\ (IaC)}$ refers to the provisioning architecture in which the deployment of resources is performed by scripted automation and orchestration.
+
 Load balancing, edge computing, and auto-scaling are critical mechanisms to ensure responsiveness, improve performance, and effectively handle fluctuating workloads.
 
 #### Software Defined Networking
-Software-Defined Networking (SDN) refers to APIs and compatible hardware/virtual appliances allowing for programmable network appliances and systems.
+$\color{#a5d6ff} {Software-Defined\ Networking\ (SDN)}$ refers to APIs and compatible hardware/virtual appliances allowing for programmable network appliances and systems.
+
 Network functions can be divided into three "planes":
 * Management plane—monitors traffic conditions and network status.
 * Control plane—makes decisions about how traffic should be prioritized, secured, and where it should be switched.
 * Data plane—handles the switching and routing of traffic and imposition of security access controls.
 
+$\color{#a5d6ff} {Network\ Functions\ Virtualization\ (NFV)}$ is a provisioning virtual network appliances, such as switches, routers, and firewalls, via VMs and containers.
+
 #### Cloud Architecture Features
-Considerations for a cloud architecture are cost, scalability, resilience, ease of deployment, ease of recovery, Service Level Agreement (SLA), Interconnection Security Agreement (ISA), power, data protection, patching, and compute.
+Considerations for a cloud architecture are cost, scalability, resilience, ease of deployment, ease of recovery, Service Level Agreement (SLA), Interconnection Security Agreement (ISA), power, data protection, patching, and computer.
 
 #### Cloud Security Considerations
-A Software-Defined Wide Area Network (SD-WAN) is a service that uses software-defined mechanisms and routing policies to implement virtual tunnels and overlay networks over multiple types of transport networks.
-Secure Access Service Edge (SASE) refers to networking and security architecture that provides secure access to cloud applications and services while reducing complexity. It combines security services like firewalls, identity and access management, and a secure web gateway with networking services.
+Considerations for cloud security are data protection and patching
+
+$\color{#a5d6ff} {Software-Defined\ Wide\ Area\ Network\ (SD-WAN)}$ is a service that uses software-defined mechanisms and routing policies to implement virtual tunnels and overlay networks over multiple types of transport networks.
+
+$\color{#a5d6ff} {Secure\ Access\ Service\ Edge\ (SASE)}$ refers to networking and security architecture that provides secure access to cloud applications and services while reducing complexity. It combines security services like firewalls, identity and access management, and a secure web gateway with networking services.
 
 ### 6B: Embedded Systems and Zero Trust Architecture
 #### Embedded Systems
-An embedded system is an electronic system designed to perform a specific, dedicated function, such as a microcontroller in a medical drip or components in a control system managing a water treatment plant.
-A Real-Time Operating System (RTOS) is an OS that prioritizes deterministic execution of operations to ensure consistent response for time-critical tasks.
+An $\color{#a5d6ff} {embedded\ system}$ is an electronic system designed to perform a specific, dedicated function, such as a microcontroller in a medical drip or components in a control system managing a water treatment plant.
+
+A $\color{#a5d6ff} {Real-Time\ Operating\ System\ (RTOS)}$ is an OS that prioritizes deterministic execution of operations to ensure consistent response for time-critical tasks.
 
 #### Industrial Control Systems
-Industrial Control System (ICS) is a network managing embedded device (computer systems designed to perform a specific, dedicated function).
-Operation Technology (OT) is a communications network designed to implement an industrial control system rather than data networking.
+$\color{#a5d6ff} {Industrial\ Control\ System\ (ICS)}$ is a network managing embedded device (computer systems designed to perform a specific, dedicated function).
+
+$\color{#a5d6ff} {Operation\ Technology\ (OT)}$ is a communications network designed to implement an industrial control system rather than data networking.
+
+$\color{#a5d6ff} {Human-Machine\ Interface (HMI)}$ refers to input and output controls on a PLC to allow a user to configure and monitor the system.
+
+$\color{#a5d6ff} {Data\ Historian}$ is software that aggregates and catalogs data from multiple sources within an industrial control system.
+
+$\color{#a5d6ff} {Supervisory\ Control\ And\ Data\ Acquisition\ (SCADA)}$ is a type of industrial control system that manages large-scale, multiple-site devices and equipment spread over geographically large areas from a host computer.
 
 #### Internet of Things
-Internet of Things (IoT) refers to devices reporting state and configuration data and may be remotely managed over IP networks.
+$\color{#a5d6ff} {Internet\ of\ Things\ (IoT)}$ are devices reporting state and configuration data and may be remotely managed over IP networks.
 
 #### Deperimeterization and Zero Trust
-Zero Trust refers to the security design paradigm where any request (host-to-host or container-to-container) must be authenticated before being allowed. The essential components of a Zero Trust architecture:
+$\color{#a5d6ff} {Zero\ Trust}$ refers to the security design paradigm where any request (host-to-host or container-to-container) must be authenticated before being allowed. The essential components of a Zero Trust architecture:
 * Network and endpoint security
 * Identity and access management (IAM)
 * Policy-based enforcement
@@ -750,10 +877,12 @@ Zero Trust refers to the security design paradigm where any request (host-to-hos
 * Network segmentation
 * Data protection
 * Threat detection and prevention
+
 Deperimeterization refers to a security approach that shifts the focus from defending a network's boundaries to protecting individual resources and data within the network.
 
 #### Zero Trust Security Concepts
-In zero trust architecture, the control plane has functions that define policy and determine access decisions. The policy decision point is comprised of the policy engine and policy administrator.
+In zero trust architecture, the $\color{#a5d6ff} {control\ plane}$ has functions that define policy and determine access decisions. The policy decision point is comprised of the policy engine and policy administrator.
+
 The zero trust model's fundamental concepts are to have adaptive identify recognition, threat scope reduction, and policy-driven access control.
 
 ---
@@ -763,108 +892,142 @@ The zero trust model's fundamental concepts are to have adaptive identify recogn
 ### 7A: Asset Management
 #### Asset Tracking
 An asset management process tracks all the organization's critical systems, components, devices, and valuable objects in an inventory, collecting and analyzing information about these assets so that personnel can make informed changes or work with assets to achieve business goals.
-In asset management, assignment/accounting refers to processes that ensure each physical and data asset has an identified owner, and are appropriately tagged and classified within an inventory.
-Monitoring/asset tracking refers to the enumeration and inventory processes and software that ensure physical and data assets comply with configuration and performance baselines, and have not been tampered with or suffered other unauthorized access. The ways to perform this, depending on the size and complexity of the organization and the types of assets involved:
+
+In asset management, $\color{#a5d6ff} {assignment\ /\ accounting}$ refers to processes that ensure each physical and data asset has an identified owner, and are appropriately tagged and classified within an inventory.
+
+$\color{#a5d6ff} {Monitoring/asset}$ tracking refers to the enumeration and inventory processes and software that ensure physical and data assets comply with configuration and performance baselines, and have not been tampered with or suffered other unauthorized access. The ways to perform this, depending on the size and complexity of the organization and the types of assets involved:
 * Manual Inventory
 * Network Scanning
 * Asset Management Software
 * Configuration Management Database (CMDB)
 * Mobile Device Management (MDM) Solutions
 * Cloud Asset Discovery
-Acquisition/procurement are policies and processes that ensure asset and service purchases and contracts are fully managed, and secure, use authorized suppliers/vendors, and meet business goals.
+
+$\color{#a5d6ff} {Acquisition\ /\ procurement}$ are policies and processes that ensure asset and service purchases and contracts are fully managed, and secure, use authorized suppliers/vendors, and meet business goals.
 
 #### Asset Protection Concepts
-A standard naming convention refers to applying consistent names and labels to assets and digital resources/identities within a configuration management system.
-Configuration Management is a process through which an organization's information systems components are kept in a controlled state that meets the organization's requirements, including those for security and compliance.
-Change control is the process of recording and approving the need for change.
-Change management is the process through which changes to the configuration of information systems are implemented as part of the organization's overall configuration management efforts.
+A $\color{#a5d6ff} {standard\ naming\ convention}$ refers to applying consistent names and labels to assets and digital resources/identities within a configuration management system.
+
+$\color{#a5d6ff} {Configuration\ Management}$ is a process through which an organization's information systems components are kept in a controlled state that meets the organization's requirements, including those for security and compliance.
+
+$\color{#a5d6ff} {Change\ control}$ is the process of recording and approving the need for change.
+
+$\color{#a5d6ff} {Change\ management}$ is the process through which changes to the configuration of information systems are implemented as part of the organization's overall configuration management efforts.
 
 #### Data Backups
-A backup refers to a security copy of production data made to removable media, typically according to a regular schedule. Different backup types (full, incremental, or differential) balance media capacity, time required to backup, and time to restore.
-An on-site backup is a backup that writes job data to media stored in the same physical location as the production system.
-An off-site backup is a backup that writes job data to media stored in a separate physical location to the production system.
-Recovery is the operation to recover system functionality and or data integrity using backup media.
+A $\color{#a5d6ff} {backup}$ refers to a security copy of production data made to removable media, typically according to a regular schedule. Different backup types (full, incremental, or differential) balance media capacity, time required to backup, and time to restore.
+
+An $\color{#a5d6ff} {on-site\ backup}$ is a backup that writes job data to media stored in the same physical location as the production system.
+
+An $\color{#a5d6ff} {off-site\ backup}$ is a backup that writes job data to media stored in a separate physical location to the production system.
+
+$\color{#a5d6ff} {Recovery}$ is the operation to recover system functionality and or data integrity using backup media.
 
 #### Advanced-Data Protection
-A snapshot creates the entire architectural instance/copy of an application, disk, or system. It is used in backup processes to restore the system or disk of a particular device at a specific time. A snapshot backup can also be referred to as an image backup. Virtual Machine (VM), filesystem, and Storage Area Network (SAN) snapshots are three different types, each targeting a particular level of the storage hierarchy. Encryption of backups is essential.
+A $\color{#a5d6ff} {snapshot}$ creates the entire architectural instance/copy of an application, disk, or system. It is used in backup processes to restore the system or disk of a particular device at a specific time. A snapshot backup can also be referred to as an image backup. Virtual Machine (VM), filesystem, and Storage Area Network (SAN) snapshots are three different types, each targeting a particular level of the storage hierarchy. Encryption of backups is essential.
 
 #### Secure Data Destruction
-In asset management, disposal/decommissioning refers to the policies and procedures governing the removal of devices and software from production networks, and their subsequent disposal through sale, donation, or waste. The methods are:
-* Sanitization refers to thoroughly and completely removing data from a storage medium so file remnants cannot be recovered.
-* Destruction refers to an asset disposal technique that ensures data remnants are rendered physically inaccessible and irrevocable, through degaussing, shredding, or incineration.
-* Certification refers to an asset disposal technique that relies on a third party to use sanitization or destruction methods for data remnant removal and provides documentary evidence that the process is complete and successful.
+In asset management, $\color{#a5d6ff} {disposal\ /\ decommissioning}$ refers to the policies and procedures governing the removal of devices and software from production networks, and their subsequent disposal through sale, donation, or waste. The methods are:
+* $\color{#a5d6ff} {Sanitization}$ refers to thoroughly and completely removing data from a storage medium so file remnants cannot be recovered.
+* $\color{#a5d6ff} {Destruction}$ refers to an asset disposal technique that ensures data remnants are rendered physically inaccessible and irrevocable, through degaussing, shredding, or incineration.
+* $\color{#a5d6ff} {Certification}$ refers to an asset disposal technique that relies on a third party to use sanitization or destruction methods for data remnant removal and provides documentary evidence that the process is complete and successful.
 
 ### 7B: Redundancy Strategies
 #### Continuity of Operations
-A Continuity of Operation (COOP) identifies how business processes should deal with minor and disaster-level disruption by ensuring processing redundancy supports the workflow.
+A $\color{#a5d6ff} {Continuity\ Of\ Operation\ (COOP)}$ identifies how business processes should deal with minor and disaster-level disruption by ensuring processing redundancy supports the workflow.
 
-#### Capacity planning Risks
-Capacity planning is a practice that involves estimating the personnel, storage, computer hardware, software, and connection infrastructure resources required over some future time. Cross-training, remote work plans, and or alternative reporting structures reduce the risk associated with capacity planning.
+$\color{#a5d6ff} {Capacity\ planning}$ is a practice that involves estimating the personnel, storage, computer hardware, software, and connection infrastructure resources required over some future time. Cross-training, remote work plans, and or alternative reporting structures reduce the risk associated with capacity planning.
 
 #### High Availability
-High Availability (HA) is crucial in IT infrastructure, ensuring systems remain operational, can cope with rapid growth in demand, and are accessible with minimal downtime.
-Scalability is the capacity to increase resources to meet demand within similar cost ratios and the two types are:
+$\color{#a5d6ff} {High\ Availability\ (HA)}$ is crucial in IT infrastructure, ensuring systems remain operational, can cope with rapid growth in demand, and are accessible with minimal downtime.
+
+$\color{#a5d6ff} {Scalability}$ is the capacity to increase resources to meet demand within similar cost ratios and the two types are:
 * Scaling out is to add more resources in parallel with existing resources.
 * Scaling up is to increase the power of existing resources.
+
 Elasticity refers to the system's ability to handle these changes on demand in real-time.
-Fault-tolerant protects against system failure by providing extra (redundant) capacity and generally identifying and eliminating single points of failure.
-Redundancy refers to overprovisioning resources at the component, host, or site level so there is a failover to a working instance in the event of a problem.
-- Site resiliency is described as hot, warm, or cold.
-    A hot site is a fully configured alternate processing site that can be brought online instantly or quickly after a disaster.
-    A warm site is an alternate processing location that is dormant or performs noncritical functions under normal conditions, but which can be rapidly converted to a key operations site if needed.
-    A cold site is a predetermined alternate location where a network can be rebuilt after a disaster.
-Geographic dispersion is a resiliency mechanism where processing and data storage resources are replicated between physically distant sites.
+
+$\color{#a5d6ff} {Fault-tolerant}$ protects against system failure by providing extra (redundant) capacity and generally identifying and eliminating single points of failure.
+
+$\color{#a5d6ff} {Redundancy}$ refers to overprovisioning resources at the component, host, or site level so there is a failover to a working instance in the event of a problem.
+
+Site resiliency is described as hot, warm, or cold:
+* A $\color{#a5d6ff} {hot\ site}$ is a fully configured alternate processing site that can be brought online instantly or quickly after a disaster.
+* A $\color{#a5d6ff} {warm\ site}$ is an alternate processing location that is dormant or performs noncritical functions under normal conditions, but which can be rapidly converted to a key operations site if needed.
+* A $\color{#a5d6ff} {cold\ site}$ is a predetermined alternate location where a network can be rebuilt after a disaster.
+
+$\color{#a5d6ff} {Geographic\ dispersion}$ is a resiliency mechanism where processing and data storage resources are replicated between physically distant sites.
 
 #### Clustering
-Clustering is a load-balancing technique where a group of servers are configured as a unit and work together to provide network services.
-A failover is a technique that ensures a redundant component, device, or application can quickly and efficiently take over the functionality of an asset that has failed.
+$\color{#a5d6ff} {Clustering}$ is a load-balancing technique where a group of servers are configured as a unit and work together to provide network services.
+
+A $\color{#a5d6ff} {failover}$ is a technique that ensures a redundant component, device, or application can quickly and efficiently take over the functionality of an asset that has failed.
 
 #### Power Redundancy
-A Power Distribution Unit (PDU) is an advanced strip socket that provides filtered output voltage. A managed unit supports remote administration.
-An Uninterruptible Power Supply (UPS) is a battery-powered device that supplies AC power that an electronic device can use in a power failure.
-A backup power generator is a standby power supply fueled by diesel or propane. When a power outage occurs, a UPS must provide transitionary power, as a backup generator cannot be cut in fast enough.
+A $\color{#a5d6ff} {Power\ Distribution\ Unit\ (PDU)}$ is an advanced strip socket that provides filtered output voltage. A managed unit supports remote administration.
+
+An $\color{#a5d6ff} {Uninterruptible\ Power\ Supply\ (UPS)}$ is a battery-powered device that supplies AC power that an electronic device can use in a power failure.
+
+A $\color{#a5d6ff} {backup\ power\ generator}$ is a standby power supply fueled by diesel or propane. When a power outage occurs, a UPS must provide transitionary power, as a backup generator cannot be cut in fast enough.
 
 #### Diversity and Defense in Depth
-Platform diversity refers to a cybersecurity resilience strategy that increases attack costs by provisioning multiple types of controls, technologies, vendors, and crypto implementations.
+$\color{#a5d6ff} {Platform\ diversity}$ refers to a cybersecurity resilience strategy that increases attack costs by provisioning multiple types of controls, technologies, vendors, and crypto implementations.
+
 Defense in depth is a comprehensive cybersecurity strategy that emphasizes the implementation of multiple layers of protection to safeguard an organization's information and infrastructure.
+
 Vendor diversity offers benefits not only in cybersecurity, business resilience, innovation, competition, risk management, compliance, and customization and flexibility.
+
 A multi-cloud strategy enhances cybersecurity by diversifying the risk associated with a single point of failure, as vulnerabilities or breaches in one cloud provider's environment are less likely to compromise the entire infrastructure and can improve security posture by implementing unique security features and services offered by different cloud providers.
 
 #### Deception Technologies
-Deception and disruption technologies refer to cybersecurity resilience tools and techniques to increase the cost of attack planning for the threat actor.
-A honeypot consists of a host (honeypot), network (honeynet), file (honey file), or credential/token (honeytoken) that is set up to lure attackers away from assets of actual value and or discover attack strategies and weaknesses in the security configuration.
-Fake telemetry is a deception strategy that returns spoofed data in response to network probes.
-A DNS sinkhole is a temporary DNS record that redirects malicious traffic to a controlled IP address.
+$\color{#a5d6ff} {Deception\ and\ disruption\ technologies}$ refer to cybersecurity resilience tools and techniques to increase the cost of attack planning for the threat actor.
+
+A $\color{#a5d6ff} {honeypot}$ consists of a host (honeypot), network (honeynet), file (honey file), or credential/token (honeytoken) that is set up to lure attackers away from assets of actual value and or discover attack strategies and weaknesses in the security configuration.
+
+$\color{#a5d6ff} {Fake\ telemetry}$ is a deception strategy that returns spoofed data in response to network probes.
+
+A $\color{#a5d6ff} {DNS\ sinkhole}$ is a temporary DNS record that redirects malicious traffic to a controlled IP address.
 
 #### Testing Resiliency
 By conducting various tests, organizations can identify potential vulnerabilities, evaluate the efficiency of their recovery strategies, and improve their overall preparedness for real-life incidents. Here are some methods:
-* Tabletop Exercises involve teams discussing and working through hypothetical scenarios to assess their response plans and decision-making processes.
+* $\color{#a5d6ff} {Tabletop\ Exercises}$ involve teams discussing and working through hypothetical scenarios to assess their response plans and decision-making processes.
 * Failover Tests involve intentionally causing the failure of a primary system or component to evaluate the automatic transfer of operations to a secondary, redundant system.
-* Simulations are controlled experiments replicating real-world scenarios, allowing organizations to assess their incident response processes and system resilience under realistic conditions.
-* Parallel Processing Tests involve running primary and backup systems simultaneously to validate the functionality and performance of backup systems without disrupting normal operations.
+* $\color{#a5d6ff} {Simulations}$ are controlled experiments replicating real-world scenarios, allowing organizations to assess their incident response processes and system resilience under realistic conditions.
+* $\color{#a5d6ff} {Parallel\ Processing\ Tests}$ involve running primary and backup systems simultaneously to validate the functionality and performance of backup systems without disrupting normal operations.
+
 Documentation includes test plans outlining the objectives, scope, and methods of tests and the roles and responsibilities of individuals involved.
 
 ### 7C: Physical Security
 #### Site Layout, Fencing, and Lighting
 A barricade is something that prevents access. The purpose of barricades is to channel people through defined entry and exit points.
+
 Fencing is a security barrier to prevent unauthorized access to a site perimeter.
+
 Lighting is a physical security mechanisms that ensure a site is sufficiently illuminated for employees and guests to feel safe and for camera-based surveillance systems to work well.
+
 Bollards is a sturdy vertical post installed to control road traffic or to prevent ram-raiding and vehicle-ramming attacks.
+
 Methods of disguising the nature and purpose of buildings or parts of buildings.
 
 #### Gateways and Locks
 A secure gateway will normally be self-closing  Lock types can be categorized as physical, electronic, or biometric.
+
 A proximity reader is a scanner that reads data from an RFID or NFC tag when in range.
-An Access Control Vestibule (ACV) is a secure entry system with two gateways, only one open at any time.
-A cable lock refers to devices that can be physically secured against theft using cable ties and padlocks. Some systems also feature lockable faceplates, preventing access to the power switch and removable drives.
-Access badges refer to an authentication mechanism that allows a user to present a smart card to operate an entry system.
+
+An $\color{#a5d6ff} {Access\ Control\ Vestibule\ (ACV) /\ mantrap}$ is a secure entry system with two gateways, only one open at any time.
+
+A $\color{#a5d6ff} {cable\ lock}$ refers to devices that can be physically secured against theft using cable ties and padlocks. Some systems also feature lockable faceplates, preventing access to the power switch and removable drives.
+
+$\color{#a5d6ff} {Access\ badges}$ refer to an authentication mechanism that allows a user to present a smart card to operate an entry system.
 
 #### Security Guards and Cameras
 Surveillance is a second layer of security designed to improve the resilience of perimeter gateways. Surveillance may be focused on perimeter areas or within security zones.
+
 Video surveillance is a physical security control that uses cameras and recording devices to monitor the activity in a certain area visually. Camera systems and robotics can use AI and machine learning to implement smart physical security and some examples are motion recognition, object detection, and drones/UAVs.
 
 #### Alarm Systems
 Alarms alert security personnel and building occupants of potential threats or breaches and are labeled as detective and deterrent controls, notifying of trouble and discouraging unauthorized access and criminal activity. The types of alarms are circuit, motion detection, noise detection, proximity, and coercion.
+
 A sensor is a component in an alarm system that identifies unauthorized entry via infrared-, ultrasonic-, microwave-, or pressure-based detection of thermal changes or movement.
 
 ---
@@ -1968,5 +2131,3 @@ Risky behaviors are actions or practices that threaten data security, systems, o
 
 #### Security Awareness Training Lifecycle
 Security awareness training practices follow a lifecycle approach consisting assessment, planing and design, development, delivery and implementation, evaluation and feedback, ongoing reinnforcement, and monitoring and adaptation.
-
-$\color{#a5d6ff} {}$

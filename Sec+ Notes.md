@@ -1187,51 +1187,74 @@ A comprehensive vulnerability report highlights the existing vulnerabilities and
 
 ### 9A: Network Security Baselines
 #### Benchmarks and Secure Configuration Guides
-A secure baseline is a configuration guide, benchmark, and best practices for deploying and maintaining a network device or application server safely for its given role.
-Hardening makes a host or app configuration secure by reducing its attack surface, running only necessary services, installing monitoring software to protect against malware and intrusions, and establishing a maintenance schedule to ensure the system is patched to be secure against software exploits.
+A $\color{#a5d6ff} {secure\ baseline}$ is a configuration guide, benchmark, and best practices for deploying and maintaining a network device or application server safely for its given role.
+
+$\color{#a5d6ff} {Hardening}$ makes a host or app configuration secure by reducing its attack surface, running only necessary services, installing monitoring software to protect against malware and intrusions, and establishing a maintenance schedule to ensure the system is patched to be secure against software exploits.
 
 #### Wireless Network Installation Considerations
-An access point is a device that provides a connection between wireless devices and can connect to wired networks, implementing an infrastructure mode WLAN.
-Service Set Identifier (SSID) is a character string that identifies a particular wireless LAN (WLAN).
-A site survey refers to documentation about a location to build an ideal wireless infrastructure; it often contains optimum locations for wireless antenna and access point placement to provide the required coverage for clients and identify sources of interference.
+An $\color{#a5d6ff} {access\ point}$ is a device that provides a connection between wireless devices and can connect to wired networks, implementing an infrastructure mode WLAN.
+
+$\color{#a5d6ff} {Service\ Set\ Identifier\ (SSID)}$ is a character string that identifies a particular wireless LAN (WLAN).
+
+A $\color{#a5d6ff} {site\ survey}$ is documentation about a location to build an ideal wireless infrastructure; it often contains optimum locations for wireless antenna and access point placement to provide the required coverage for clients and identify sources of interference.
 
 #### Wireless Encryption
-Wi-Fi Protected Access (WPA) is a standard for authenticating and encrypting access to Wi-Fi networks.
-A Wired Equivalent Privacy (WEP) is a legacy mechanism for encrypting data sent over a wireless connection.
-Temporal Key Integrity Protocol (TKIP) is used in the first version of WPA to improve the security of wireless encryption mechanisms, compared to the flawed WEP standard.
-Wi-Fi Protected Setup (WPS) is a feature of WPA and WPA2 that allows enrollment in a wireless network based on an eight-digit PIN.
+$\color{#a5d6ff} {Wi-Fi\ Protected\ Access\ (WPA)}$ is a standard for authenticating and encrypting access to Wi-Fi networks.
+
+$\color{#a5d6ff} {Wired\ Equivalent\ Privacy\ (WEP)}$ is a legacy mechanism for encrypting data sent over a wireless connection.
+
+$\color{#a5d6ff} {Temporal\ Key\ Integrity\ Protocol\ (TKIP)}$ is used in the first version of WPA to improve the security of wireless encryption mechanisms, compared to the flawed WEP standard.
+
+$\color{#a5d6ff} {Wi-Fi\ Protected\ Setup\ (WPS)}$ is a feature of WPA and WPA2 that allows enrollment in a wireless network based on an eight-digit PIN.
+
 Weaknesses found in WPA2 led to its intended replacement by WPA3. The main features of WPA3 are:
-* Simultaneous Authentication of Equals (SAE)—a personal authentication mechanism for Wi-Fi networks introduced with WPA3 to address vulnerabilities in the WPA-PSK method.
+* $\color{#a5d6ff} {Simultaneous\ Authentication\ of\ Equals\ (SAE)}$—personal authentication mechanism for Wi-Fi networks introduced with WPA3 to address vulnerabilities in the WPA-PSK method.
 * Enhanced Open—encrypts traffic between devices and the access points
-* Updated Cryptographic Protocols—AES Galois Counter Mode Protocol (GCMP) is a high-performance mode of operation for symmetric encryption. It provides a special characteristic called authenticated encryption with associated data, or AEAD.
+* Updated Cryptographic Protocols—replaces AES CCM with $\color{#a5d6ff} {AES\ Galois\ Counter\ Mode\ Protocol\ (GCMP) }$, which is a high-performance mode of operation for symmetric encryption. It provides a special characteristic called authenticated encryption with associated data, or AEAD.
 * Wi-Fi Easy Connect
 
 #### Wi-Fi Authentication Methods
-In WPA2, Pre-Shared Key (PSK) is a wireless network authentication mode where a passphrase-based mechanism allows group authentication to a wireless network. The passphrase is used to derive an encryption key.
-Enterprise Authentication is a wireless network authentication mode where the access point acts as a pass-through for credentials verified by an AAA server.
+In WPA2, $\color{#a5d6ff} {Pre-Shared\ Key\ (PSK)}$ is a wireless network authentication mode where a passphrase-based mechanism allows group authentication to a wireless network. The passphrase is used to derive an encryption key.
+
+$\color{#a5d6ff} {Enterprise\ Authentication}$ is a wireless network authentication mode where the access point acts as a pass-through for credentials verified by an AAA server.
+
 The Remote Authentication Dial-In User Service (RADIUS) standard is published as an Internet standard.
 
+$\color{#a5d6ff} {EAP\ over\ LAN\ (EAPoL)}$ is a port-based network access control (PNAC) mechanism that allows the use of EAP authentication when a host connects to an Ethernet switch.
+
 #### Network Access Control
-Network Access Control (NAC) is a general term for the collected protocols, policies, and hardware that authenticate and authorize access to a network at the device level.
+$\color{#a5d6ff} {Network\ Access\ Control\ (NAC)}$ is a general term for the collected protocols, policies, and hardware that authenticate and authorize access to a network at the device level.
 
 ### 9B: Network Security Capability Enhancement
 #### Access Control Lists
 An Access Control List (ACL) is a list of permissions associated with a network device that controls traffic at a network interface level.
-A screened subnet is a segment isolated from the rest of a private network by one or more firewalls that accept connections from the Internet over designated ports.
+
+$\color{#a5d6ff} {Implicit\ deny}$ is the basic principle of security stating that unless something has explicitly been granted access, it should be denied access.
+
+A $\color{#a5d6ff} {screened\ subnet}$ is a segment isolated from the rest of a private network by one or more firewalls that accept connections from the Internet over designated ports.
 
 #### Intrusion Detection and Prevention Systems
 Intrusion Detection Systems (IDS) are designed to detect potential threats and generate alerts. They are passive, inspecting network traffic, identifying potential threats based on predefined rules or unusual behavior, and sending alerts to administrators.
+
 Intrusion Prevention Systems (IPS) are proactive security tools that detect potential threats and take action to prevent or mitigate them. It identifies a threat using methods similar to an IDS and can block traffic from the offending source, drop malicious packets, or reset connections to disrupt an attack.
 
 #### IDS and IPS Detection Methods
-Signature-based detection is a network monitoring system that uses a predefined set of rules provided by a software vendor or security personnel to identify unacceptable events.
-Behavioral-based detection section is a network monitoring system that detects changes in normal operating data sequences and identifies abnormal sequences.
-Network Behavior and Anomaly Detection (NBAD) is a security monitoring tool that monitors network packets for anomalous behavior based on known signatures.
-Heuristics is a method that uses feature comparisons and likenesses rather than specific signature matching to identify whether the target of observation is malicious.
-Trend analysis is the process of detecting patterns within a dataset over time, and using those patterns to make predictions about future events or to better understand past events.
+$\color{#a5d6ff} {Signature-based\ detection\ /\ pattern-matching}$ is a network monitoring system that uses a predefined set of rules provided by a software vendor or security personnel to identify unacceptable events.
+
+$\color{#a5d6ff} {Behavioral-based\ detection}$ section is a network monitoring system that detects changes in normal operating data sequences and identifies abnormal sequences.
+
+$\color{#a5d6ff} {Network\ Behavior\ and\ Anomaly\ Detection\ (NBAD)}$ is a security monitoring tool that monitors network packets for anomalous behavior based on known signatures.
+
+$\color{#a5d6ff} {Heuristics}$ is a method that uses feature comparisons and likenesses rather than specific signature matching to identify whether the target of observation is malicious.
+
+$\color{#a5d6ff} {Trend\ analysi}$s is the process of detecting patterns within a dataset over time, and using those patterns to make predictions about future events or to better understand past events.
 
 #### Web Filtering
-Web filtering is a software application or gateway that filters client requests for various types of Internet content.
+$\color{#a5d6ff} {Web\ filtering}$ is a software application or gateway that filters client requests for various types of Internet content.
+
+Agent-based web filtering involves installing a software agent on desktop computers, laptops, and mobile devices. The agents enforce compliance with the organization's web filtering policies. Agents communicate with a centralized management server to retrieve filtering policies and rules and then apply them locally on the device.
+
+
 
 ---
 
@@ -1239,58 +1262,122 @@ Web filtering is a software application or gateway that filters client requests 
 
 ### 10A: Endpoint Security
 #### Endpoint Hardening
-Configuation baselines settings for services and policy configuration for a network appliance or for a server operating in a particular application role.
+$\color{#a5d6ff} {Configuation\ baselines}$ settings for services and policy configuration for a network appliance or for a server operating in a particular application role.
 
 #### Endpoint Protection
 Segmentation reduces the potential impact of a cybersecurity incident by isolating systems and limiting the spread of an attack or malware infection.
-Device isolation removes or severely restricts communications paths to a particular device or system.
-Antivirus software inspects traffic to locate and block viruses.
-Full Disk Encryption (FDE) encrypts of all data on a disk can be accomplished via a supported OS, thirdparty software, or at the controller level by the disk device itself.
-A Self-Encrypting Drive (SED) is a disk drive where the controller can automatically encrypt data that is written to it.
-In storage encryption, Key Encryption Key (KEK) is the private key that is used to encrypt the symmetric bulk media encryption key (MEK). This means that a user must authenticate to decrypt the MEK and access the media.
-A patch is a small unit of supplemental code meant to address either a security problem or a functionality flaw in a software package or operating system.
-A patch management system identifies, tests, and deploys OS and application updates. Patches are often classified as critical, security-critical, recommended, and optional.
+
+Device $\color{#a5d6ff} {isolation}$ removes or severely restricts communications paths to a particular device or system.
+
+$\color{#a5d6ff} {Antivirus}$ software inspects traffic to locate and block viruses.
+
+$\color{#a5d6ff} {Full\ Disk\ Encryption\ (FDE)}$ encrypts of all data on a disk can be accomplished via a supported OS, thirdparty software, or at the controller level by the disk device itself.
+
+$\color{#a5d6ff} {Self-Encrypting\ Drive\ (SED)}$ is a disk drive where the controller can automatically encrypt data that is written to it.
+
+In storage encryption, $\color{#a5d6ff} {Key\ Encryption\ Key\ (KEK)}$ is the private key that is used to encrypt the symmetric bulk media encryption key (MEK). This means that a user must authenticate to decrypt the MEK and access the media.
+
+A $\color{#a5d6ff} {patch}$ is a small unit of supplemental code meant to address either a security problem or a functionality flaw in a software package or operating system.
+
+A $\color{#a5d6ff} {patch\ management}$ system identifies, tests, and deploys OS and application updates. Patches are often classified as critical, security-critical, recommended, and optional.
 
 #### Advanced Endpoint Protection
-An Endpoint Detection and Response (EDR) refers to a software agent that collects system data and logs for analysis by a monitoring system to provide early detection of threats.
-A Host-Based Intrustion Detection System (HIDS) is a type of IDS that monitors a computer system for unexpected behavior or drastic changes to the system's state.
-A Host-Based Intrustion Prevention System (HIPS) is a endpoint protection that can detect and prevent malicious activity via signature and heuristic pattern matching.
-File Integrity Monitoring (FIM) refers to a type of software that reviews system files to ensure that they have not been tampered with.
-User and Entity Behavior Analytics (UEBA) refers to a system that can provide automated identification of suspicious activity by user accounts and computer hosts.
+$\color{#a5d6ff} {Endpoint\ Detection\ and\ Response\ (EDR)}$ is a software agent that collects system data and logs for analysis by a monitoring system to provide early detection of threats.
+
+$\color{#a5d6ff} {Host-Based Intrustion Detection System (HIDS)}$ is a type of IDS that monitors a computer system for unexpected behavior or drastic changes to the system's state.
+
+$\color{#a5d6ff} {Host-Based\ Intrustion\ Prevention\ System\ (HIPS)}$ is a endpoint protection that can detect and prevent malicious activity via signature and heuristic pattern matching.
+
+$\color{#a5d6ff} {File\ Integrity\ Monitoring\ (FIM)}$ is a type of software that reviews system files to ensure that they have not been tampered with.
+
+$\color{#a5d6ff} {User\ and\ Entity\ Behavior\ Analytics\ (UEBA)}$ refers to a system that can provide automated identification of suspicious activity by user accounts and computer hosts.
 
 #### Endpoint Configuration
+If endpoint security is breached, there are several classes of vector to consider for mitigation which are social engineering, vulnerabilities, lack of security controls, configuration drift, and weak configuration.
+
+Access control refers to regulating and managing the permissions granted to individuals, software, systems, and networks to access resources or information.
+
+Implementing the principle of least privilege (PoLP) is a cornerstone of improving endpoint protection and minimizing the risk of security issues.
+
+In networks, ACLs are associated with routers, firewalls, or similar devices and define rules that determine how network traffic is filtered or forwarded based on criteria like source IP addresses, destination IP addresses, ports, or protocols.
+
+The three basic file permissions:
+* Read (r) —is the ability to access and view the contents of a file or list the contents of a directory.
+* Write (w) —is the ability to save changes to a file, or create, rename, and delete files in a directory (also requires execute).
+* Execute (x) —is the ability to run a script, program, or other software file, or the ability to access a directory, execute a file from that directory, or perform a task on that directory, such as file search.
+
+A $\color{#a5d6ff} {chmod\ command}$ is Linux command for managing file permissions.
+
+A $\color{#a5d6ff} {allow\ list}$ is a security configuration where access is denied to any entity (software process, IP/domain, and so on) unless the entity appears on an allow list.
+
+A $\color{#a5d6ff} {block\ list}$ is a security configuration where access is generally permitted to a software process, IP/domain, or other subject unless it is listed as explicitly prohibited.
+
+Monitoring plays a vital role in endpoint hardening, helping to enforce and maintain the security measures put in place during the hardening process.
+
+Configuration enforcement describes methods used to ensure that systems and devices within an organization's network adhere to mandatory security configurations. It depends on these capabilities which are standardized configuration baselines, automated configuration management tools, continuous monitoring and compliance checks, and change management.
+
+Group Policy is a feature of the Microsoft Windows operating system and provides centralized management and configuration of operating systems, applications, and user settings in an Active Directory environment.
+
+$\color{#a5d6ff} {SELinux}$ is the default context-based permissions scheme provided with CentOS and Red Hat Enterprise Linux.
 
 #### Hardening Specialized Devices
+Physical device port hardening involves restricting the physical interfaces on a device that can be used to connect to it, thereby reducing potential avenues of physical attack.
+
+Endpoint encryption is critical to protecting sensitive data, especially in an enterprise setting. Some approaches to this are full disk encryption (FDE), removable media encryption, virtual private networks (VPNs), and email encryption.
+
+$\color{#a5d6ff} {Host-based\ firewalls}$ is a software application running on a single host and designed to protect only that host.
+
+To ensure maximum protection and efficient management, deploying and managing endpoint protection agents on workstations, laptops, and servers in an enterprise environment requires strategic planning and adherence to established best practice configuration and management practices. These practices include to create a deployment plan, standardize configurations, automate deployments, updates and patches, monitor endpoint protection, and centralized Management.
+
+Changing default passwords and removing unnecessary software are two fundamental practices in hardening an endpoint to strengthen its security posture.
+
+Decommissioning processes play a vital role in supporting security within an organization.
+
+#### Hardening Specialized Devices
+Industrial control systems (ICS), including supervisory control and data acquisition (SCADA) systems, embedded systems, real-time operating systems (RTOS), and Internet of Things (IoT) devices can be harden by regular system updates, disabling unnecessary services, limiting network access, using secure credentials, and using role-based access controls. Network-level security should also be implemented to protect them, such as firewalls, IDS/IPS, transport encryption protocols like TLS and SSH, regular security audits, and penetration tests to help identify and remediate vulnerabilities.
+
+For ICS/SCADA systems, hardening involves strict network segmentation to isolate these systems from the wider network and robust authentication and authorization processes to limit system access strictly.
 
 ### 10B: Mobile Device Hardening
 #### Mobile Harding Techniques
-Bring Your Own Device (BYOD) refers to the security framework and tools to facilitate using personally owned devices to access corporate networks and data.
-Corporate Owned, Business Only (COBO) refers to enterprise mobile device provisioning model where the device is the property of the organization and personal use is prohibited.
-Corporate Owned, Personally Enabled (COPE) refers to enterprise mobile device provisioning model where the device remains the property of the organization, but certain personal use, such as private email, social networking, and web browsing, is permitted.
-Choose Your Own Device (CYOD) refers to enterprise mobile device provisioning model where employees are offered a selection of corporate devices for work and, optionally, private use.
-Mobile Device Management (MDM) is the process and supporting technologies for tracking, controlling, and securing the organization's mobile infrastructure.
+$\color{#a5d6ff} {Bring\ Your\ Own\ Device\ (BYOD)}$ is the security framework and tools to facilitate using personally owned devices to access corporate networks and data.
+
+$\color{#a5d6ff} {Corporate\ Owned,\ Business\ Only\ (COBO)}$ refers to enterprise mobile device provisioning model where the device is the property of the organization and personal use is prohibited.
+
+$\color{#a5d6ff} {Corporate\ Owned,\ Personally\ Enabled\ (COPE)}$ is the enterprise mobile device provisioning model where the device remains the property of the organization, but certain personal use, such as private email, social networking, and web browsing, is permitted.
+
+$\color{#a5d6ff} {Choose\ Your\ Own\ Device\ (CYOD)}$ refers to enterprise mobile device provisioning model where employees are offered a selection of corporate devices for work and, optionally, private use.
+
+$\color{#a5d6ff} {Mobile\ Device\ Management\ (MDM)}$ is the process and supporting technologies for tracking, controlling, and securing the organization's mobile infrastructure.
 
 #### Location Services
 Geolocation is the use of network attributes to identify (or estimate) the physical position of a device:
 * Global Positioning System (GPS) determines the device's latitude and longitude based on information received from satellites via a GPS sensor.
 * Indoor Positioning System (IPS) is a technology that can derive a device's location when indoors by triangulating its proximity to radio sources such as Bluetooth beacons or Wi-Fi access points.
-Geofencing is a security control that can enforce a virtual boundary based on real-world geography.
+
+$\color{#a5d6ff} {Geofencing}$ is a security control that can enforce a virtual boundary based on real-world geography.
+
 GPS tagging is the process of adding geographical identification metadata, such as the latitude and longitude where the device was located at the time, to media such as photographs, SMS messages, video, and so on.
 
 #### Cellular
-Cellular are standards for implementing data access over cellular networks are implemented as successive generations. For 2G (up to about 48 Kb/s) and 3G (up to about 42 Mb/s), there are competing GSM and CDMA provider networks. Standards for 4G (up to about 90 Mb/s) and 5G (up to about 300 Mb/s) are developed under converged LTE standards.
+$\color{#a5d6ff} {Cellular}$ are standards for implementing data access over cellular networks are implemented as successive generations. For 2G (up to about 48 Kb/s) and 3G (up to about 42 Mb/s), there are competing GSM and CDMA provider networks. Standards for 4G (up to about 90 Mb/s) and 5G (up to about 300 Mb/s) are developed under converged LTE standards.
 
 #### Wi-Fi and Tethering Connection Methods
-Personal Area Network (PAN) is a network scope that uses close-range wireless technologies (usually based on Bluetooth or NFC) to establish communications between personal devices, such as smartphones, laptops, and printers/peripheral devices.
-An ad hoc network is a  type of wireless network where connected devices communicate directly with each other instead of over an established medium.
-Tethering is using the cellular data plan of a mobile device to provide Internet access to a laptop or PC. The PC can be tethered to the mobile by USB, Bluetooth, or Wi-Fi (a mobile hotspot).
+$\color{#a5d6ff} {Personal\ Area\ Network\ (PAN)}$ is a network scope that uses close-range wireless technologies (usually based on Bluetooth or NFC) to establish communications between personal devices, such as smartphones, laptops, and printers/peripheral devices.
+
+An $\color{#a5d6ff} {ad\ hoc\ network}$ is a  type of wireless network where connected devices communicate directly with each other instead of over an established medium.
+
+$\color{#a5d6ff} {Tethering}$ is using the cellular data plan of a mobile device to provide Internet access to a laptop or PC. The PC can be tethered to the mobile by USB, Bluetooth, or Wi-Fi (a mobile hotspot).
 
 #### Bluetooth Connection Methods
-Bluetooth is a short-range, wireless radio-network-transmission medium normally used to connect two personal devices. Some security issues with this are device discovery, authentication and authorization, and malware. The security features are paring and authentication, bluetooth permissions, encryption, Bluetooth Secure Connections (BISC), and Bluetooth Low Energy Privacy (BLE).
-Bluesnarfing refers to a wireless attack where an attacker gains access to unauthorized information on a device using a Bluetooth connection.
+$\color{#a5d6ff} {Bluetooth}$ is a short-range, wireless radio-network-transmission medium normally used to connect two personal devices. Some security issues with this are device discovery, authentication and authorization, and malware. The security features are pairing and authentication, bluetooth permissions, encryption, Bluetooth Secure Connections (BISC), and Bluetooth Low Energy Privacy (BLE).
+
+$\color{#a5d6ff} {Bluejacking}$ refers to sending an unsolicited message or picture message using a Bluetooth connection.
+
+$\color{#a5d6ff} {Bluesnarfing}$ refers to a wireless attack where an attacker gains access to unauthorized information on a device using a Bluetooth connection.
 
 #### Near-Field Communications and Mobile Payment Services
-Near-Field Communication (NFC) is a standard for two-way radio communications over very short (around four inches) distances, facilitating contactless payment and similar technologies. NFC is based on RFID.
+$\color{#a5d6ff} {Near-Field\ Communication\ (NFC)}$ is a standard for two-way radio communications over very short (around four inches) distances, facilitating contactless payment and similar technologies. NFC is based on RFID.
 
 ---
 
@@ -1298,61 +1385,74 @@ Near-Field Communication (NFC) is a standard for two-way radio communications ov
 
 ### 11A. Application Protocol Security Baselines
 #### Transport Layer Security
-Transport Layer Security (TLS) is a security protocol that uses certificates for authentication and encryption to protect web communications and other application protocols.
-Cipher Suites is a lists of cryptographic algorithms that a server and client can use to negotiate a secure connection.
+$\color{#a5d6ff} {Transport\ Layer\ Security\ (TLS)}$ is a security protocol that uses certificates for authentication and encryption to protect web communications and other application protocols.
+
+$\color{#a5d6ff} {Cipher\ Suites}$ is a lists of cryptographic algorithms that a server and client can use to negotiate a secure connection.
 
 #### Secure Directory Services
 Authentication (referred to as binding to the server) can be implemented in the following ways:
 * No Authentication
 * Simple Bind—means the client must supply its distinguished name (DN) and password, but these are passed as plaintext.
 * Simple Authentication and Security Layer (SASL)—means the client and server negotiate the use of a supported authentication mechanism.
-* LDAP Secure (LDAPS) is a method of implementing LDAP using SSL/TLS encryption—means the server is installed with a digital certificate, which it uses to set up a secure tunnel for the user credential exchange. LDAPS uses port 636.
+* $\color{#a5d6ff} {LDAP\ Secure\ (LDAPS)}$—a method of implementing LDAP using SSL/TLS encryption and means the server is installed with a digital certificate, which it uses to set up a secure tunnel for the user credential exchange. LDAPS uses port 636.
 
 #### Simple Network Management Protocol Security
-Simple Network Management Protocol (SNMP) is an application protocol used for monitoring and managing network devices. SNMP works over UDP ports 161 and 162 by default.
+$\color{#a5d6ff} {Simple\ Network\ Management\ Protocol\ (SNMP)}$ is an application protocol used for monitoring and managing network devices. SNMP works over UDP ports 161 and 162 by default.
 
 #### File Transfer Services
-File Transfer Protocol (FTP) is an application protocol used to transfer files between network hosts. Variants include S(ecure)FTP, FTP with SSL (FTPS and FTPES), and T(rivial)FTP. FTP utilizes ports 20 and 21. The two types are:
+$\color{#a5d6ff} {File\ Transfer\ Protocol\ (FTP)}$ is an application protocol used to transfer files between network hosts. Variants include S(ecure)FTP, FTP with SSL (FTPS and FTPES), and T(rivial)FTP. FTP utilizes ports 20 and 21. The two types are:
 * Explicit TLS (FTPES)—uses the AUTH TLS command to upgrade an unsecure connection established over port 21 to a secure one.
-* Implicit TLS (FTPS) is a type of FTP using TLS for confidentiality.—negotiates an SSL/TLS tunnel before the exchange of any FTP commands. This mode uses the secure port 990 for the control connection.
-Secure File Transfer Protocol (SFTP) is a secure version of the File Transfer Protocol that uses a Secure Shell (SSH) tunnel as an encryption method to transfer, access, and manage files.
+* $\color{#a5d6ff} {Implicit\ TLS\ (FTPS)}$-a type of FTP using TLS for confidentiality and negotiates an SSL/TLS tunnel before the exchange of any FTP commands. This mode uses the secure port 990 for the control connection.
+
+$\color{#a5d6ff} {Secure\ File\ Transfer\ Protocol\ (SFTP)}$ is a secure version of the File Transfer Protocol that uses a Secure Shell (SSH) tunnel as an encryption method to transfer, access, and manage files.
 
 #### Email Services
 Email services use two types of protocols:
-* The Simple Mail Transfer Protocol (SMTP) which is an application protocol used to send mail between hosts on the Internet. Messages are sent between servers over TCP port 25 or submitted by a mail client over secure port TCP/587.
+* $\color{#a5d6ff} {Simple\ Mail\ Transfer\ Protocol\ (SMTP)}$ is an application protocol used to send mail between hosts on the Internet. Messages are sent between servers over TCP port 25 or submitted by a mail client over secure port TCP/587.
 * A mailbox protocol
+
 There are two ways for SMTP to use TLS:
 * STARTTLS—is a command that upgrades an existing unsecure connection to use TLS.
 * SMTPS—establishes the secure connection before any SMTP commands are exchanged.
-Post Office Protocol v3 (POP3) is an application protocol that enables a client to download email messages from a server mailbox to a client over port TCP/110 or secure port TCP/995.
-Internet Message Access Protocol (IMAP) is an application protocol providing a means for a client to access and manage email messages stored in a mailbox on a remote server. IMAP4 utilizes TCP port number 143, while the secure version IMAPS uses TCP/993.
+
+$\color{#a5d6ff} {Post\ Office\ Protocol\ v3\ (POP3)}$ is an application protocol that enables a client to download email messages from a server mailbox to a client over port TCP/110 or secure port TCP/995.
+
+$\color{#a5d6ff} {Internet\ Message\ Access\ Protocol\ (IMAP)}$ is an application protocol providing a means for a client to access and manage email messages stored in a mailbox on a remote server. IMAP4 utilizes TCP port number 143, while the secure version IMAPS uses TCP/993.
 
 #### Email Security
-Sender Policy Framework (SPF) is a DNS record identifying hosts authorized to send mail for the domain.
-Domain Keys Identified Mail (DKIM) is a cryptographic authentication mechanism for mail utilizing a public key published as a DNS record.
-Domain-based Message Authentication Reporting & Conformance (DMARC) is a framework for ensuring proper application of SPF and DKIM, utilizing a policy published as a DNS record.
+$\color{#a5d6ff} {Sender\ Policy\ Framework\ (SPF)}$ is a DNS record identifying hosts authorized to send mail for the domain.
+
+$\color{#a5d6ff} {Domain\ Keys\ Identified\ Mail\ (DKIM)}$ is a cryptographic authentication mechanism for mail utilizing a public key published as a DNS record.
+
+$\color{#a5d6ff} {Domain-based\ Message\ Authentication\ Reporting\ \&\ Conformance\ (DMARC)}$ is a framework for ensuring proper application of SPF and DKIM, utilizing a policy published as a DNS record.
 
 #### Email Data Loss Prevention
-Data Loss Prevention (DLP) is a software solution that detects and prevents sensitive information from being stored on unauthorized systems or transmitted over unauthorized networks.
+$\color{#a5d6ff} {Data\ Loss\ Prevention\ (DLP)}$ is a software solution that detects and prevents sensitive information from being stored on unauthorized systems or transmitted over unauthorized networks.
 
 #### DNS Filtering
-Domain Name System (DNS) filtering is a technique that blocks or allows access to specific websites by controlling the resolution of domain names into IP addresses.
-DNS Security Extensions (DNSSEC) is a security protocol that provides authentication of DNS data and upholds DNS data integrity.
+$\color{#a5d6ff} {Domain\ Name\ System\ (DNS)}$ filtering is a technique that blocks or allows access to specific websites by controlling the resolution of domain names into IP addresses.
+
+$\color{#a5d6ff} {DNS\ Security\ Extensions\ (DNSSEC)}$ is a security protocol that provides authentication of DNS data and upholds DNS data integrity.
 
 ### 11B: Cloud and Web Application Security Concepts
 #### Secure Coding Techniques
-Input validation is any technique used to ensure that the data entered into a field or variable in an application is handled appropriately by that application.
-Cookies is a text file used to store information about a user when they visit a website. Some sites use cookies to support user sessions.
+$\color{#a5d6ff} {Input\ validation}$ is any technique used to ensure that the data entered into a field or variable in an application is handled appropriately by that application.
+
+$\color{#a5d6ff} {Cookies}$ is a text file used to store information about a user when they visit a website. Some sites use cookies to support user sessions.
+
 Static code analysis is scrutinizing source code to identify potential vulnerabilities, errors, and noncompliant coding practices before the program is finalized.
-Code Signing is the method of using a digital signature to ensure the source and integrity of programming code.
+
+$\color{#a5d6ff} {Code\ Signing}$ is the method of using a digital signature to ensure the source and integrity of programming code.
 
 #### Application Protections
-Data exposure is a software vulnerability where an attacker is able to circumvent access controls and retrieve confidential or sensitive data from the file system or database.
-An exception is an aapplication vulnerability that is defined by how an application responds to unexpected errors that can lead to holes in the security of an app.
-A Structured Exception Handler (SEH) is a mechanism to account for unexpected error conditions that might arise during code execution. Effective error handling reduces the chances that a program could be exploited.
+$\color{#a5d6ff} {Data\ exposure}$ is a software vulnerability where an attacker is able to circumvent access controls and retrieve confidential or sensitive data from the file system or database.
+
+An $\color{#a5d6ff} {exception}$ is an aapplication vulnerability that is defined by how an application responds to unexpected errors that can lead to holes in the security of an app.
+
+$\color{#a5d6ff} {Structured\ Exception\ Handler\ (SEH)}$ is a mechanism to account for unexpected error conditions that might arise during code execution. Effective error handling reduces the chances that a program could be exploited.
 
 #### Software Sandboxing
-Sandboxing is a  computing environment that is isolated from a host system to guarantee that the environment runs in a controlled, secure fashion. Communication links between the sandbox and the host are usually completely prohibited so that malware or faulty software can be analyzed in isolation and without risk to the host.
+$\color{#a5d6ff} {Sandboxing}$ is a  computing environment that is isolated from a host system to guarantee that the environment runs in a controlled, secure fashion. Communication links between the sandbox and the host are usually completely prohibited so that malware or faulty software can be analyzed in isolation and without risk to the host.
 
 ---
 
@@ -1360,58 +1460,77 @@ Sandboxing is a  computing environment that is isolated from a host system to gu
 
 ### 12A: Incident Response
 #### Incident Response Processes
-An incident is an event that interrupts standard operations or compromises security policy.
-Incident Response Lifecycle are procedures and guidelines covering appropriate priorities, actions, and responsibilities in the event of security incidents, divided into preparation, detection, analysis, containment, eradication/recovery, and lessons learned stages.
+An $\color{#a5d6ff} {incident}$ is an event that interrupts standard operations or compromises security policy.
+
+$\color{#a5d6ff} {Incident\ Response\ Lifecycle}$ is the procedures and guidelines covering appropriate priorities, actions, and responsibilities in the event of security incidents, divided into preparation, detection, analysis, containment, eradication/recovery, and lessons learned stages.
 
 #### Preparation
-Preparation is an incident response process that hardens systems, defines policies and procedures, establishes lines of communication, and puts resources in place.
+$\color{#a5d6ff} {Preparation}$ is an incident response process that hardens systems, defines policies and procedures, establishes lines of communication, and puts resources in place.
+
 Cybersecurity infrastructure is hardware and software tools that facilitate incident detection, digital forensics, and case management
+
 Computer Incident Response Team (CIRT), Computer Security Incident Response Team (CSIRT), or Computer Emergency Response Team (CERT) may located within a Security Operations Center (SOC).
 An incident response plan are specific procedures that must be performed if a certain type of event is detected or reported.
 
 #### Detection
-Detection is an incident response process that correlates event data to determine whether they are indicators of an incident.
-First responder refers to the first experienced person or team to arrive at the scene of an incident.
+$\color{#a5d6ff} {Detection}$ is an incident response process that correlates event data to determine whether they are indicators of an incident.
+
+$\color{#a5d6ff} {First\ responder}$ is the first experienced person or team to arrive at the scene of an incident.
 
 #### Analysis
-Analysis is an incident response process in which indicators are assessed to determine validity, impact, and category.
+$\color{#a5d6ff} {Analysis}$ is an incident response process in which indicators are assessed to determine validity, impact, and category.
+
 Factors that affect determines the impact of an incident are data integrity, downtime, economic/publicity, scope, detection time, and recovery time.
+
 Incident categories and definitions ensure that all response team members and other organizational personnel have a shared understanding of the meaning of terms, concepts, and descriptions.
-Kill chain is a model developed by Lockheed Martin that describes the stages by which a threat actor progresses to a network intrusion.
-A playbook is a checklist of actions to perform to detect and respond to a specific type of incident.
+
+$\color{#a5d6ff} {Kill\ chain}$ is a model developed by Lockheed Martin that describes the stages by which a threat actor progresses to a network intrusion.
+
+A $\color{#a5d6ff} {playbook}$ is a checklist of actions to perform to detect and respond to a specific type of incident.
 
 #### Containment
-Containment refers to the practices and technologies used to identify, isolate, and limit the impact of cyber threats within an organization's network or systems.
+Containment is the practices and technologies used to identify, isolate, and limit the impact of cyber threats within an organization's network or systems.
+
 Isolation-based containment involves removing an affected component from whatever larger environment it is a part of.
+
 Segmentation-based containment is a means of achieving the isolation of a host or group of hosts using network technologies and architecture.
 
 #### Eradication and Recovery
-Eradication is an incident response process in which malicious tools and configurations on hosts and networks are removed.
-Recovery is an incident response process in which hosts, networks, and systems are brought back to a secure baseline configuration.
+$\color{#a5d6ff} {Eradication}$ is an incident response process in which malicious tools and configurations on hosts and networks are removed.
+
+$\color{#a5d6ff} {Recovery}$ is an incident response process in which hosts, networks, and systems are brought back to a secure baseline configuration.
+
 Eradication of malware or other intrusion mechanisms and recovery from the attack steps are reconstitution of affected system, reaudit security controls, then Ensure that affected parties are notified and provided with the means to remediate their own systems.
 
 #### Lessons Learned
 Lesson learned is the process of reviewing the severe security incidents to determine their root cause, whether they were avoidable, and how to avoid them in the future.
-Lessons Learned Report (LLR) is an analysis of events that can provide insight into how to improve response and support processes in the future.
-Root cause analysis is a technique used to determine the true cause of the problem that, when removed, prevents the problem from occurring again.
+
+$\color{#a5d6ff} {Lessons\ Learned\ Report\ (LLR)}$ is an analysis of events that can provide insight into how to improve response and support processes in the future.
+
+$\color{#a5d6ff} {Root\ cause\ analysis}$ is a technique used to determine the true cause of the problem that, when removed, prevents the problem from occurring again.
 
 #### Testing and Training
 Testing and training validate the preparation process and show that the organization as a whole is ready to perform incident response.
+
 Testing on specific incident response scenarios can use three forms which are tabletop exercises, walkthroughs, and simulations.
 
 #### Threat Hunting
-Threat hunting is a cybersecurity technique designed to detect the presence of threats that have not been discovered by normal security monitoring.
+$\color{#a5d6ff} {Threat\ hunting}$ is a cybersecurity technique designed to detect the presence of threats that have not been discovered by normal security monitoring.
 
 ### 12B: Digital Forensics
 #### Due Process and Legal Hold
-Digital forensics is the process of gathering and submitting computer evidence for trial. Digital evidence is latent, meaning that it must be interpreted. This means that great care must be taken to prove that the evidence has not been tampered with or falsified.
-Due process is a term used in US and UK common law to require that people only be convicted of crimes following the fair application of the laws of the land.
-Legal hold is a process designed to preserve all relevant information when litigation is reasonably expected to occur.
+Digital $\color{#a5d6ff} {forensics}$ is the process of gathering and submitting computer evidence for trial. Digital evidence is latent, meaning that it must be interpreted. This means that great care must be taken to prove that the evidence has not been tampered with or falsified.
+
+$\color{#a5d6ff} {Due process}$ is a term used in US and UK common law to require that people only be convicted of crimes following the fair application of the laws of the land.
+
+$\color{#a5d6ff} {Legal hold}$ is a process designed to preserve all relevant information when litigation is reasonably expected to occur.
 
 #### Acquisition
 Acquisition is the process of obtaining a forensically clean copy of data from a device seized as evidence.
-In digital forensics, data acquisition is the method and tools used to create a forensically sound copy of data from a source device, such as system memory or a hard disk.
-Order of volatility is the order in which volatile data should be recovered from various storage locations and devices after a security incident occurs.
+
+In digital forensics, $\color{#a5d6ff} {data\ acquisition}$ is the method and tools used to create a forensically sound copy of data from a source device, such as system memory or a hard disk.
+
+$\color{#a5d6ff} {Order\ of\ volatility}$ is the order in which volatile data should be recovered from various storage locations and devices after a security incident occurs.
 1. CPU registers and cache memory (including cache on disk controllers, graphics cards, and so on).
 2. Contents of nonpersistent system memory (RAM), including routing table, ARP cache, process table, kernel statistics.
 3. Data on persistent mass storage devices (HDDs, SSDs, and flash memory devices):
